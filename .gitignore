@@ -1,2 +1,41 @@
-htdocs.zip
-.env
+# Ignore node_modules
+node_modules/
+# Ignore build artifacts
+dist/
+# Ignore logs
+logs/
+# Ignore coverage reports
+coverage/
+# Ignore temporary files
+tmp/
+# Ignore IDE specific files
+.vscode/
+# Ignore OS generated files
+.DS_Store
+# Ignore package lock files
+package-lock.json
+# Ignore yarn lock files
+yarn.lock
+# Ignore npm debug log files
+npm-debug.log*
+# Ignore test output
+test-output/
+# Ignore environment specific files
+.env.local
+.env.development
+.env.test
+.env.production
+.env.example
+.env.staging
+.env.production.local
+.env.development.local
+.env.test.local
+.env.staging.local
+# Ignore Docker files
+Dockerfile
+# Ignore Verisons
+version
+version-*.txt
+version-*.zip
+*.zip
+verisonQTStudio
