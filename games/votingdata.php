@@ -56,8 +56,8 @@ $dislikeselect = $dislikeselectquery->fetch();
         data-vote-modal=""
         data-user-authenticated="true"
         data-vote-url=""
-        data-register-url="https://www.voidrev.us/newlogin?returnUrl=%2Fgames%2Fvotingservice%2F110132408"
-        data-account-page-url="https://www.voidrev.us/my/account?confirmemail=1">
+        data-register-url="https://localhost/newlogin?returnUrl=%2Fgames%2Fvotingservice%2F110132408"
+        data-account-page-url="https://localhost/my/account?confirmemail=1">
         <div class="loading"></div>
             <div class="vote-summary">
                 <div class="voting-details">

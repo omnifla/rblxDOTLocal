@@ -9,7 +9,7 @@ padding: 5px;
 <div id="catalog" data-empty-search-enabled="true" style="font-size: 12px;">
 <div class="header" style="height:60px;">
 <div style="float:left;">
-<h1><a href="https://www.voidrev.us/catalog" id="CatalogLink">Catalog</a></h1>
+<h1><a href="https://localhost/catalog" id="CatalogLink">Catalog</a></h1>
 </div>
 <div class="CatalogSearchBar">
 <input id="keywordTextbox" name="name" type="text" class="translate text-box text-box-small"/>
@@ -172,13 +172,13 @@ padding: 5px;
 <h3>Legend</h3>
 </div>
 <div id="legendcontent" style="overflow: hidden; ">
-<img src="https://www.voidrev.us/img/4fc3a98692c7ea4d17207f1630885f68.png" style="margin-left: -13px"/>
+<img src="https://localhost/img/4fc3a98692c7ea4d17207f1630885f68.png" style="margin-left: -13px"/>
 <div class="legendText"><b>Builders Club Only</b><br/>
 Only purchasable by Builders Club members.</div>
-<img src="https://www.voidrev.us/img/793dc1fd7562307165231ca2b960b19a.png" style="margin-left: -13px"/>
+<img src="https://localhost/img/793dc1fd7562307165231ca2b960b19a.png" style="margin-left: -13px"/>
 <div class="legendText"><b>Limited Items</b><br/>
 Owners of these discontinued items can re-sell them to other users at any price.</div>
-<img src="https://www.voidrev.us/img/d649b9c54a08dcfa76131d123e7d8acc.png" style="margin-left: -13px"/>
+<img src="https://localhost/img/d649b9c54a08dcfa76131d123e7d8acc.png" style="margin-left: -13px"/>
 <div class="legendText"><b>Limited Unique Items</b><br/>
 A limited supply originally sold by ROBLOX. Each unit is labeled with a serial number. Once sold out, owners can re-sell them to other users.
 </div>
@@ -219,17 +219,17 @@ $con->exec($sql);
 <div class="CatalogItemInner BigInner">
 <div class="roblox-item-image image-large" data-item-id="<?=$id;?>" data-image-size="large">
 <div class="item-image-wrapper">
-<a href="https://www.voidrev.us/library/?id=<?=$id;?>">
-<img title="<?echo NoXSSPlz($iname);?>" alt="<?echo NoXSSPlz($iname);?>" class="original-image " src="https://www.voidrev.us/model-thumbnails?assetId=<?=$id;?>" loading="lazy"/>
+<a href="https://localhost/library/?id=<?=$id;?>">
+<img title="<?echo NoXSSPlz($iname);?>" alt="<?echo NoXSSPlz($iname);?>" class="original-image " src="https://localhost/model-thumbnails?assetId=<?=$id;?>" loading="lazy"/>
 </a>
 </div>
 </div>
 <div id="textDisplay">
-<div class="CatalogItemName notranslate"><a class="name notranslate" href="https://www.voidrev.us/library/?id=<?=$id;?>" title="<?echo NoXSSPlz($iname);?>"><?echo NoXSSPlz($iname);?></a></div>
+<div class="CatalogItemName notranslate"><a class="name notranslate" href="https://localhost/library/?id=<?=$id;?>" title="<?echo NoXSSPlz($iname);?>"><?echo NoXSSPlz($iname);?></a></div>
 <div class="robux-price"><span class="robux notranslate"><?echo $pricerob;?></span></div>
 </div>
 <div class="CatalogHoverContent">
-<div><span class="CatalogItemInfoLabel">Creator:</span> <span class="HoverInfo notranslate"><a href="https://www.voidrev.us/users/<?=$cid;?>/profile"><?echo NoXSSPlz($cname);?></a></span></div>
+<div><span class="CatalogItemInfoLabel">Creator:</span> <span class="HoverInfo notranslate"><a href="https://localhost/users/<?=$cid;?>/profile"><?echo NoXSSPlz($cname);?></a></span></div>
 <div><span class="CatalogItemInfoLabel">Updated:</span><span class="HoverInfo"><?echo NoXSSPlz($updated);?></span></div>
 <div><span class="CatalogItemInfoLabel">Sales:</span> <span class="HoverInfo notranslate"><?echo NoXSSPlz($sales);?></span></div>
 <div><span class="CatalogItemInfoLabel">Favorited:</span> <span class="HoverInfo"><?echo NoXSSPlz($favorite);?> times</span></div>
@@ -266,17 +266,17 @@ $con->exec($sql);
 <div class="CatalogItemInner BigInner">
 <div class="roblox-item-image image-large" data-item-id="<?=$id;?>" data-image-size="large">
 <div class="item-image-wrapper">
-<a href="https://www.voidrev.us/library/?id=<?=$id;?>">
-<img title="<?echo NoXSSPlz($iname);?>" alt="<?echo NoXSSPlz($iname);?>" class="original-image " src="https://www.voidrev.us/model-thumbnails?assetId=<?=$id;?>" loading="lazy"/>
+<a href="https://localhost/library/?id=<?=$id;?>">
+<img title="<?echo NoXSSPlz($iname);?>" alt="<?echo NoXSSPlz($iname);?>" class="original-image " src="https://localhost/model-thumbnails?assetId=<?=$id;?>" loading="lazy"/>
 </a>
 </div>
 </div>
 <div id="textDisplay">
-<div class="CatalogItemName notranslate"><a class="name notranslate" href="https://www.voidrev.us/library/?id=<?=$id;?>" title="<?echo NoXSSPlz($iname);?>"><?echo NoXSSPlz($iname);?></a></div>
+<div class="CatalogItemName notranslate"><a class="name notranslate" href="https://localhost/library/?id=<?=$id;?>" title="<?echo NoXSSPlz($iname);?>"><?echo NoXSSPlz($iname);?></a></div>
 <div class="robux-price"><span class="robux notranslate"><?echo $pricerob;?></span></div>
 </div>
 <div class="CatalogHoverContent">
-<div><span class="CatalogItemInfoLabel">Creator:</span> <span class="HoverInfo notranslate"><a href="https://www.voidrev.us/users/<?=$cid;?>/profile"><?echo NoXSSPlz($cname);?></a></span></div>
+<div><span class="CatalogItemInfoLabel">Creator:</span> <span class="HoverInfo notranslate"><a href="https://localhost/users/<?=$cid;?>/profile"><?echo NoXSSPlz($cname);?></a></span></div>
 <div><span class="CatalogItemInfoLabel">Updated:</span><span class="HoverInfo"><?echo NoXSSPlz($updated);?></span></div>
 <div><span class="CatalogItemInfoLabel">Sales:</span> <span class="HoverInfo notranslate"><?echo NoXSSPlz($sales);?></span></div>
 <div><span class="CatalogItemInfoLabel">Favorited:</span> <span class="HoverInfo"><?echo NoXSSPlz($favorite);?> times</span></div>
@@ -313,17 +313,17 @@ $con->exec($sql);
 <div class="CatalogItemInner BigInner">
 <div class="roblox-item-image image-large" data-item-id="<?=$id;?>" data-image-size="large">
 <div class="item-image-wrapper">
-<a href="https://www.voidrev.us/library/?id=<?=$id;?>">
-<img title="<?echo NoXSSPlz($iname);?>" alt="<?echo NoXSSPlz($iname);?>" class="original-image " src="https://www.voidrev.us/model-thumbnails?assetId=<?=$id;?>" loading="lazy"/>
+<a href="https://localhost/library/?id=<?=$id;?>">
+<img title="<?echo NoXSSPlz($iname);?>" alt="<?echo NoXSSPlz($iname);?>" class="original-image " src="https://localhost/model-thumbnails?assetId=<?=$id;?>" loading="lazy"/>
 </a>
 </div>
 </div>
 <div id="textDisplay">
-<div class="CatalogItemName notranslate"><a class="name notranslate" href="https://www.voidrev.us/library/?id=<?=$id;?>" title="<?echo NoXSSPlz($iname);?>"><?echo NoXSSPlz($iname);?></a></div>
+<div class="CatalogItemName notranslate"><a class="name notranslate" href="https://localhost/library/?id=<?=$id;?>" title="<?echo NoXSSPlz($iname);?>"><?echo NoXSSPlz($iname);?></a></div>
 <div class="robux-price"><span class="robux notranslate"><?echo $pricerob;?></span></div>
 </div>
 <div class="CatalogHoverContent">
-<div><span class="CatalogItemInfoLabel">Creator:</span> <span class="HoverInfo notranslate"><a href="https://www.voidrev.us/users/<?=$cid;?>/profile"><?echo NoXSSPlz($cname);?></a></span></div>
+<div><span class="CatalogItemInfoLabel">Creator:</span> <span class="HoverInfo notranslate"><a href="https://localhost/users/<?=$cid;?>/profile"><?echo NoXSSPlz($cname);?></a></span></div>
 <div><span class="CatalogItemInfoLabel">Updated:</span><span class="HoverInfo"><?echo NoXSSPlz($updated);?></span></div>
 <div><span class="CatalogItemInfoLabel">Sales:</span> <span class="HoverInfo notranslate"><?echo NoXSSPlz($sales);?></span></div>
 <div><span class="CatalogItemInfoLabel">Favorited:</span> <span class="HoverInfo"><?echo NoXSSPlz($favorite);?> times</span></div>
@@ -361,17 +361,17 @@ $con->exec($sql);
 <div class="CatalogItemInner BigInner">
 <div class="roblox-item-image image-large" data-item-id="<?=$id;?>" data-image-size="large">
 <div class="item-image-wrapper">
-<a href="https://www.voidrev.us/library/?id=<?=$id;?>">
-<img title="<?echo NoXSSPlz($iname);?>" alt="<?echo NoXSSPlz($iname);?>" class="original-image " src="https://www.voidrev.us/model-thumbnails?assetId=<?=$id;?>" loading="lazy"/>
+<a href="https://localhost/library/?id=<?=$id;?>">
+<img title="<?echo NoXSSPlz($iname);?>" alt="<?echo NoXSSPlz($iname);?>" class="original-image " src="https://localhost/model-thumbnails?assetId=<?=$id;?>" loading="lazy"/>
 </a>
 </div>
 </div>
 <div id="textDisplay">
-<div class="CatalogItemName notranslate"><a class="name notranslate" href="https://www.voidrev.us/library/?id=<?=$id;?>" title="<?echo NoXSSPlz($iname);?>"><?echo NoXSSPlz($iname);?></a></div>
+<div class="CatalogItemName notranslate"><a class="name notranslate" href="https://localhost/library/?id=<?=$id;?>" title="<?echo NoXSSPlz($iname);?>"><?echo NoXSSPlz($iname);?></a></div>
 <div class="robux-price"><span class="robux notranslate"><?echo $pricerob;?></span></div>
 </div>
 <div class="CatalogHoverContent">
-<div><span class="CatalogItemInfoLabel">Creator:</span> <span class="HoverInfo notranslate"><a href="https://www.voidrev.us/users/<?=$cid;?>/profile"><?echo NoXSSPlz($cname);?></a></span></div>
+<div><span class="CatalogItemInfoLabel">Creator:</span> <span class="HoverInfo notranslate"><a href="https://localhost/users/<?=$cid;?>/profile"><?echo NoXSSPlz($cname);?></a></span></div>
 <div><span class="CatalogItemInfoLabel">Updated:</span><span class="HoverInfo"><?echo NoXSSPlz($updated);?></span></div>
 <div><span class="CatalogItemInfoLabel">Sales:</span> <span class="HoverInfo notranslate"><?echo NoXSSPlz($sales);?></span></div>
 <div><span class="CatalogItemInfoLabel">Favorited:</span> <span class="HoverInfo"><?echo NoXSSPlz($favorite);?> times</span></div>
@@ -409,17 +409,17 @@ $con->exec($sql);
 <div class="CatalogItemInner BigInner">
 <div class="roblox-item-image image-large" data-item-id="<?=$id;?>" data-image-size="large">
 <div class="item-image-wrapper">
-<a href="https://www.voidrev.us/library/?id=<?=$id;?>">
-<img title="<?echo NoXSSPlz($iname);?>" alt="<?echo NoXSSPlz($iname);?>" class="original-image " src="https://www.voidrev.us/model-thumbnails?assetId=<?=$id;?>" loading="lazy"/>
+<a href="https://localhost/library/?id=<?=$id;?>">
+<img title="<?echo NoXSSPlz($iname);?>" alt="<?echo NoXSSPlz($iname);?>" class="original-image " src="https://localhost/model-thumbnails?assetId=<?=$id;?>" loading="lazy"/>
 </a>
 </div>
 </div>
 <div id="textDisplay">
-<div class="CatalogItemName notranslate"><a class="name notranslate" href="https://www.voidrev.us/library/?id=<?=$id;?>" title="<?echo NoXSSPlz($iname);?>"><?echo NoXSSPlz($iname);?></a></div>
+<div class="CatalogItemName notranslate"><a class="name notranslate" href="https://localhost/library/?id=<?=$id;?>" title="<?echo NoXSSPlz($iname);?>"><?echo NoXSSPlz($iname);?></a></div>
 <div class="robux-price"><span class="robux notranslate"><?echo $pricerob;?></span></div>
 </div>
 <div class="CatalogHoverContent">
-<div><span class="CatalogItemInfoLabel">Creator:</span> <span class="HoverInfo notranslate"><a href="https://www.voidrev.us/users/<?=$cid;?>/profile"><?echo NoXSSPlz($cname);?></a></span></div>
+<div><span class="CatalogItemInfoLabel">Creator:</span> <span class="HoverInfo notranslate"><a href="https://localhost/users/<?=$cid;?>/profile"><?echo NoXSSPlz($cname);?></a></span></div>
 <div><span class="CatalogItemInfoLabel">Updated:</span><span class="HoverInfo"><?echo NoXSSPlz($updated);?></span></div>
 <div><span class="CatalogItemInfoLabel">Sales:</span> <span class="HoverInfo notranslate"><?echo NoXSSPlz($sales);?></span></div>
 <div><span class="CatalogItemInfoLabel">Favorited:</span> <span class="HoverInfo"><?echo NoXSSPlz($favorite);?> times</span></div>
@@ -457,17 +457,17 @@ $con->exec($sql);
 <div class="CatalogItemInner BigInner">
 <div class="roblox-item-image image-large" data-item-id="<?=$id;?>" data-image-size="large">
 <div class="item-image-wrapper">
-<a href="https://www.voidrev.us/library/?id=<?=$id;?>">
-<img title="<?echo NoXSSPlz($iname);?>" alt="<?echo NoXSSPlz($iname);?>" class="original-image " src="https://www.voidrev.us/model-thumbnails?assetId=<?=$id;?>" loading="lazy"/>
+<a href="https://localhost/library/?id=<?=$id;?>">
+<img title="<?echo NoXSSPlz($iname);?>" alt="<?echo NoXSSPlz($iname);?>" class="original-image " src="https://localhost/model-thumbnails?assetId=<?=$id;?>" loading="lazy"/>
 </a>
 </div>
 </div>
 <div id="textDisplay">
-<div class="CatalogItemName notranslate"><a class="name notranslate" href="https://www.voidrev.us/library/?id=<?=$id;?>" title="<?echo NoXSSPlz($iname);?>"><?echo NoXSSPlz($iname);?></a></div>
+<div class="CatalogItemName notranslate"><a class="name notranslate" href="https://localhost/library/?id=<?=$id;?>" title="<?echo NoXSSPlz($iname);?>"><?echo NoXSSPlz($iname);?></a></div>
 <div class="robux-price"><span class="robux notranslate"><?echo $pricerob;?></span></div>
 </div>
 <div class="CatalogHoverContent">
-<div><span class="CatalogItemInfoLabel">Creator:</span> <span class="HoverInfo notranslate"><a href="https://www.voidrev.us/users/<?=$cid;?>/profile"><?echo NoXSSPlz($cname);?></a></span></div>
+<div><span class="CatalogItemInfoLabel">Creator:</span> <span class="HoverInfo notranslate"><a href="https://localhost/users/<?=$cid;?>/profile"><?echo NoXSSPlz($cname);?></a></span></div>
 <div><span class="CatalogItemInfoLabel">Updated:</span><span class="HoverInfo"><?echo NoXSSPlz($updated);?></span></div>
 <div><span class="CatalogItemInfoLabel">Sales:</span> <span class="HoverInfo notranslate"><?echo NoXSSPlz($sales);?></span></div>
 <div><span class="CatalogItemInfoLabel">Favorited:</span> <span class="HoverInfo"><?echo NoXSSPlz($favorite);?> times</span></div>
@@ -505,17 +505,17 @@ $con->exec($sql);
 <div class="CatalogItemInner BigInner">
 <div class="roblox-item-image image-large" data-item-id="<?=$id;?>" data-image-size="large">
 <div class="item-image-wrapper">
-<a href="https://www.voidrev.us/library/?id=<?=$id;?>">
-<img title="<?echo NoXSSPlz($iname);?>" alt="<?echo NoXSSPlz($iname);?>" class="original-image " src="https://www.voidrev.us/model-thumbnails?assetId=<?=$id;?>" loading="lazy"/>
+<a href="https://localhost/library/?id=<?=$id;?>">
+<img title="<?echo NoXSSPlz($iname);?>" alt="<?echo NoXSSPlz($iname);?>" class="original-image " src="https://localhost/model-thumbnails?assetId=<?=$id;?>" loading="lazy"/>
 </a>
 </div>
 </div>
 <div id="textDisplay">
-<div class="CatalogItemName notranslate"><a class="name notranslate" href="https://www.voidrev.us/library/?id=<?=$id;?>" title="<?echo NoXSSPlz($iname);?>"><?echo NoXSSPlz($iname);?></a></div>
+<div class="CatalogItemName notranslate"><a class="name notranslate" href="https://localhost/library/?id=<?=$id;?>" title="<?echo NoXSSPlz($iname);?>"><?echo NoXSSPlz($iname);?></a></div>
 <div class="robux-price"><span class="robux notranslate"><?echo $pricerob;?></span></div>
 </div>
 <div class="CatalogHoverContent">
-<div><span class="CatalogItemInfoLabel">Creator:</span> <span class="HoverInfo notranslate"><a href="https://www.voidrev.us/users/<?=$cid;?>/profile"><?echo NoXSSPlz($cname);?></a></span></div>
+<div><span class="CatalogItemInfoLabel">Creator:</span> <span class="HoverInfo notranslate"><a href="https://localhost/users/<?=$cid;?>/profile"><?echo NoXSSPlz($cname);?></a></span></div>
 <div><span class="CatalogItemInfoLabel">Updated:</span><span class="HoverInfo"><?echo NoXSSPlz($updated);?></span></div>
 <div><span class="CatalogItemInfoLabel">Sales:</span> <span class="HoverInfo notranslate"><?echo NoXSSPlz($sales);?></span></div>
 <div><span class="CatalogItemInfoLabel">Favorited:</span> <span class="HoverInfo"><?echo NoXSSPlz($favorite);?> times</span></div>
@@ -553,17 +553,17 @@ $con->exec($sql);
 <div class="CatalogItemInner BigInner">
 <div class="roblox-item-image image-large" data-item-id="<?=$id;?>" data-image-size="large">
 <div class="item-image-wrapper">
-<a href="https://www.voidrev.us/library/?id=<?=$id;?>">
-<img title="<?echo NoXSSPlz($iname);?>" alt="<?echo NoXSSPlz($iname);?>" class="original-image " src="https://www.voidrev.us/model-thumbnails?assetId=<?=$id;?>" loading="lazy"/>
+<a href="https://localhost/library/?id=<?=$id;?>">
+<img title="<?echo NoXSSPlz($iname);?>" alt="<?echo NoXSSPlz($iname);?>" class="original-image " src="https://localhost/model-thumbnails?assetId=<?=$id;?>" loading="lazy"/>
 </a>
 </div>
 </div>
 <div id="textDisplay">
-<div class="CatalogItemName notranslate"><a class="name notranslate" href="https://www.voidrev.us/library/?id=<?=$id;?>" title="<?echo NoXSSPlz($iname);?>"><?echo NoXSSPlz($iname);?></a></div>
+<div class="CatalogItemName notranslate"><a class="name notranslate" href="https://localhost/library/?id=<?=$id;?>" title="<?echo NoXSSPlz($iname);?>"><?echo NoXSSPlz($iname);?></a></div>
 <div class="robux-price"><span class="robux notranslate"><?echo $pricerob;?></span></div>
 </div>
 <div class="CatalogHoverContent">
-<div><span class="CatalogItemInfoLabel">Creator:</span> <span class="HoverInfo notranslate"><a href="https://www.voidrev.us/users/<?=$cid;?>/profile"><?echo NoXSSPlz($cname);?></a></span></div>
+<div><span class="CatalogItemInfoLabel">Creator:</span> <span class="HoverInfo notranslate"><a href="https://localhost/users/<?=$cid;?>/profile"><?echo NoXSSPlz($cname);?></a></span></div>
 <div><span class="CatalogItemInfoLabel">Updated:</span><span class="HoverInfo"><?echo NoXSSPlz($updated);?></span></div>
 <div><span class="CatalogItemInfoLabel">Sales:</span> <span class="HoverInfo notranslate"><?echo NoXSSPlz($sales);?></span></div>
 <div><span class="CatalogItemInfoLabel">Favorited:</span> <span class="HoverInfo"><?echo NoXSSPlz($favorite);?> times</span></div>
@@ -600,17 +600,17 @@ $con->exec($sql);
 <div class="CatalogItemInner BigInner">
 <div class="roblox-item-image image-large" data-item-id="<?=$id;?>" data-image-size="large">
 <div class="item-image-wrapper">
-<a href="https://www.voidrev.us/library/?id=<?=$id;?>">
-<img title="<?echo NoXSSPlz($iname);?>" alt="<?echo NoXSSPlz($iname);?>" class="original-image " src="https://www.voidrev.us/model-thumbnails?assetId=<?=$id;?>" loading="lazy"/>
+<a href="https://localhost/library/?id=<?=$id;?>">
+<img title="<?echo NoXSSPlz($iname);?>" alt="<?echo NoXSSPlz($iname);?>" class="original-image " src="https://localhost/model-thumbnails?assetId=<?=$id;?>" loading="lazy"/>
 </a>
 </div>
 </div>
 <div id="textDisplay">
-<div class="CatalogItemName notranslate"><a class="name notranslate" href="https://www.voidrev.us/library/?id=<?=$id;?>" title="<?echo NoXSSPlz($iname);?>"><?echo NoXSSPlz($iname);?></a></div>
+<div class="CatalogItemName notranslate"><a class="name notranslate" href="https://localhost/library/?id=<?=$id;?>" title="<?echo NoXSSPlz($iname);?>"><?echo NoXSSPlz($iname);?></a></div>
 <div class="robux-price"><span class="robux notranslate"><?echo $pricerob;?></span></div>
 </div>
 <div class="CatalogHoverContent">
-<div><span class="CatalogItemInfoLabel">Creator:</span> <span class="HoverInfo notranslate"><a href="https://www.voidrev.us/users/<?=$cid;?>/profile"><?echo NoXSSPlz($cname);?></a></span></div>
+<div><span class="CatalogItemInfoLabel">Creator:</span> <span class="HoverInfo notranslate"><a href="https://localhost/users/<?=$cid;?>/profile"><?echo NoXSSPlz($cname);?></a></span></div>
 <div><span class="CatalogItemInfoLabel">Updated:</span><span class="HoverInfo"><?echo NoXSSPlz($updated);?></span></div>
 <div><span class="CatalogItemInfoLabel">Sales:</span> <span class="HoverInfo notranslate"><?echo NoXSSPlz($sales);?></span></div>
 <div><span class="CatalogItemInfoLabel">Favorited:</span> <span class="HoverInfo"><?echo NoXSSPlz($favorite);?> times</span></div>
@@ -648,17 +648,17 @@ $con->exec($sql);
 <div class="CatalogItemInner BigInner">
 <div class="roblox-item-image image-large" data-item-id="<?=$id;?>" data-image-size="large">
 <div class="item-image-wrapper">
-<a href="https://www.voidrev.us/library/?id=<?=$id;?>">
-<img title="<?echo NoXSSPlz($iname);?>" alt="<?echo NoXSSPlz($iname);?>" class="original-image " src="https://www.voidrev.us/model-thumbnails?assetId=<?=$id;?>" loading="lazy"/>
+<a href="https://localhost/library/?id=<?=$id;?>">
+<img title="<?echo NoXSSPlz($iname);?>" alt="<?echo NoXSSPlz($iname);?>" class="original-image " src="https://localhost/model-thumbnails?assetId=<?=$id;?>" loading="lazy"/>
 </a>
 </div>
 </div>
 <div id="textDisplay">
-<div class="CatalogItemName notranslate"><a class="name notranslate" href="https://www.voidrev.us/library/?id=<?=$id;?>" title="<?echo NoXSSPlz($iname);?>"><?echo NoXSSPlz($iname);?></a></div>
+<div class="CatalogItemName notranslate"><a class="name notranslate" href="https://localhost/library/?id=<?=$id;?>" title="<?echo NoXSSPlz($iname);?>"><?echo NoXSSPlz($iname);?></a></div>
 <div class="robux-price"><span class="robux notranslate"><?echo $pricerob;?></span></div>
 </div>
 <div class="CatalogHoverContent">
-<div><span class="CatalogItemInfoLabel">Creator:</span> <span class="HoverInfo notranslate"><a href="https://www.voidrev.us/users/<?=$cid;?>/profile"><?echo NoXSSPlz($cname);?></a></span></div>
+<div><span class="CatalogItemInfoLabel">Creator:</span> <span class="HoverInfo notranslate"><a href="https://localhost/users/<?=$cid;?>/profile"><?echo NoXSSPlz($cname);?></a></span></div>
 <div><span class="CatalogItemInfoLabel">Updated:</span><span class="HoverInfo"><?echo NoXSSPlz($updated);?></span></div>
 <div><span class="CatalogItemInfoLabel">Sales:</span> <span class="HoverInfo notranslate"><?echo NoXSSPlz($sales);?></span></div>
 <div><span class="CatalogItemInfoLabel">Favorited:</span> <span class="HoverInfo"><?echo NoXSSPlz($favorite);?> times</span></div>
@@ -696,17 +696,17 @@ $con->exec($sql);
 <div class="CatalogItemInner BigInner">
 <div class="roblox-item-image image-large" data-item-id="<?=$id;?>" data-image-size="large">
 <div class="item-image-wrapper">
-<a href="https://www.voidrev.us/library/?id=<?=$id;?>">
-<img title="<?echo NoXSSPlz($iname);?>" alt="<?echo NoXSSPlz($iname);?>" class="original-image " src="https://www.voidrev.us/model-thumbnails?assetId=<?=$id;?>" loading="lazy"/>
+<a href="https://localhost/library/?id=<?=$id;?>">
+<img title="<?echo NoXSSPlz($iname);?>" alt="<?echo NoXSSPlz($iname);?>" class="original-image " src="https://localhost/model-thumbnails?assetId=<?=$id;?>" loading="lazy"/>
 </a>
 </div>
 </div>
 <div id="textDisplay">
-<div class="CatalogItemName notranslate"><a class="name notranslate" href="https://www.voidrev.us/library/?id=<?=$id;?>" title="<?echo NoXSSPlz($iname);?>"><?echo NoXSSPlz($iname);?></a></div>
+<div class="CatalogItemName notranslate"><a class="name notranslate" href="https://localhost/library/?id=<?=$id;?>" title="<?echo NoXSSPlz($iname);?>"><?echo NoXSSPlz($iname);?></a></div>
 <div class="robux-price"><span class="robux notranslate"><?echo $pricerob;?></span></div>
 </div>
 <div class="CatalogHoverContent">
-<div><span class="CatalogItemInfoLabel">Creator:</span> <span class="HoverInfo notranslate"><a href="https://www.voidrev.us/users/<?=$cid;?>/profile"><?echo NoXSSPlz($cname);?></a></span></div>
+<div><span class="CatalogItemInfoLabel">Creator:</span> <span class="HoverInfo notranslate"><a href="https://localhost/users/<?=$cid;?>/profile"><?echo NoXSSPlz($cname);?></a></span></div>
 <div><span class="CatalogItemInfoLabel">Updated:</span><span class="HoverInfo"><?echo NoXSSPlz($updated);?></span></div>
 <div><span class="CatalogItemInfoLabel">Sales:</span> <span class="HoverInfo notranslate"><?echo NoXSSPlz($sales);?></span></div>
 <div><span class="CatalogItemInfoLabel">Favorited:</span> <span class="HoverInfo"><?echo NoXSSPlz($favorite);?> times</span></div>
@@ -744,17 +744,17 @@ $con->exec($sql);
 <div class="CatalogItemInner BigInner">
 <div class="roblox-item-image image-large" data-item-id="<?=$id;?>" data-image-size="large">
 <div class="item-image-wrapper">
-<a href="https://www.voidrev.us/library/?id=<?=$id;?>">
-<img title="<?echo NoXSSPlz($iname);?>" alt="<?echo NoXSSPlz($iname);?>" class="original-image " src="https://www.voidrev.us/model-thumbnails?assetId=<?=$id;?>" loading="lazy"/>
+<a href="https://localhost/library/?id=<?=$id;?>">
+<img title="<?echo NoXSSPlz($iname);?>" alt="<?echo NoXSSPlz($iname);?>" class="original-image " src="https://localhost/model-thumbnails?assetId=<?=$id;?>" loading="lazy"/>
 </a>
 </div>
 </div>
 <div id="textDisplay">
-<div class="CatalogItemName notranslate"><a class="name notranslate" href="https://www.voidrev.us/library/?id=<?=$id;?>" title="<?echo NoXSSPlz($iname);?>"><?echo NoXSSPlz($iname);?></a></div>
+<div class="CatalogItemName notranslate"><a class="name notranslate" href="https://localhost/library/?id=<?=$id;?>" title="<?echo NoXSSPlz($iname);?>"><?echo NoXSSPlz($iname);?></a></div>
 <div class="robux-price"><span class="robux notranslate"><?echo $pricerob;?></span></div>
 </div>
 <div class="CatalogHoverContent">
-<div><span class="CatalogItemInfoLabel">Creator:</span> <span class="HoverInfo notranslate"><a href="https://www.voidrev.us/users/<?=$cid;?>/profile"><?echo NoXSSPlz($cname);?></a></span></div>
+<div><span class="CatalogItemInfoLabel">Creator:</span> <span class="HoverInfo notranslate"><a href="https://localhost/users/<?=$cid;?>/profile"><?echo NoXSSPlz($cname);?></a></span></div>
 <div><span class="CatalogItemInfoLabel">Updated:</span><span class="HoverInfo"><?echo NoXSSPlz($updated);?></span></div>
 <div><span class="CatalogItemInfoLabel">Sales:</span> <span class="HoverInfo notranslate"><?echo NoXSSPlz($sales);?></span></div>
 <div><span class="CatalogItemInfoLabel">Favorited:</span> <span class="HoverInfo"><?echo NoXSSPlz($favorite);?> times</span></div>
@@ -792,17 +792,17 @@ $con->exec($sql);
 <div class="CatalogItemInner BigInner">
 <div class="roblox-item-image image-large" data-item-id="<?=$id;?>" data-image-size="large">
 <div class="item-image-wrapper">
-<a href="https://www.voidrev.us/library/?id=<?=$id;?>">
-<img title="<?echo NoXSSPlz($iname);?>" alt="<?echo NoXSSPlz($iname);?>" class="original-image " src="https://www.voidrev.us/model-thumbnails?assetId=<?=$id;?>" loading="lazy"/>
+<a href="https://localhost/library/?id=<?=$id;?>">
+<img title="<?echo NoXSSPlz($iname);?>" alt="<?echo NoXSSPlz($iname);?>" class="original-image " src="https://localhost/model-thumbnails?assetId=<?=$id;?>" loading="lazy"/>
 </a>
 </div>
 </div>
 <div id="textDisplay">
-<div class="CatalogItemName notranslate"><a class="name notranslate" href="https://www.voidrev.us/library/?id=<?=$id;?>" title="<?echo NoXSSPlz($iname);?>"><?echo NoXSSPlz($iname);?></a></div>
+<div class="CatalogItemName notranslate"><a class="name notranslate" href="https://localhost/library/?id=<?=$id;?>" title="<?echo NoXSSPlz($iname);?>"><?echo NoXSSPlz($iname);?></a></div>
 <div class="robux-price"><span class="robux notranslate"><?echo $pricerob;?></span></div>
 </div>
 <div class="CatalogHoverContent">
-<div><span class="CatalogItemInfoLabel">Creator:</span> <span class="HoverInfo notranslate"><a href="https://www.voidrev.us/users/<?=$cid;?>/profile"><?echo NoXSSPlz($cname);?></a></span></div>
+<div><span class="CatalogItemInfoLabel">Creator:</span> <span class="HoverInfo notranslate"><a href="https://localhost/users/<?=$cid;?>/profile"><?echo NoXSSPlz($cname);?></a></span></div>
 <div><span class="CatalogItemInfoLabel">Updated:</span><span class="HoverInfo"><?echo NoXSSPlz($updated);?></span></div>
 <div><span class="CatalogItemInfoLabel">Sales:</span> <span class="HoverInfo notranslate"><?echo NoXSSPlz($sales);?></span></div>
 <div><span class="CatalogItemInfoLabel">Favorited:</span> <span class="HoverInfo"><?echo NoXSSPlz($favorite);?> times</span></div>
@@ -840,17 +840,17 @@ $con->exec($sql);
 <div class="CatalogItemInner BigInner">
 <div class="roblox-item-image image-large" data-item-id="<?=$id;?>" data-image-size="large">
 <div class="item-image-wrapper">
-<a href="https://www.voidrev.us/library/?id=<?=$id;?>">
-<img title="<?echo NoXSSPlz($iname);?>" alt="<?echo NoXSSPlz($iname);?>" class="original-image " src="https://www.voidrev.us/model-thumbnails?assetId=<?=$id;?>" loading="lazy"/>
+<a href="https://localhost/library/?id=<?=$id;?>">
+<img title="<?echo NoXSSPlz($iname);?>" alt="<?echo NoXSSPlz($iname);?>" class="original-image " src="https://localhost/model-thumbnails?assetId=<?=$id;?>" loading="lazy"/>
 </a>
 </div>
 </div>
 <div id="textDisplay">
-<div class="CatalogItemName notranslate"><a class="name notranslate" href="https://www.voidrev.us/library/?id=<?=$id;?>" title="<?echo NoXSSPlz($iname);?>"><?echo NoXSSPlz($iname);?></a></div>
+<div class="CatalogItemName notranslate"><a class="name notranslate" href="https://localhost/library/?id=<?=$id;?>" title="<?echo NoXSSPlz($iname);?>"><?echo NoXSSPlz($iname);?></a></div>
 <div class="robux-price"><span class="robux notranslate"><?echo $pricerob;?></span></div>
 </div>
 <div class="CatalogHoverContent">
-<div><span class="CatalogItemInfoLabel">Creator:</span> <span class="HoverInfo notranslate"><a href="https://www.voidrev.us/users/<?=$cid;?>/profile"><?echo NoXSSPlz($cname);?></a></span></div>
+<div><span class="CatalogItemInfoLabel">Creator:</span> <span class="HoverInfo notranslate"><a href="https://localhost/users/<?=$cid;?>/profile"><?echo NoXSSPlz($cname);?></a></span></div>
 <div><span class="CatalogItemInfoLabel">Updated:</span><span class="HoverInfo"><?echo NoXSSPlz($updated);?></span></div>
 <div><span class="CatalogItemInfoLabel">Sales:</span> <span class="HoverInfo notranslate"><?echo NoXSSPlz($sales);?></span></div>
 <div><span class="CatalogItemInfoLabel">Favorited:</span> <span class="HoverInfo"><?echo NoXSSPlz($favorite);?> times</span></div>
@@ -889,17 +889,17 @@ $con->exec($sql);
 <div class="CatalogItemInner BigInner">
 <div class="roblox-item-image image-large" data-item-id="<?=$id;?>" data-image-size="large">
 <div class="item-image-wrapper">
-<a href="https://www.voidrev.us/library/?id=<?=$id;?>">
-<img title="<?echo NoXSSPlz($iname);?>" alt="<?echo NoXSSPlz($iname);?>" class="original-image " src="https://www.voidrev.us/model-thumbnails?assetId=<?=$id;?>" loading="lazy"/>
+<a href="https://localhost/library/?id=<?=$id;?>">
+<img title="<?echo NoXSSPlz($iname);?>" alt="<?echo NoXSSPlz($iname);?>" class="original-image " src="https://localhost/model-thumbnails?assetId=<?=$id;?>" loading="lazy"/>
 </a>
 </div>
 </div>
 <div id="textDisplay">
-<div class="CatalogItemName notranslate"><a class="name notranslate" href="https://www.voidrev.us/library/?id=<?=$id;?>" title="<?echo NoXSSPlz($iname);?>"><?echo NoXSSPlz($iname);?></a></div>
+<div class="CatalogItemName notranslate"><a class="name notranslate" href="https://localhost/library/?id=<?=$id;?>" title="<?echo NoXSSPlz($iname);?>"><?echo NoXSSPlz($iname);?></a></div>
 <div class="robux-price"><span class="robux notranslate"><?echo $pricerob;?></span></div>
 </div>
 <div class="CatalogHoverContent">
-<div><span class="CatalogItemInfoLabel">Creator:</span> <span class="HoverInfo notranslate"><a href="https://www.voidrev.us/users/<?=$cid;?>/profile"><?echo NoXSSPlz($cname);?></a></span></div>
+<div><span class="CatalogItemInfoLabel">Creator:</span> <span class="HoverInfo notranslate"><a href="https://localhost/users/<?=$cid;?>/profile"><?echo NoXSSPlz($cname);?></a></span></div>
 <div><span class="CatalogItemInfoLabel">Updated:</span><span class="HoverInfo"><?echo NoXSSPlz($updated);?></span></div>
 <div><span class="CatalogItemInfoLabel">Sales:</span> <span class="HoverInfo notranslate"><?echo NoXSSPlz($sales);?></span></div>
 <div><span class="CatalogItemInfoLabel">Favorited:</span> <span class="HoverInfo"><?echo NoXSSPlz($favorite);?> times</span></div>
@@ -938,17 +938,17 @@ $con->exec($sql);
 <div class="CatalogItemInner BigInner">
 <div class="roblox-item-image image-large" data-item-id="<?=$id;?>" data-image-size="large">
 <div class="item-image-wrapper">
-<a href="https://www.voidrev.us/library/?id=<?=$id;?>">
-<img title="<?echo NoXSSPlz($iname);?>" alt="<?echo NoXSSPlz($iname);?>" class="original-image " src="https://www.voidrev.us/model-thumbnails?assetId=<?=$id;?>" loading="lazy"/>
+<a href="https://localhost/library/?id=<?=$id;?>">
+<img title="<?echo NoXSSPlz($iname);?>" alt="<?echo NoXSSPlz($iname);?>" class="original-image " src="https://localhost/model-thumbnails?assetId=<?=$id;?>" loading="lazy"/>
 </a>
 </div>
 </div>
 <div id="textDisplay">
-<div class="CatalogItemName notranslate"><a class="name notranslate" href="https://www.voidrev.us/library/?id=<?=$id;?>" title="<?echo NoXSSPlz($iname);?>"><?echo NoXSSPlz($iname);?></a></div>
+<div class="CatalogItemName notranslate"><a class="name notranslate" href="https://localhost/library/?id=<?=$id;?>" title="<?echo NoXSSPlz($iname);?>"><?echo NoXSSPlz($iname);?></a></div>
 <div class="robux-price"><span class="robux notranslate"><?echo $pricerob;?></span></div>
 </div>
 <div class="CatalogHoverContent">
-<div><span class="CatalogItemInfoLabel">Creator:</span> <span class="HoverInfo notranslate"><a href="https://www.voidrev.us/users/<?=$cid;?>/profile"><?echo NoXSSPlz($cname);?></a></span></div>
+<div><span class="CatalogItemInfoLabel">Creator:</span> <span class="HoverInfo notranslate"><a href="https://localhost/users/<?=$cid;?>/profile"><?echo NoXSSPlz($cname);?></a></span></div>
 <div><span class="CatalogItemInfoLabel">Updated:</span><span class="HoverInfo"><?echo NoXSSPlz($updated);?></span></div>
 <div><span class="CatalogItemInfoLabel">Sales:</span> <span class="HoverInfo notranslate"><?echo NoXSSPlz($sales);?></span></div>
 <div><span class="CatalogItemInfoLabel">Favorited:</span> <span class="HoverInfo"><?echo NoXSSPlz($favorite);?> times</span></div>
@@ -987,17 +987,17 @@ $con->exec($sql);
 <div class="CatalogItemInner BigInner">
 <div class="roblox-item-image image-large" data-item-id="<?=$id;?>" data-image-size="large">
 <div class="item-image-wrapper">
-<a href="https://www.voidrev.us/library/?id=<?=$id;?>">
-<img title="<?echo NoXSSPlz($iname);?>" alt="<?echo NoXSSPlz($iname);?>" class="original-image " src="https://www.voidrev.us/model-thumbnails?assetId=<?=$id;?>" loading="lazy"/>
+<a href="https://localhost/library/?id=<?=$id;?>">
+<img title="<?echo NoXSSPlz($iname);?>" alt="<?echo NoXSSPlz($iname);?>" class="original-image " src="https://localhost/model-thumbnails?assetId=<?=$id;?>" loading="lazy"/>
 </a>
 </div>
 </div>
 <div id="textDisplay">
-<div class="CatalogItemName notranslate"><a class="name notranslate" href="https://www.voidrev.us/library/?id=<?=$id;?>" title="<?echo NoXSSPlz($iname);?>"><?echo NoXSSPlz($iname);?></a></div>
+<div class="CatalogItemName notranslate"><a class="name notranslate" href="https://localhost/library/?id=<?=$id;?>" title="<?echo NoXSSPlz($iname);?>"><?echo NoXSSPlz($iname);?></a></div>
 <div class="robux-price"><span class="robux notranslate"><?echo $pricerob;?></span></div>
 </div>
 <div class="CatalogHoverContent">
-<div><span class="CatalogItemInfoLabel">Creator:</span> <span class="HoverInfo notranslate"><a href="https://www.voidrev.us/users/<?=$cid;?>/profile"><?echo NoXSSPlz($cname);?></a></span></div>
+<div><span class="CatalogItemInfoLabel">Creator:</span> <span class="HoverInfo notranslate"><a href="https://localhost/users/<?=$cid;?>/profile"><?echo NoXSSPlz($cname);?></a></span></div>
 <div><span class="CatalogItemInfoLabel">Updated:</span><span class="HoverInfo"><?echo NoXSSPlz($updated);?></span></div>
 <div><span class="CatalogItemInfoLabel">Sales:</span> <span class="HoverInfo notranslate"><?echo NoXSSPlz($sales);?></span></div>
 <div><span class="CatalogItemInfoLabel">Favorited:</span> <span class="HoverInfo"><?echo NoXSSPlz($favorite);?> times</span></div>
@@ -1036,17 +1036,17 @@ $con->exec($sql);
 <div class="CatalogItemInner BigInner">
 <div class="roblox-item-image image-large" data-item-id="<?=$id;?>" data-image-size="large">
 <div class="item-image-wrapper">
-<a href="https://www.voidrev.us/library/?id=<?=$id;?>">
-<img title="<?echo NoXSSPlz($iname);?>" alt="<?echo NoXSSPlz($iname);?>" class="original-image " src="https://www.voidrev.us/model-thumbnails?assetId=<?=$id;?>" loading="lazy"/>
+<a href="https://localhost/library/?id=<?=$id;?>">
+<img title="<?echo NoXSSPlz($iname);?>" alt="<?echo NoXSSPlz($iname);?>" class="original-image " src="https://localhost/model-thumbnails?assetId=<?=$id;?>" loading="lazy"/>
 </a>
 </div>
 </div>
 <div id="textDisplay">
-<div class="CatalogItemName notranslate"><a class="name notranslate" href="https://www.voidrev.us/library/?id=<?=$id;?>" title="<?echo NoXSSPlz($iname);?>"><?echo NoXSSPlz($iname);?></a></div>
+<div class="CatalogItemName notranslate"><a class="name notranslate" href="https://localhost/library/?id=<?=$id;?>" title="<?echo NoXSSPlz($iname);?>"><?echo NoXSSPlz($iname);?></a></div>
 <div class="robux-price"><span class="robux notranslate"><?echo $pricerob;?></span></div>
 </div>
 <div class="CatalogHoverContent">
-<div><span class="CatalogItemInfoLabel">Creator:</span> <span class="HoverInfo notranslate"><a href="https://www.voidrev.us/users/<?=$cid;?>/profile"><?echo NoXSSPlz($cname);?></a></span></div>
+<div><span class="CatalogItemInfoLabel">Creator:</span> <span class="HoverInfo notranslate"><a href="https://localhost/users/<?=$cid;?>/profile"><?echo NoXSSPlz($cname);?></a></span></div>
 <div><span class="CatalogItemInfoLabel">Updated:</span><span class="HoverInfo"><?echo NoXSSPlz($updated);?></span></div>
 <div><span class="CatalogItemInfoLabel">Sales:</span> <span class="HoverInfo notranslate"><?echo NoXSSPlz($sales);?></span></div>
 <div><span class="CatalogItemInfoLabel">Favorited:</span> <span class="HoverInfo"><?echo NoXSSPlz($favorite);?> times</span></div>
@@ -1085,17 +1085,17 @@ $con->exec($sql);
 <div class="CatalogItemInner BigInner">
 <div class="roblox-item-image image-large" data-item-id="<?=$id;?>" data-image-size="large">
 <div class="item-image-wrapper">
-<a href="https://www.voidrev.us/library/?id=<?=$id;?>">
-<img title="<?echo NoXSSPlz($iname);?>" alt="<?echo NoXSSPlz($iname);?>" class="original-image " src="https://www.voidrev.us/model-thumbnails?assetId=<?=$id;?>" loading="lazy"/>
+<a href="https://localhost/library/?id=<?=$id;?>">
+<img title="<?echo NoXSSPlz($iname);?>" alt="<?echo NoXSSPlz($iname);?>" class="original-image " src="https://localhost/model-thumbnails?assetId=<?=$id;?>" loading="lazy"/>
 </a>
 </div>
 </div>
 <div id="textDisplay">
-<div class="CatalogItemName notranslate"><a class="name notranslate" href="https://www.voidrev.us/library/?id=<?=$id;?>" title="<?echo NoXSSPlz($iname);?>"><?echo NoXSSPlz($iname);?></a></div>
+<div class="CatalogItemName notranslate"><a class="name notranslate" href="https://localhost/library/?id=<?=$id;?>" title="<?echo NoXSSPlz($iname);?>"><?echo NoXSSPlz($iname);?></a></div>
 <div class="robux-price"><span class="robux notranslate"><?echo $pricerob;?></span></div>
 </div>
 <div class="CatalogHoverContent">
-<div><span class="CatalogItemInfoLabel">Creator:</span> <span class="HoverInfo notranslate"><a href="https://www.voidrev.us/users/<?=$cid;?>/profile"><?echo NoXSSPlz($cname);?></a></span></div>
+<div><span class="CatalogItemInfoLabel">Creator:</span> <span class="HoverInfo notranslate"><a href="https://localhost/users/<?=$cid;?>/profile"><?echo NoXSSPlz($cname);?></a></span></div>
 <div><span class="CatalogItemInfoLabel">Updated:</span><span class="HoverInfo"><?echo NoXSSPlz($updated);?></span></div>
 <div><span class="CatalogItemInfoLabel">Sales:</span> <span class="HoverInfo notranslate"><?echo NoXSSPlz($sales);?></span></div>
 <div><span class="CatalogItemInfoLabel">Favorited:</span> <span class="HoverInfo"><?echo NoXSSPlz($favorite);?> times</span></div>
@@ -1134,17 +1134,17 @@ $con->exec($sql);
 <div class="CatalogItemInner BigInner">
 <div class="roblox-item-image image-large" data-item-id="<?=$id;?>" data-image-size="large">
 <div class="item-image-wrapper">
-<a href="https://www.voidrev.us/library/?id=<?=$id;?>">
-<img title="<?echo NoXSSPlz($iname);?>" alt="<?echo NoXSSPlz($iname);?>" class="original-image " src="https://www.voidrev.us/model-thumbnails?assetId=<?=$id;?>" loading="lazy"/>
+<a href="https://localhost/library/?id=<?=$id;?>">
+<img title="<?echo NoXSSPlz($iname);?>" alt="<?echo NoXSSPlz($iname);?>" class="original-image " src="https://localhost/model-thumbnails?assetId=<?=$id;?>" loading="lazy"/>
 </a>
 </div>
 </div>
 <div id="textDisplay">
-<div class="CatalogItemName notranslate"><a class="name notranslate" href="https://www.voidrev.us/library/?id=<?=$id;?>" title="<?echo NoXSSPlz($iname);?>"><?echo NoXSSPlz($iname);?></a></div>
+<div class="CatalogItemName notranslate"><a class="name notranslate" href="https://localhost/library/?id=<?=$id;?>" title="<?echo NoXSSPlz($iname);?>"><?echo NoXSSPlz($iname);?></a></div>
 <div class="robux-price"><span class="robux notranslate"><?echo $pricerob;?></span></div>
 </div>
 <div class="CatalogHoverContent">
-<div><span class="CatalogItemInfoLabel">Creator:</span> <span class="HoverInfo notranslate"><a href="https://www.voidrev.us/users/<?=$cid;?>/profile"><?echo NoXSSPlz($cname);?></a></span></div>
+<div><span class="CatalogItemInfoLabel">Creator:</span> <span class="HoverInfo notranslate"><a href="https://localhost/users/<?=$cid;?>/profile"><?echo NoXSSPlz($cname);?></a></span></div>
 <div><span class="CatalogItemInfoLabel">Updated:</span><span class="HoverInfo"><?echo NoXSSPlz($updated);?></span></div>
 <div><span class="CatalogItemInfoLabel">Sales:</span> <span class="HoverInfo notranslate"><?echo NoXSSPlz($sales);?></span></div>
 <div><span class="CatalogItemInfoLabel">Favorited:</span> <span class="HoverInfo"><?echo NoXSSPlz($favorite);?> times</span></div>
@@ -1183,17 +1183,17 @@ $con->exec($sql);
 <div class="CatalogItemInner BigInner">
 <div class="roblox-item-image image-large" data-item-id="<?=$id;?>" data-image-size="large">
 <div class="item-image-wrapper">
-<a href="https://www.voidrev.us/library/?id=<?=$id;?>">
-<img title="<?echo NoXSSPlz($iname);?>" alt="<?echo NoXSSPlz($iname);?>" class="original-image " src="https://www.voidrev.us/model-thumbnails?assetId=<?=$id;?>" loading="lazy"/>
+<a href="https://localhost/library/?id=<?=$id;?>">
+<img title="<?echo NoXSSPlz($iname);?>" alt="<?echo NoXSSPlz($iname);?>" class="original-image " src="https://localhost/model-thumbnails?assetId=<?=$id;?>" loading="lazy"/>
 </a>
 </div>
 </div>
 <div id="textDisplay">
-<div class="CatalogItemName notranslate"><a class="name notranslate" href="https://www.voidrev.us/library/?id=<?=$id;?>" title="<?echo NoXSSPlz($iname);?>"><?echo NoXSSPlz($iname);?></a></div>
+<div class="CatalogItemName notranslate"><a class="name notranslate" href="https://localhost/library/?id=<?=$id;?>" title="<?echo NoXSSPlz($iname);?>"><?echo NoXSSPlz($iname);?></a></div>
 <div class="robux-price"><span class="robux notranslate"><?echo $pricerob;?></span></div>
 </div>
 <div class="CatalogHoverContent">
-<div><span class="CatalogItemInfoLabel">Creator:</span> <span class="HoverInfo notranslate"><a href="https://www.voidrev.us/users/<?=$cid;?>/profile"><?echo NoXSSPlz($cname);?></a></span></div>
+<div><span class="CatalogItemInfoLabel">Creator:</span> <span class="HoverInfo notranslate"><a href="https://localhost/users/<?=$cid;?>/profile"><?echo NoXSSPlz($cname);?></a></span></div>
 <div><span class="CatalogItemInfoLabel">Updated:</span><span class="HoverInfo"><?echo NoXSSPlz($updated);?></span></div>
 <div><span class="CatalogItemInfoLabel">Sales:</span> <span class="HoverInfo notranslate"><?echo NoXSSPlz($sales);?></span></div>
 <div><span class="CatalogItemInfoLabel">Favorited:</span> <span class="HoverInfo"><?echo NoXSSPlz($favorite);?> times</span></div>
@@ -1232,17 +1232,17 @@ $con->exec($sql);
 <div class="CatalogItemInner BigInner">
 <div class="roblox-item-image image-large" data-item-id="<?=$id;?>" data-image-size="large">
 <div class="item-image-wrapper">
-<a href="https://www.voidrev.us/library/?id=<?=$id;?>">
-<img title="<?echo NoXSSPlz($iname);?>" alt="<?echo NoXSSPlz($iname);?>" class="original-image " src="https://www.voidrev.us/model-thumbnails?assetId=<?=$id;?>" loading="lazy"/>
+<a href="https://localhost/library/?id=<?=$id;?>">
+<img title="<?echo NoXSSPlz($iname);?>" alt="<?echo NoXSSPlz($iname);?>" class="original-image " src="https://localhost/model-thumbnails?assetId=<?=$id;?>" loading="lazy"/>
 </a>
 </div>
 </div>
 <div id="textDisplay">
-<div class="CatalogItemName notranslate"><a class="name notranslate" href="https://www.voidrev.us/library/?id=<?=$id;?>" title="<?echo NoXSSPlz($iname);?>"><?echo NoXSSPlz($iname);?></a></div>
+<div class="CatalogItemName notranslate"><a class="name notranslate" href="https://localhost/library/?id=<?=$id;?>" title="<?echo NoXSSPlz($iname);?>"><?echo NoXSSPlz($iname);?></a></div>
 <div class="robux-price"><span class="robux notranslate"><?echo $pricerob;?></span></div>
 </div>
 <div class="CatalogHoverContent">
-<div><span class="CatalogItemInfoLabel">Creator:</span> <span class="HoverInfo notranslate"><a href="https://www.voidrev.us/users/<?=$cid;?>/profile"><?echo NoXSSPlz($cname);?></a></span></div>
+<div><span class="CatalogItemInfoLabel">Creator:</span> <span class="HoverInfo notranslate"><a href="https://localhost/users/<?=$cid;?>/profile"><?echo NoXSSPlz($cname);?></a></span></div>
 <div><span class="CatalogItemInfoLabel">Updated:</span><span class="HoverInfo"><?echo NoXSSPlz($updated);?></span></div>
 <div><span class="CatalogItemInfoLabel">Sales:</span> <span class="HoverInfo notranslate"><?echo NoXSSPlz($sales);?></span></div>
 <div><span class="CatalogItemInfoLabel">Favorited:</span> <span class="HoverInfo"><?echo NoXSSPlz($favorite);?> times</span></div>
@@ -1281,17 +1281,17 @@ $con->exec($sql);
 <div class="CatalogItemInner BigInner">
 <div class="roblox-item-image image-large" data-item-id="<?=$id;?>" data-image-size="large">
 <div class="item-image-wrapper">
-<a href="https://www.voidrev.us/library/?id=<?=$id;?>">
-<img title="<?echo NoXSSPlz($iname);?>" alt="<?echo NoXSSPlz($iname);?>" class="original-image " src="https://www.voidrev.us/model-thumbnails?assetId=<?=$id;?>" loading="lazy"/>
+<a href="https://localhost/library/?id=<?=$id;?>">
+<img title="<?echo NoXSSPlz($iname);?>" alt="<?echo NoXSSPlz($iname);?>" class="original-image " src="https://localhost/model-thumbnails?assetId=<?=$id;?>" loading="lazy"/>
 </a>
 </div>
 </div>
 <div id="textDisplay">
-<div class="CatalogItemName notranslate"><a class="name notranslate" href="https://www.voidrev.us/library/?id=<?=$id;?>" title="<?echo NoXSSPlz($iname);?>"><?echo NoXSSPlz($iname);?></a></div>
+<div class="CatalogItemName notranslate"><a class="name notranslate" href="https://localhost/library/?id=<?=$id;?>" title="<?echo NoXSSPlz($iname);?>"><?echo NoXSSPlz($iname);?></a></div>
 <div class="robux-price"><span class="robux notranslate"><?echo $pricerob;?></span></div>
 </div>
 <div class="CatalogHoverContent">
-<div><span class="CatalogItemInfoLabel">Creator:</span> <span class="HoverInfo notranslate"><a href="https://www.voidrev.us/users/<?=$cid;?>/profile"><?echo NoXSSPlz($cname);?></a></span></div>
+<div><span class="CatalogItemInfoLabel">Creator:</span> <span class="HoverInfo notranslate"><a href="https://localhost/users/<?=$cid;?>/profile"><?echo NoXSSPlz($cname);?></a></span></div>
 <div><span class="CatalogItemInfoLabel">Updated:</span><span class="HoverInfo"><?echo NoXSSPlz($updated);?></span></div>
 <div><span class="CatalogItemInfoLabel">Sales:</span> <span class="HoverInfo notranslate"><?echo NoXSSPlz($sales);?></span></div>
 <div><span class="CatalogItemInfoLabel">Favorited:</span> <span class="HoverInfo"><?echo NoXSSPlz($favorite);?> times</span></div>
@@ -1330,17 +1330,17 @@ $con->exec($sql);
 <div class="CatalogItemInner BigInner">
 <div class="roblox-item-image image-large" data-item-id="<?=$id;?>" data-image-size="large">
 <div class="item-image-wrapper">
-<a href="https://www.voidrev.us/library/?id=<?=$id;?>">
-<img title="<?echo NoXSSPlz($iname);?>" alt="<?echo NoXSSPlz($iname);?>" class="original-image " src="https://www.voidrev.us/model-thumbnails?assetId=<?=$id;?>" loading="lazy"/>
+<a href="https://localhost/library/?id=<?=$id;?>">
+<img title="<?echo NoXSSPlz($iname);?>" alt="<?echo NoXSSPlz($iname);?>" class="original-image " src="https://localhost/model-thumbnails?assetId=<?=$id;?>" loading="lazy"/>
 </a>
 </div>
 </div>
 <div id="textDisplay">
-<div class="CatalogItemName notranslate"><a class="name notranslate" href="https://www.voidrev.us/library/?id=<?=$id;?>" title="<?echo NoXSSPlz($iname);?>"><?echo NoXSSPlz($iname);?></a></div>
+<div class="CatalogItemName notranslate"><a class="name notranslate" href="https://localhost/library/?id=<?=$id;?>" title="<?echo NoXSSPlz($iname);?>"><?echo NoXSSPlz($iname);?></a></div>
 <div class="robux-price"><span class="robux notranslate"><?echo $pricerob;?></span></div>
 </div>
 <div class="CatalogHoverContent">
-<div><span class="CatalogItemInfoLabel">Creator:</span> <span class="HoverInfo notranslate"><a href="https://www.voidrev.us/users/<?=$cid;?>/profile"><?echo NoXSSPlz($cname);?></a></span></div>
+<div><span class="CatalogItemInfoLabel">Creator:</span> <span class="HoverInfo notranslate"><a href="https://localhost/users/<?=$cid;?>/profile"><?echo NoXSSPlz($cname);?></a></span></div>
 <div><span class="CatalogItemInfoLabel">Updated:</span><span class="HoverInfo"><?echo NoXSSPlz($updated);?></span></div>
 <div><span class="CatalogItemInfoLabel">Sales:</span> <span class="HoverInfo notranslate"><?echo NoXSSPlz($sales);?></span></div>
 <div><span class="CatalogItemInfoLabel">Favorited:</span> <span class="HoverInfo"><?echo NoXSSPlz($favorite);?> times</span></div>
@@ -1365,7 +1365,7 @@ Add Gear to Your Game
 <div class="PromoteModalErrorMessage errorStatusBar"></div>
 <div class="PurchaseModalMessageText">
 <span>
-<img src="https://www.voidrev.us/img/a2da4a35291d2c85df85240e4cf03772.jpg"/>
+<img src="https://localhost/img/a2da4a35291d2c85df85240e4cf03772.jpg"/>
 </span>
 <br/>
 To add gear to your game, find an item in the catalog and click the "Add to Game" button. The item will automatically be allowed in game, and you'll receive a commission on every copy sold from your game page. (You can only add gear that's for sale.)

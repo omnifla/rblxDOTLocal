@@ -131,7 +131,7 @@ $item = array(
 "ItemType" => 1,
 "AssetId" => $row['id'],
 "Name" => $row['name'],
-"AbsoluteUrl" => "https://www.voidrev.us/library/?id=".$row['id']."",
+"AbsoluteUrl" => "https://localhost/library/?id=".$row['id']."",
 "Price" => $row['Robux'],
 "BestPrice" => null,
 "Remaining" => null,
@@ -148,7 +148,7 @@ $item = array(
 "AssetStatusIcon" => array(),
 "Thumbnail" => array(
 "Final" => true,
-"Url" => "https://www.voidrev.us".getModelThumbnail($con,$row['id']),
+"Url" => "https://localhost".getModelThumbnail($con,$row['id']),
 "RetryUrl" => "",
 "IsApproved" => true
 )

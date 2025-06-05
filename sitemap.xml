@@ -3,31 +3,31 @@
 <!--  created with sitemap generator https://octopus.do  -->
 
     <url>
-        <loc>https://www.voidrev.us</loc>
+        <loc>https://localhost</loc>
         <lastmod>2023-01-21</lastmod>
         <changefreq>always</changefreq>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>https://www.voidrev.us/login/forgotPasswordOrUsername</loc>
+        <loc>https://localhost/login/forgotPasswordOrUsername</loc>
         <lastmod>2023-01-21</lastmod>
         <changefreq>always</changefreq>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>https://www.voidrev.us/catalog</loc>
+        <loc>https://localhost/catalog</loc>
         <lastmod>2023-01-21</lastmod>
         <changefreq>always</changefreq>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>https://www.voidrev.us/games</loc>
+        <loc>https://localhost/games</loc>
         <lastmod>2023-01-21</lastmod>
         <changefreq>always</changefreq>
         <priority>0.5</priority>
     </url>
     <url>
-        <loc>https://www.voidrev.us/newlogin</loc>
+        <loc>https://localhost/newlogin</loc>
         <lastmod>2023-01-21</lastmod>
         <changefreq>always</changefreq>
         <priority>0.5</priority>

@@ -74,10 +74,10 @@ data-next-page-start=28
 <div class="hidden-item hidden" id=gamesListResponseModel></div>
 <li class="list-item game-card game-tile">
 <div class=game-card-container>
-<a href="https://www.voidrev.us/games/<?php echo $games['id']?>/<?php echo NoXSSPlz(str_replace(" ","-",$games['name']));?>" class=game-card-link>
+<a href="https://localhost/games/<?php echo $games['id']?>/<?php echo NoXSSPlz(str_replace(" ","-",$games['name']));?>" class=game-card-link>
 <div class=game-card-thumb-container>
 <p class="versionnumber"><?php echo $version;?></p>
-<img class="game-card-thumb lazy" data-original=https://www.voidrev.us/img/games/<?php echo $icon;?>s.png thumbnail="{&#34;Final&#34;:true,&#34;Url&#34;:&#34;https://www.voidrev.us/img/games/<?php echo $icon;?>s.png&#34;,&#34;RetryUrl&#34;:null,&#34;UserId&#34;:0,&#34;EndpointType&#34;:&#34;Avatar&#34;}">
+<img class="game-card-thumb lazy" data-original=https://localhost/img/games/<?php echo $icon;?>s.png thumbnail="{&#34;Final&#34;:true,&#34;Url&#34;:&#34;https://localhost/img/games/<?php echo $icon;?>s.png&#34;,&#34;RetryUrl&#34;:null,&#34;UserId&#34;:0,&#34;EndpointType&#34;:&#34;Avatar&#34;}">
 </div>
 <div class="game-card-name game-name-title" title="<?php echo NoXSSPlz($games['name']);?>" ng-non-bindable><?php echo NoXSSPlz($games['name']);?></div>
 <div class=game-card-info>

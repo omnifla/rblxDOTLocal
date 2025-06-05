@@ -102,7 +102,7 @@ $urlParts = explode('/', $url);
 $userId = (int) $urlParts[count($urlParts) - 2]; // Get the user ID from the URL
 $headers = getallheaders();
 if (strpos($headers['User-Agent'], "Android") !== false || strpos($headers['User-Agent'], "iPhone") !== false) {
-header("Location: https://www.voidrev.us/users/friends");
+header("Location: https://localhost/users/friends");
 exit();
 }
 $friendDataArray = [];
@@ -130,7 +130,7 @@ $onlineStatus = ($timeDifference < 120) ? true : false;
 $friendDataArray[] = [
 "Id" => $friendId,
 "Username" => $friendData['username'],
-"AvatarUri" => "https://www.voidrev.us" . getUserHeadshotThumbnail($con, $friendId),
+"AvatarUri" => "https://localhost" . getUserHeadshotThumbnail($con, $friendId),
 "AvatarFinal" => true,
 "IsOnline" => $onlineStatus
 ];

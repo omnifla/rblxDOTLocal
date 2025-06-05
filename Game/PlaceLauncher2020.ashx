@@ -7,8 +7,8 @@ header("Content-Type: text/plain");
 $data = array(
 "jobId" => "Test",
 "status" => 2,
-"joinScriptUrl" => "http://www.voidrev.us/game/join2020.ashx?serverPort=53640&gameid=".$placeId."&jobid=Test",
-"authenticationUrl" => "http://www.voidrev.us/Login/Negotiate.ashx",
+"joinScriptUrl" => "http://localhost/game/join2020.ashx?serverPort=53640&gameid=".$placeId."&jobid=Test",
+"authenticationUrl" => "http://localhost/Login/Negotiate.ashx",
 "authenticationTicket" => $roblosec,
 "message" => null
 );

@@ -3,7 +3,7 @@ include ($_SERVER['DOCUMENT_ROOT'].'/config/includes.php');
 $usr = getUserData($con);
 if ($usr['activated'] == 0) {
 if (basename($_SERVER['PHP_SELF']) != "invitekey.php" && $urlArray[0] != "newlogin" && $urlArray[0] != "forgotPasswordOrUsername") {
-header("Location: https://www.voidrev.us/login/invitekey");
+header("Location: https://localhost/login/invitekey");
 exit();
 }
 }

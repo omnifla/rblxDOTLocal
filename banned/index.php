@@ -2,7 +2,7 @@
 $maincss = true;
 include ($_SERVER['DOCUMENT_ROOT'].'/global.php');
 ?>
-<script src=https://www.voidrev.us/js/3a25d0eb48bed7aea3692d1ddbca637b.js></script>
+<script src=https://localhost/js/3a25d0eb48bed7aea3692d1ddbca637b.js></script>
 <div class="container-main">
 <noscript><div&gt;<div class="alert-info" role="alert"&gt;Please enable Javascript to use all the features on this site.</div&gt;</div&gt;</noscript>
 <?php

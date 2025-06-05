@@ -4,7 +4,7 @@
   <Item class="Sound" referent="RBX0">
     <Properties>
       <Content name="SoundId">
-        <url>http://www.voidrev.us/asset/?id=REPLACEME</url>
+        <url>http://localhost/asset/?id=REPLACEME</url>
       </Content>
       <string name="Name">Sound</string>
       <bool name="archivable">true</bool>

@@ -22,9 +22,9 @@ $placename = $games['name'];
 $icon = $games['icon'];
 $version = $games['version'];
 if(file_exists($_SERVER['DOCUMENT_ROOT']."/img/games/".$icon."b.png")){
-$image = "https://www.voidrev.us/img/games/".$icon."b.png";
+$image = "https://localhost/img/games/".$icon."b.png";
 }else{
-$image = "https://www.voidrev.us/place-thumbnails?placeId=".$placeid."";
+$image = "https://localhost/place-thumbnails?placeId=".$placeid."";
 }
 $timestamp = date("c", strtotime("now"));
 $json_data = json_encode([
@@ -34,7 +34,7 @@ $json_data = json_encode([
 "username" => "Limbo Servers (Deprecated)",
 // Avatar URL.
 // Uncoment to replace image set in webhook
-"avatar_url" => "https://www.voidrev.us/img/logo/logo_r.png",
+"avatar_url" => "https://localhost/img/logo/logo_r.png",
 // Text-to-speech
 "tts" => false,
 // File upload
@@ -49,7 +49,7 @@ $json_data = json_encode([
 // Embed Description
 "description" => "never forget limbo servers bot",
 // URL of title link
-"url" => "https://www.voidrev.us/games/place?id=".$placeid."",
+"url" => "https://localhost/games/place?id=".$placeid."",
 // Timestamp of embed must be formatted as ISO8601
 "timestamp" => $timestamp,
 // Embed left border color in HEX

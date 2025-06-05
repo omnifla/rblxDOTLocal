@@ -77,7 +77,7 @@ $comment = $comquery ->fetch();
 header('Content-type: application/json');
 if(is_array($comment)){
 ?>
-{"Id":<?=$comment['commentId'];?>,"PostedDate":"<?echo htmlspecialchars($comment['timestamp']);?>","AuthorName":"<?echo htmlspecialchars($usr['username']);?>","AuthorId":<?=$uID;?>,"Text":"<?echo htmlspecialchars($comment['text']);?>","ShowAuthorOwnsAsset":false,"AuthorThumbnail":{"AssetId":0,"AssetHash":null,"AssetTypeId":0,"Url":"https://www.voidrev.us/headshot-thumbnails?userId=<?=$uID;?>","IsFinal":true},"HasVerifiedBadge":<?php if($usr['Admin'] == 1){echo"true";}else{echo"false";}?>}
+{"Id":<?=$comment['commentId'];?>,"PostedDate":"<?echo htmlspecialchars($comment['timestamp']);?>","AuthorName":"<?echo htmlspecialchars($usr['username']);?>","AuthorId":<?=$uID;?>,"Text":"<?echo htmlspecialchars($comment['text']);?>","ShowAuthorOwnsAsset":false,"AuthorThumbnail":{"AssetId":0,"AssetHash":null,"AssetTypeId":0,"Url":"https://localhost/headshot-thumbnails?userId=<?=$uID;?>","IsFinal":true},"HasVerifiedBadge":<?php if($usr['Admin'] == 1){echo"true";}else{echo"false";}?>}
 <?php
 }else{
 $data = array();

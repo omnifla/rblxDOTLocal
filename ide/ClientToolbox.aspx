@@ -1,1 +1,1 @@
-<script>window.location.replace("http://www.voidrev.us/ide/clienttoolbox")</script>
+<script>window.location.replace("http://localhost/ide/clienttoolbox")</script>

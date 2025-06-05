@@ -52,7 +52,7 @@ while ($comments = $commentquery->fetch()) {
                 "AssetId" => 0,
                 "AssetHash" => null,
                 "AssetTypeId" => 0,
-                "Url" => "https://www.voidrev.us".getUserHeadshotThumbnail($con,$playerId),
+                "Url" => "https://localhost".getUserHeadshotThumbnail($con,$playerId),
                 "IsFinal" => true
             ]
         ];

@@ -8,12 +8,12 @@ include($_SERVER['DOCUMENT_ROOT'] . '/config/includes.php');
 if ($_COOKIE['password'] || $_COOKIE['_ROBLOSECURITY']) {
     $password = filter_var($_COOKIE['password'], FILTER_SANITIZE_FULL_SPECIAL_CHARS, FILTER_FLAG_NO_ENCODE_QUOTES);
     $roblosec = filter_var($_COOKIE['_ROBLOSECURITY'], FILTER_SANITIZE_FULL_SPECIAL_CHARS, FILTER_FLAG_NO_ENCODE_QUOTES);
-    
+
     // Prepare and execute user query
     $usrquery = $con->prepare("SELECT * FROM `users` WHERE `password` = :password OR `ROBLOSECURITY` = :ROBLOSECURITY");
     $usrquery->execute(['password' => $password, 'ROBLOSECURITY' => $roblosec]);
     $usr = $usrquery->fetch();
-    
+
     // Check if user exists
     $logged = ($usr != 0);
 }
@@ -22,7 +22,7 @@ if ($_COOKIE['password'] || $_COOKIE['_ROBLOSECURITY']) {
 $userId = isset($usr['id']) ? $usr['id'] : null;
 $url = $_SERVER['REQUEST_URI'];
 $testurl = str_replace(["/places/", "/settings"], "", $url);
-$gameid = (int)$testurl;
+$gameid = (int) $testurl;
 
 // Prepare and execute game query
 $libquery = $con->prepare("SELECT id, name, description, creatorid, active, MaxPlayers FROM `games` WHERE `id` = :assetId AND `creatorid` = :userId");
@@ -35,7 +35,7 @@ if (is_array($libfinal)) {
     $description = $libfinal['description'];
     $creatorid = $libfinal['creatorid'];
     $MaxPlayers = $libfinal['MaxPlayers'];
-    
+
     // Prepare and execute creator query
     $crequery = $con->prepare("SELECT * FROM `users` WHERE `id` = :id");
     $crequery->execute(['id' => $creatorid]);
@@ -61,10 +61,14 @@ $json = [
     "SellGameAccessSectionHeader" => null,
     "ShouldShowStartPlaceNameOrDescriptionUpdateAlsoUpdatesGames" => false,
     "NumberOfMaxPlayersList" => [
-        1, 2, 3
+        1,
+        2,
+        3
     ],
     "NumberOfPlayersList" => [
-        1, 2, 3
+        1,
+        2,
+        3
     ],
     "IsAllGenresAllowed" => false,
     "AllowedGearTypes" => [

@@ -4,7 +4,7 @@
   <Item class="Decal" referent="RBX0">
     <Properties>
       <Content name="Texture">
-        <url>http://www.voidrev.us/asset/?id=REPLACEME</url>
+        <url>http://localhost/asset/?id=REPLACEME</url>
       </Content>
       <string name="Name">Decal</string>
       <bool name="archivable">true</bool>

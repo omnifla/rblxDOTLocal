@@ -17,59 +17,59 @@
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" xmlns:fb="http://www.facebook.com/2008/fbml">
-<link rel="stylesheet" href="https://www.voidrev.us/css/main.css"/>
+<link rel="stylesheet" href="https://localhost/css/main.css"/>
 <head data-machine-id="WEB2854">
     <!-- MachineID: WEB2854 -->
     <title>My Published Projects</title>
     
     
-<link onerror='Roblox.BundleDetector && Roblox.BundleDetector.reportBundleError(this)' rel='stylesheet' href='http://www.voidrev.us/css/publish.css' />
-<link onerror='Roblox.BundleDetector && Roblox.BundleDetector.reportBundleError(this)' rel='stylesheet' href='http://www.voidrev.us/css/publishupdate.css' />
+<link onerror='Roblox.BundleDetector && Roblox.BundleDetector.reportBundleError(this)' rel='stylesheet' href='http://localhost/css/publish.css' />
+<link onerror='Roblox.BundleDetector && Roblox.BundleDetector.reportBundleError(this)' rel='stylesheet' href='http://localhost/css/publishupdate.css' />
 
 <?php if($ExperimentalTheme == "Dark"){
 ?>
-<link rel="stylesheet" href="https://www.voidrev.us/css/main.css"/>
+<link rel="stylesheet" href="https://localhost/css/main.css"/>
 <?php
 }elseif($ExperimentalTheme == "Light"){
 ?>
-<link rel="stylesheet" href="https://www.voidrev.us/css/main2.css"/>
+<link rel="stylesheet" href="https://localhost/css/main2.css"/>
 <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600" rel="stylesheet" type="text/css">
 <?php
 }elseif($ExperimentalTheme == "2016E"){
 ?>
-<link rel="stylesheet" href="https://www.voidrev.us/css/2016e.css"/>
+<link rel="stylesheet" href="https://localhost/css/2016e.css"/>
 <?
 }elseif($ExperimentalTheme == "AprilFools"){
 ?>
-<link rel="stylesheet" href="https://www.voidrev.us/css/aprilfools.css"/>
+<link rel="stylesheet" href="https://localhost/css/aprilfools.css"/>
 <?
 }elseif($ExperimentalTheme == "newtheme"){
 ?>
-<link rel="stylesheet" href="https://www.voidrev.us/css/newtheme.css"/>
+<link rel="stylesheet" href="https://localhost/css/newtheme.css"/>
 <?
 }else{
 ?>
-<link rel="stylesheet" href="https://www.voidrev.us/css/main2.css"/>
+<link rel="stylesheet" href="https://localhost/css/main2.css"/>
 <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600" rel="stylesheet" type="text/css">
 <?
 }
 ?>
 
 
-    <script onerror='Roblox.BundleDetector && Roblox.BundleDetector.reportBundleError(this)' data-monitor='true' data-bundlename='studio' type='text/javascript' src='https://www.voidrev.us/js/3719f3fb35135d05cf6b72d5b0f46333.js'></script>
+    <script onerror='Roblox.BundleDetector && Roblox.BundleDetector.reportBundleError(this)' data-monitor='true' data-bundlename='studio' type='text/javascript' src='https://localhost/js/3719f3fb35135d05cf6b72d5b0f46333.js'></script>
 
 
-    <script type='text/javascript'>Roblox.config.externalResources = [];Roblox.config.paths['Pages.Catalog'] = 'https://www.voidrev.us/js/109d883fe3988fca757e26e341ed0fe8.js';Roblox.config.paths['Pages.CatalogShared'] = 'https://www.voidrev.us/js/bcba3a83febab35eb41f3a0b8b96db37.js';Roblox.config.paths['Widgets.AvatarImage'] = 'https://www.voidrev.us/js/7d49ac94271bd506077acc9d0130eebb.js';Roblox.config.paths['Widgets.DropdownMenu'] = 'https://www.voidrev.us/js/da553e6b77b3d79bec37441b5fb317e7.js';Roblox.config.paths['Widgets.HierarchicalDropdown'] = 'https://www.voidrev.us/js/4a0af9989732810851e9e12809aeb8ad.js';Roblox.config.paths['Widgets.ItemImage'] = 'https://www.voidrev.us/js/61a0490ba23afa17f9ecca2a079a6a57.js';Roblox.config.paths['Widgets.PlaceImage'] = 'https://www.voidrev.us/js/a6df74a754523e097cab747621643c98.js';</script>
+    <script type='text/javascript'>Roblox.config.externalResources = [];Roblox.config.paths['Pages.Catalog'] = 'https://localhost/js/109d883fe3988fca757e26e341ed0fe8.js';Roblox.config.paths['Pages.CatalogShared'] = 'https://localhost/js/bcba3a83febab35eb41f3a0b8b96db37.js';Roblox.config.paths['Widgets.AvatarImage'] = 'https://localhost/js/7d49ac94271bd506077acc9d0130eebb.js';Roblox.config.paths['Widgets.DropdownMenu'] = 'https://localhost/js/da553e6b77b3d79bec37441b5fb317e7.js';Roblox.config.paths['Widgets.HierarchicalDropdown'] = 'https://localhost/js/4a0af9989732810851e9e12809aeb8ad.js';Roblox.config.paths['Widgets.ItemImage'] = 'https://localhost/js/61a0490ba23afa17f9ecca2a079a6a57.js';Roblox.config.paths['Widgets.PlaceImage'] = 'https://localhost/js/a6df74a754523e097cab747621643c98.js';</script>
 
-    <script onerror='Roblox.BundleDetector && Roblox.BundleDetector.reportBundleError(this)' data-monitor='true' data-bundlename='page' type='text/javascript' src='https://www.voidrev.us/js/ef0183c0d9c6de80b589782211a8191c.js'></script>
+    <script onerror='Roblox.BundleDetector && Roblox.BundleDetector.reportBundleError(this)' data-monitor='true' data-bundlename='page' type='text/javascript' src='https://localhost/js/ef0183c0d9c6de80b589782211a8191c.js'></script>
 
     <script type="text/javascript">
 if (typeof(Roblox) === "undefined") { Roblox = {}; }
 Roblox.Endpoints = Roblox.Endpoints || {};
 Roblox.Endpoints.Urls = Roblox.Endpoints.Urls || {};
 Roblox.Endpoints.Urls['/asset/'] = 'https://assetgame.voidrev.us/asset/';
-Roblox.Endpoints.Urls['/client-status/set'] = 'https://www.voidrev.us/client-status/set';
-Roblox.Endpoints.Urls['/client-status'] = 'https://www.voidrev.us/client-status';
+Roblox.Endpoints.Urls['/client-status/set'] = 'https://localhost/client-status/set';
+Roblox.Endpoints.Urls['/client-status'] = 'https://localhost/client-status';
 Roblox.Endpoints.Urls['/game/'] = 'https://assetgame.voidrev.us/game/';
 Roblox.Endpoints.Urls['/game/edit.ashx'] = 'https://assetgame.voidrev.us/game/edit.ashx';
 Roblox.Endpoints.Urls['/game/placelauncher.ashx'] = 'https://assetgame.voidrev.us/game/placelauncher.ashx';
@@ -77,21 +77,21 @@ Roblox.Endpoints.Urls['/game/preloader'] = 'https://assetgame.voidrev.us/game/pr
 Roblox.Endpoints.Urls['/game/report-stats'] = 'https://assetgame.voidrev.us/game/report-stats';
 Roblox.Endpoints.Urls['/game/report-event'] = 'https://assetgame.voidrev.us/game/report-event';
 Roblox.Endpoints.Urls['/game/updateprerollcount'] = 'https://assetgame.voidrev.us/game/updateprerollcount';
-Roblox.Endpoints.Urls['/login/default.aspx'] = 'https://www.voidrev.us/login/default.aspx';
-Roblox.Endpoints.Urls['/my/avatar'] = 'https://www.voidrev.us/my/avatar';
-Roblox.Endpoints.Urls['/my/money.aspx'] = 'https://www.voidrev.us/my/money.aspx';
-Roblox.Endpoints.Urls['/navigation/userdata'] = 'https://www.voidrev.us/navigation/userdata';
-Roblox.Endpoints.Urls['/chat/chat'] = 'https://www.voidrev.us/chat/chat';
-Roblox.Endpoints.Urls['/chat/data'] = 'https://www.voidrev.us/chat/data';
-Roblox.Endpoints.Urls['/friends/list'] = 'https://www.voidrev.us/friends/list';
-Roblox.Endpoints.Urls['/navigation/getcount'] = 'https://www.voidrev.us/navigation/getCount';
-Roblox.Endpoints.Urls['/regex/email'] = 'https://www.voidrev.us/regex/email';
-Roblox.Endpoints.Urls['/catalog/browse.aspx'] = 'https://www.voidrev.us/catalog/browse.aspx';
-Roblox.Endpoints.Urls['/catalog/html'] = 'https://www.voidrev.us/catalog/html';
-Roblox.Endpoints.Urls['/catalog/json'] = 'https://www.voidrev.us/catalog/json';
-Roblox.Endpoints.Urls['/catalog/contents'] = 'https://www.voidrev.us/catalog/contents';
-Roblox.Endpoints.Urls['/catalog/lists.aspx'] = 'https://www.voidrev.us/catalog/lists.aspx';
-Roblox.Endpoints.Urls['/catalog/items'] = 'https://www.voidrev.us/catalog/items';
+Roblox.Endpoints.Urls['/login/default.aspx'] = 'https://localhost/login/default.aspx';
+Roblox.Endpoints.Urls['/my/avatar'] = 'https://localhost/my/avatar';
+Roblox.Endpoints.Urls['/my/money.aspx'] = 'https://localhost/my/money.aspx';
+Roblox.Endpoints.Urls['/navigation/userdata'] = 'https://localhost/navigation/userdata';
+Roblox.Endpoints.Urls['/chat/chat'] = 'https://localhost/chat/chat';
+Roblox.Endpoints.Urls['/chat/data'] = 'https://localhost/chat/data';
+Roblox.Endpoints.Urls['/friends/list'] = 'https://localhost/friends/list';
+Roblox.Endpoints.Urls['/navigation/getcount'] = 'https://localhost/navigation/getCount';
+Roblox.Endpoints.Urls['/regex/email'] = 'https://localhost/regex/email';
+Roblox.Endpoints.Urls['/catalog/browse.aspx'] = 'https://localhost/catalog/browse.aspx';
+Roblox.Endpoints.Urls['/catalog/html'] = 'https://localhost/catalog/html';
+Roblox.Endpoints.Urls['/catalog/json'] = 'https://localhost/catalog/json';
+Roblox.Endpoints.Urls['/catalog/contents'] = 'https://localhost/catalog/contents';
+Roblox.Endpoints.Urls['/catalog/lists.aspx'] = 'https://localhost/catalog/lists.aspx';
+Roblox.Endpoints.Urls['/catalog/items'] = 'https://localhost/catalog/items';
 Roblox.Endpoints.Urls['/asset-hash-thumbnail/image'] = 'https://assetgame.voidrev.us/asset-hash-thumbnail/image';
 Roblox.Endpoints.Urls['/asset-hash-thumbnail/json'] = 'https://assetgame.voidrev.us/asset-hash-thumbnail/json';
 Roblox.Endpoints.Urls['/asset-thumbnail-3d/json'] = 'https://assetgame.voidrev.us/asset-thumbnail-3d/json';
@@ -99,34 +99,34 @@ Roblox.Endpoints.Urls['/asset-thumbnail/image'] = 'https://assetgame.voidrev.us/
 Roblox.Endpoints.Urls['/asset-thumbnail/json'] = 'https://assetgame.voidrev.us/asset-thumbnail/json';
 Roblox.Endpoints.Urls['/asset-thumbnail/url'] = 'https://assetgame.voidrev.us/asset-thumbnail/url';
 Roblox.Endpoints.Urls['/asset/request-thumbnail-fix'] = 'https://assetgame.voidrev.us/asset/request-thumbnail-fix';
-Roblox.Endpoints.Urls['/avatar-thumbnail-3d/json'] = 'https://www.voidrev.us/avatar-thumbnail-3d/json';
-Roblox.Endpoints.Urls['/avatar-thumbnail/image'] = 'https://www.voidrev.us/avatar-thumbnail/image';
-Roblox.Endpoints.Urls['/avatar-thumbnail/json'] = 'https://www.voidrev.us/avatar-thumbnail/json';
-Roblox.Endpoints.Urls['/avatar-thumbnails'] = 'https://www.voidrev.us/avatar-thumbnails';
-Roblox.Endpoints.Urls['/avatar/request-thumbnail-fix'] = 'https://www.voidrev.us/avatar/request-thumbnail-fix';
-Roblox.Endpoints.Urls['/bust-thumbnail/json'] = 'https://www.voidrev.us/bust-thumbnail/json';
-Roblox.Endpoints.Urls['/headshot-thumbnail/json'] = 'https://www.voidrev.us/headshot-thumbnail/json';
-Roblox.Endpoints.Urls['/item-thumbnails'] = 'https://www.voidrev.us/item-thumbnails';
-Roblox.Endpoints.Urls['/outfit-thumbnail/json'] = 'https://www.voidrev.us/outfit-thumbnail/json';
-Roblox.Endpoints.Urls['/place-thumbnails'] = 'https://www.voidrev.us/place-thumbnails';
-Roblox.Endpoints.Urls['/thumbnail/asset/'] = 'https://www.voidrev.us/thumbnail/asset/';
-Roblox.Endpoints.Urls['/thumbnail/avatar-headshot'] = 'https://www.voidrev.us/thumbnail/avatar-headshot';
-Roblox.Endpoints.Urls['/thumbnail/avatar-headshots'] = 'https://www.voidrev.us/thumbnail/avatar-headshots';
-Roblox.Endpoints.Urls['/thumbnail/user-avatar'] = 'https://www.voidrev.us/thumbnail/user-avatar';
-Roblox.Endpoints.Urls['/thumbnail/resolve-hash'] = 'https://www.voidrev.us/thumbnail/resolve-hash';
-Roblox.Endpoints.Urls['/thumbnail/place'] = 'https://www.voidrev.us/thumbnail/place';
-Roblox.Endpoints.Urls['/thumbnail/get-asset-media'] = 'https://www.voidrev.us/thumbnail/get-asset-media';
-Roblox.Endpoints.Urls['/thumbnail/remove-asset-media'] = 'https://www.voidrev.us/thumbnail/remove-asset-media';
-Roblox.Endpoints.Urls['/thumbnail/set-asset-media-sort-order'] = 'https://www.voidrev.us/thumbnail/set-asset-media-sort-order';
-Roblox.Endpoints.Urls['/thumbnail/place-thumbnails'] = 'https://www.voidrev.us/thumbnail/place-thumbnails';
-Roblox.Endpoints.Urls['/thumbnail/place-thumbnails-partial'] = 'https://www.voidrev.us/thumbnail/place-thumbnails-partial';
-Roblox.Endpoints.Urls['/thumbnail_holder/g'] = 'https://www.voidrev.us/thumbnail_holder/g';
-Roblox.Endpoints.Urls['/users/{id}/profile'] = 'https://www.voidrev.us/users/{id}/profile';
-Roblox.Endpoints.Urls['/service-workers/push-notifications'] = 'https://www.voidrev.us/service-workers/push-notifications';
-Roblox.Endpoints.Urls['/notification-stream/notification-stream-data'] = 'https://www.voidrev.us/notification-stream/notification-stream-data';
-Roblox.Endpoints.Urls['/api/friends/acceptfriendrequest'] = 'https://www.voidrev.us/api/friends/acceptfriendrequest';
-Roblox.Endpoints.Urls['/api/friends/declinefriendrequest'] = 'https://www.voidrev.us/api/friends/declinefriendrequest';
-Roblox.Endpoints.Urls['/authentication/is-logged-in'] = 'https://www.voidrev.us/authentication/is-logged-in';
+Roblox.Endpoints.Urls['/avatar-thumbnail-3d/json'] = 'https://localhost/avatar-thumbnail-3d/json';
+Roblox.Endpoints.Urls['/avatar-thumbnail/image'] = 'https://localhost/avatar-thumbnail/image';
+Roblox.Endpoints.Urls['/avatar-thumbnail/json'] = 'https://localhost/avatar-thumbnail/json';
+Roblox.Endpoints.Urls['/avatar-thumbnails'] = 'https://localhost/avatar-thumbnails';
+Roblox.Endpoints.Urls['/avatar/request-thumbnail-fix'] = 'https://localhost/avatar/request-thumbnail-fix';
+Roblox.Endpoints.Urls['/bust-thumbnail/json'] = 'https://localhost/bust-thumbnail/json';
+Roblox.Endpoints.Urls['/headshot-thumbnail/json'] = 'https://localhost/headshot-thumbnail/json';
+Roblox.Endpoints.Urls['/item-thumbnails'] = 'https://localhost/item-thumbnails';
+Roblox.Endpoints.Urls['/outfit-thumbnail/json'] = 'https://localhost/outfit-thumbnail/json';
+Roblox.Endpoints.Urls['/place-thumbnails'] = 'https://localhost/place-thumbnails';
+Roblox.Endpoints.Urls['/thumbnail/asset/'] = 'https://localhost/thumbnail/asset/';
+Roblox.Endpoints.Urls['/thumbnail/avatar-headshot'] = 'https://localhost/thumbnail/avatar-headshot';
+Roblox.Endpoints.Urls['/thumbnail/avatar-headshots'] = 'https://localhost/thumbnail/avatar-headshots';
+Roblox.Endpoints.Urls['/thumbnail/user-avatar'] = 'https://localhost/thumbnail/user-avatar';
+Roblox.Endpoints.Urls['/thumbnail/resolve-hash'] = 'https://localhost/thumbnail/resolve-hash';
+Roblox.Endpoints.Urls['/thumbnail/place'] = 'https://localhost/thumbnail/place';
+Roblox.Endpoints.Urls['/thumbnail/get-asset-media'] = 'https://localhost/thumbnail/get-asset-media';
+Roblox.Endpoints.Urls['/thumbnail/remove-asset-media'] = 'https://localhost/thumbnail/remove-asset-media';
+Roblox.Endpoints.Urls['/thumbnail/set-asset-media-sort-order'] = 'https://localhost/thumbnail/set-asset-media-sort-order';
+Roblox.Endpoints.Urls['/thumbnail/place-thumbnails'] = 'https://localhost/thumbnail/place-thumbnails';
+Roblox.Endpoints.Urls['/thumbnail/place-thumbnails-partial'] = 'https://localhost/thumbnail/place-thumbnails-partial';
+Roblox.Endpoints.Urls['/thumbnail_holder/g'] = 'https://localhost/thumbnail_holder/g';
+Roblox.Endpoints.Urls['/users/{id}/profile'] = 'https://localhost/users/{id}/profile';
+Roblox.Endpoints.Urls['/service-workers/push-notifications'] = 'https://localhost/service-workers/push-notifications';
+Roblox.Endpoints.Urls['/notification-stream/notification-stream-data'] = 'https://localhost/notification-stream/notification-stream-data';
+Roblox.Endpoints.Urls['/api/friends/acceptfriendrequest'] = 'https://localhost/api/friends/acceptfriendrequest';
+Roblox.Endpoints.Urls['/api/friends/declinefriendrequest'] = 'https://localhost/api/friends/declinefriendrequest';
+Roblox.Endpoints.Urls['/authentication/is-logged-in'] = 'https://localhost/authentication/is-logged-in';
 Roblox.Endpoints.addCrossDomainOptionsToAllRequests = true;
 </script>
 
@@ -156,11 +156,11 @@ Roblox.Endpoints.Urls = Roblox.Endpoints.Urls || {};
         <td class="menu-area divider-right">
 
 
-                        <a href="https://www.voidrev.us/develop?View=9" class="tab-item tab-item-selected">Places</a>
+                        <a href="https://localhost/develop?View=9" class="tab-item tab-item-selected">Places</a>
         </td>
 
         <td class="content-area ">
-                    <div class="creator-dashboard-redirection-banner" data-redirection-link="https://www.voidrev.us/develop" data-redirection-page-name="Label.ViewPlacesPageName"></div>
+                    <div class="creator-dashboard-redirection-banner" data-redirection-link="https://localhost/develop" data-redirection-page-name="Label.ViewPlacesPageName"></div>
                     <table class="section-header">
                         <tr>
                             <td class="content-title">
@@ -201,8 +201,8 @@ echo'
            data-universeid="'.$placeId.'"
         <tr>
             <td class="image-col">
-                <a href="https://www.voidrev.us/games/place?id='.$placeId.'" class="game-image" >
-                    <img src="https://www.voidrev.us/img/games/'.$icon.'s.png" alt="'.NoXSSPlz($placename).'" />
+                <a href="https://localhost/games/place?id='.$placeId.'" class="game-image" >
+                    <img src="https://localhost/img/games/'.$icon.'s.png" alt="'.NoXSSPlz($placename).'" />
                 </a>
             </td>
             <td class="name-col">
@@ -233,7 +233,7 @@ echo'
                     </div>
                     <div class="build-loading-container" style="display: none">
                         <div class="buildpage-loading-container">
-                            <img alt="^_^" class="" src="https://www.voidrev.us/img/ec4e85b0c4396cf753a06fade0a8d8af.gif" />
+                            <img alt="^_^" class="" src="https://localhost/img/ec4e85b0c4396cf753a06fade0a8d8af.gif" />
                         </div>
                     </div>
 
@@ -265,7 +265,7 @@ echo'
 <script type="text/javascript">
     Roblox = Roblox || {};
     Roblox.BuildPage = Roblox.BuildPage || {};
-    Roblox.BuildPage.AlertURL = "https://www.voidrev.us/img/43ac54175f3f3cd403536fedd9170c10.png";
+    Roblox.BuildPage.AlertURL = "https://localhost/img/43ac54175f3f3cd403536fedd9170c10.png";
 </script>
 
     </div>
@@ -317,7 +317,7 @@ echo'
         , wouldYouLikeToBid: "Would you like to bid "
         , verify: "Verify"
         , emailVerifiedTitle: "Verify Your Email"
-        , emailVerifiedMessage: "You must verify your email before you can work on your place. You can verify your email on the <a href='https://www.voidrev.us/my/account?confirmemail=1'>Account</a> page."
+        , emailVerifiedMessage: "You must verify your email before you can work on your place. You can verify your email on the <a href='https://localhost/my/account?confirmemail=1'>Account</a> page."
         , continueText: "Continue"
         , profileRemoveTitle: "Remove from profile?"
         , profileRemoveMessage: "This experience is private and listed on your profile, do you wish to remove it?"
@@ -326,7 +326,7 @@ echo'
         , deactivateTitle: "Make Experience Private"
         , deactivateBody: "This will shut down any active servers <br /><br />Do you still want to make this experience private?"
         , deactivateButton: "Make Private"
-        , questionmarkImgUrl: "https://www.voidrev.us/images/Buttons/questionmark-12x12.png"
+        , questionmarkImgUrl: "https://localhost/images/Buttons/questionmark-12x12.png"
         , activationRequestFailed: "Request to make experience public failed. Please retry in a few minutes!"
         , deactivationRequestFailed: "Request to make experience private failed. Please retry in a few minutes!"
         , tooManyActiveMessage: "You have reached the maximum number of public places for your membership level. Make one of your existing places private before making this place public."

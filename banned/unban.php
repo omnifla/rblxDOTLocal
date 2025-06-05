@@ -14,7 +14,7 @@ $logged = true;
 }
 }else{
 if(!strpos($_SERVER['REQUEST_URI'], "login")) {
-header("Location: https://www.voidrev.us");
+header("Location: https://localhost");
 }
 }
 $timey = time();

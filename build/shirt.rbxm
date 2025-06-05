@@ -4,7 +4,7 @@
   <Item class="Shirt" referent="RBX0">
     <Properties>
       <Content name="ShirtTemplate">
-        <url>http://www.voidrev.us/asset/?id=REPLACEME</url>
+        <url>http://localhost/asset/?id=REPLACEME</url>
       </Content>
       <string name="Name">Shirt</string>
       <bool name="archivable">true</bool>

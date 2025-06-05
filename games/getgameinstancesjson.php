@@ -69,7 +69,7 @@ $gameData["CurrentPlayers"][] = [
 "AssetId" => 0,
 "AssetHash" => null,
 "AssetTypeId" => 0,
-"Url" => "https://www.voidrev.us".getUserThumbnail($con,$ingame['id']),
+"Url" => "https://localhost".getUserThumbnail($con,$ingame['id']),
 "IsFinal" => true
 ]
 ];

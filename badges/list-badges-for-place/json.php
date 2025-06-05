@@ -39,7 +39,7 @@ foreach ($badges as $row) {
         "PriceInTickets" => null,
         "Description" => $row['description'],
         "UserOwns" => false,
-        "PassItemURL" => "https://www.voidrev.us/library/?id=".$row['id']."",
+        "PassItemURL" => "https://localhost/library/?id=".$row['id']."",
         "ProductID" => $row['id'],
         "TotalUpVotes" => $row['likes'],
         "TotalDownVotes" => $row['dislikes'],

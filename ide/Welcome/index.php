@@ -1,11 +1,11 @@
 <?php
 // Since this page is broken on Studio:
-header("Location: https://www.voidrev.us/newlogin");
+header("Location: https://localhost/newlogin");
 ?>
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" href="https://www.voidrev.us/css/main.css"/>
+<link rel="stylesheet" href="https://localhost/css/main.css"/>
 <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
 <title>Start Page</title>
 <script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.11.1.min.js"></script>
@@ -14,69 +14,69 @@ header("Location: https://www.voidrev.us/newlogin");
 <script type="text/javascript">window.jQuery || document.write("<script type='text/javascript' src='/js/jquery/jquery-migrate-1.2.1.js'><\/script>")</script>
 <script type="text/javascript" src="http://ajax.aspnetcdn.com/ajax/4.0/1/MicrosoftAjax.js"></script>
 <script type="text/javascript">window.Sys || document.write("<script type='text/javascript' src='/js/Microsoft/MicrosoftAjax.js'><\/script>")</script>
-<link rel="stylesheet" href="http://www.voidrev.us/css/Welcome.css">
+<link rel="stylesheet" href="http://localhost/css/Welcome.css">
 <script type="text/javascript">
 if (typeof(Roblox) === "undefined") { Roblox = {}; }
 Roblox.Endpoints = Roblox.Endpoints || {};
 Roblox.Endpoints.Urls = Roblox.Endpoints.Urls || {};
-Roblox.Endpoints.Urls['/api/item.ashx'] = 'http://www.voidrev.us/api/item.ashx';
-Roblox.Endpoints.Urls['/asset/'] = 'http://www.voidrev.us/asset/';
-Roblox.Endpoints.Urls['/client-status/set'] = 'http://www.voidrev.us/client-status/set';
-Roblox.Endpoints.Urls['/client-status'] = 'http://www.voidrev.us/client-status';
-Roblox.Endpoints.Urls['/game/'] = 'http://www.voidrev.us/game/';
-Roblox.Endpoints.Urls['/game/edit.ashx'] = 'http://www.voidrev.us/game/edit.ashx';
-Roblox.Endpoints.Urls['/game/getauthticket'] = 'http://www.voidrev.us/game/getauthticket';
-Roblox.Endpoints.Urls['/game/placelauncher.ashx'] = 'http://www.voidrev.us/game/placelauncher.ashx';
-Roblox.Endpoints.Urls['/game/preloader'] = 'http://www.voidrev.us/game/preloader';
-Roblox.Endpoints.Urls['/game/report-stats'] = 'http://www.voidrev.us/game/report-stats';
-Roblox.Endpoints.Urls['/game/report-event'] = 'http://www.voidrev.us/game/report-event';
-Roblox.Endpoints.Urls['/game/updateprerollcount'] = 'http://www.voidrev.us/game/updateprerollcount';
-Roblox.Endpoints.Urls['/login/default.aspx'] = 'http://www.voidrev.us/login/default.aspx';
-Roblox.Endpoints.Urls['/my/character.aspx'] = 'http://www.voidrev.us/my/character.aspx';
-Roblox.Endpoints.Urls['/my/money.aspx'] = 'http://www.voidrev.us/my/money.aspx';
-Roblox.Endpoints.Urls['/chat/chat'] = 'http://www.voidrev.us/chat/chat';
-Roblox.Endpoints.Urls['/presence/users'] = 'http://www.voidrev.us/presence/users';
-Roblox.Endpoints.Urls['/presence/user'] = 'http://www.voidrev.us/presence/user';
-Roblox.Endpoints.Urls['/friends/list'] = 'http://www.voidrev.us/friends/list';
-Roblox.Endpoints.Urls['/navigation/getCount'] = 'http://www.voidrev.us/navigation/getCount';
-Roblox.Endpoints.Urls['/catalog/browse.aspx'] = 'http://www.voidrev.us/catalog/browse.aspx';
-Roblox.Endpoints.Urls['/catalog/html'] = 'http://www.voidrev.us/catalog/html';
-Roblox.Endpoints.Urls['/catalog/json'] = 'http://www.voidrev.us/catalog/json';
-Roblox.Endpoints.Urls['/catalog/contents'] = 'http://www.voidrev.us/catalog/contents';
-Roblox.Endpoints.Urls['/catalog/lists.aspx'] = 'http://www.voidrev.us/catalog/lists.aspx';
-Roblox.Endpoints.Urls['/asset-hash-thumbnail/image'] = 'http://www.voidrev.us/asset-hash-thumbnail/image';
-Roblox.Endpoints.Urls['/asset-hash-thumbnail/json'] = 'http://www.voidrev.us/asset-hash-thumbnail/json';
-Roblox.Endpoints.Urls['/asset-thumbnail-3d/json'] = 'http://www.voidrev.us/asset-thumbnail-3d/json';
-Roblox.Endpoints.Urls['/asset-thumbnail/image'] = 'http://www.voidrev.us/asset-thumbnail/image';
-Roblox.Endpoints.Urls['/asset-thumbnail/json'] = 'http://www.voidrev.us/asset-thumbnail/json';
-Roblox.Endpoints.Urls['/asset-thumbnail/url'] = 'http://www.voidrev.us/asset-thumbnail/url';
-Roblox.Endpoints.Urls['/asset/request-thumbnail-fix'] = 'http://www.voidrev.us/asset/request-thumbnail-fix';
-Roblox.Endpoints.Urls['/avatar-thumbnail-3d/json'] = 'http://www.voidrev.us/avatar-thumbnail-3d/json';
-Roblox.Endpoints.Urls['/avatar-thumbnail/image'] = 'http://www.voidrev.us/avatar-thumbnail/image';
-Roblox.Endpoints.Urls['/avatar-thumbnail/json'] = 'http://www.voidrev.us/avatar-thumbnail/json';
-Roblox.Endpoints.Urls['/avatar-thumbnails'] = 'http://www.voidrev.us/avatar-thumbnails';
-Roblox.Endpoints.Urls['/avatar/request-thumbnail-fix'] = 'http://www.voidrev.us/avatar/request-thumbnail-fix';
-Roblox.Endpoints.Urls['/bust-thumbnail/json'] = 'http://www.voidrev.us/bust-thumbnail/json';
-Roblox.Endpoints.Urls['/group-thumbnails'] = 'http://www.voidrev.us/group-thumbnails';
-Roblox.Endpoints.Urls['/groups/getprimarygroupinfo.ashx'] = 'http://www.voidrev.us/groups/getprimarygroupinfo.ashx';
-Roblox.Endpoints.Urls['/headshot-thumbnail/json'] = 'http://www.voidrev.us/headshot-thumbnail/json';
-Roblox.Endpoints.Urls['/item-thumbnails'] = 'http://www.voidrev.us/item-thumbnails';
-Roblox.Endpoints.Urls['/outfit-thumbnail/json'] = 'http://www.voidrev.us/outfit-thumbnail/json';
-Roblox.Endpoints.Urls['/place-thumbnails'] = 'http://www.voidrev.us/place-thumbnails';
-Roblox.Endpoints.Urls['/thumbnail/asset/'] = 'http://www.voidrev.us/thumbnail/asset/';
-Roblox.Endpoints.Urls['/thumbnail/avatar-headshot'] = 'http://www.voidrev.us/thumbnail/avatar-headshot';
-Roblox.Endpoints.Urls['/thumbnail/avatar-headshots'] = 'http://www.voidrev.us/thumbnail/avatar-headshots';
-Roblox.Endpoints.Urls['/thumbnail/user-avatar'] = 'http://www.voidrev.us/thumbnail/user-avatar';
-Roblox.Endpoints.Urls['/thumbnail/resolve-hash'] = 'http://www.voidrev.us/thumbnail/resolve-hash';
-Roblox.Endpoints.Urls['/thumbnail/place'] = 'http://www.voidrev.us/thumbnail/place';
-Roblox.Endpoints.Urls['/thumbnail/get-asset-media'] = 'http://www.voidrev.us/thumbnail/get-asset-media';
-Roblox.Endpoints.Urls['/thumbnail/remove-asset-media'] = 'http://www.voidrev.us/thumbnail/remove-asset-media';
-Roblox.Endpoints.Urls['/thumbnail/set-asset-media-sort-order'] = 'http://www.voidrev.us/thumbnail/set-asset-media-sort-order';
-Roblox.Endpoints.Urls['/thumbnail/place-thumbnails'] = 'http://www.voidrev.us/thumbnail/place-thumbnails';
-Roblox.Endpoints.Urls['/thumbnail/place-thumbnails-partial'] = 'http://www.voidrev.us/thumbnail/place-thumbnails-partial';
-Roblox.Endpoints.Urls['/thumbnail_holder/g'] = 'http://www.voidrev.us/thumbnail_holder/g';
-Roblox.Endpoints.Urls['/users/{id}/profile'] = 'http://www.voidrev.us/users/{id}/profile';
-Roblox.Endpoints.Urls['/service-workers/push-notifications'] = 'http://www.voidrev.us/service-workers/push-notifications';
+Roblox.Endpoints.Urls['/api/item.ashx'] = 'http://localhost/api/item.ashx';
+Roblox.Endpoints.Urls['/asset/'] = 'http://localhost/asset/';
+Roblox.Endpoints.Urls['/client-status/set'] = 'http://localhost/client-status/set';
+Roblox.Endpoints.Urls['/client-status'] = 'http://localhost/client-status';
+Roblox.Endpoints.Urls['/game/'] = 'http://localhost/game/';
+Roblox.Endpoints.Urls['/game/edit.ashx'] = 'http://localhost/game/edit.ashx';
+Roblox.Endpoints.Urls['/game/getauthticket'] = 'http://localhost/game/getauthticket';
+Roblox.Endpoints.Urls['/game/placelauncher.ashx'] = 'http://localhost/game/placelauncher.ashx';
+Roblox.Endpoints.Urls['/game/preloader'] = 'http://localhost/game/preloader';
+Roblox.Endpoints.Urls['/game/report-stats'] = 'http://localhost/game/report-stats';
+Roblox.Endpoints.Urls['/game/report-event'] = 'http://localhost/game/report-event';
+Roblox.Endpoints.Urls['/game/updateprerollcount'] = 'http://localhost/game/updateprerollcount';
+Roblox.Endpoints.Urls['/login/default.aspx'] = 'http://localhost/login/default.aspx';
+Roblox.Endpoints.Urls['/my/character.aspx'] = 'http://localhost/my/character.aspx';
+Roblox.Endpoints.Urls['/my/money.aspx'] = 'http://localhost/my/money.aspx';
+Roblox.Endpoints.Urls['/chat/chat'] = 'http://localhost/chat/chat';
+Roblox.Endpoints.Urls['/presence/users'] = 'http://localhost/presence/users';
+Roblox.Endpoints.Urls['/presence/user'] = 'http://localhost/presence/user';
+Roblox.Endpoints.Urls['/friends/list'] = 'http://localhost/friends/list';
+Roblox.Endpoints.Urls['/navigation/getCount'] = 'http://localhost/navigation/getCount';
+Roblox.Endpoints.Urls['/catalog/browse.aspx'] = 'http://localhost/catalog/browse.aspx';
+Roblox.Endpoints.Urls['/catalog/html'] = 'http://localhost/catalog/html';
+Roblox.Endpoints.Urls['/catalog/json'] = 'http://localhost/catalog/json';
+Roblox.Endpoints.Urls['/catalog/contents'] = 'http://localhost/catalog/contents';
+Roblox.Endpoints.Urls['/catalog/lists.aspx'] = 'http://localhost/catalog/lists.aspx';
+Roblox.Endpoints.Urls['/asset-hash-thumbnail/image'] = 'http://localhost/asset-hash-thumbnail/image';
+Roblox.Endpoints.Urls['/asset-hash-thumbnail/json'] = 'http://localhost/asset-hash-thumbnail/json';
+Roblox.Endpoints.Urls['/asset-thumbnail-3d/json'] = 'http://localhost/asset-thumbnail-3d/json';
+Roblox.Endpoints.Urls['/asset-thumbnail/image'] = 'http://localhost/asset-thumbnail/image';
+Roblox.Endpoints.Urls['/asset-thumbnail/json'] = 'http://localhost/asset-thumbnail/json';
+Roblox.Endpoints.Urls['/asset-thumbnail/url'] = 'http://localhost/asset-thumbnail/url';
+Roblox.Endpoints.Urls['/asset/request-thumbnail-fix'] = 'http://localhost/asset/request-thumbnail-fix';
+Roblox.Endpoints.Urls['/avatar-thumbnail-3d/json'] = 'http://localhost/avatar-thumbnail-3d/json';
+Roblox.Endpoints.Urls['/avatar-thumbnail/image'] = 'http://localhost/avatar-thumbnail/image';
+Roblox.Endpoints.Urls['/avatar-thumbnail/json'] = 'http://localhost/avatar-thumbnail/json';
+Roblox.Endpoints.Urls['/avatar-thumbnails'] = 'http://localhost/avatar-thumbnails';
+Roblox.Endpoints.Urls['/avatar/request-thumbnail-fix'] = 'http://localhost/avatar/request-thumbnail-fix';
+Roblox.Endpoints.Urls['/bust-thumbnail/json'] = 'http://localhost/bust-thumbnail/json';
+Roblox.Endpoints.Urls['/group-thumbnails'] = 'http://localhost/group-thumbnails';
+Roblox.Endpoints.Urls['/groups/getprimarygroupinfo.ashx'] = 'http://localhost/groups/getprimarygroupinfo.ashx';
+Roblox.Endpoints.Urls['/headshot-thumbnail/json'] = 'http://localhost/headshot-thumbnail/json';
+Roblox.Endpoints.Urls['/item-thumbnails'] = 'http://localhost/item-thumbnails';
+Roblox.Endpoints.Urls['/outfit-thumbnail/json'] = 'http://localhost/outfit-thumbnail/json';
+Roblox.Endpoints.Urls['/place-thumbnails'] = 'http://localhost/place-thumbnails';
+Roblox.Endpoints.Urls['/thumbnail/asset/'] = 'http://localhost/thumbnail/asset/';
+Roblox.Endpoints.Urls['/thumbnail/avatar-headshot'] = 'http://localhost/thumbnail/avatar-headshot';
+Roblox.Endpoints.Urls['/thumbnail/avatar-headshots'] = 'http://localhost/thumbnail/avatar-headshots';
+Roblox.Endpoints.Urls['/thumbnail/user-avatar'] = 'http://localhost/thumbnail/user-avatar';
+Roblox.Endpoints.Urls['/thumbnail/resolve-hash'] = 'http://localhost/thumbnail/resolve-hash';
+Roblox.Endpoints.Urls['/thumbnail/place'] = 'http://localhost/thumbnail/place';
+Roblox.Endpoints.Urls['/thumbnail/get-asset-media'] = 'http://localhost/thumbnail/get-asset-media';
+Roblox.Endpoints.Urls['/thumbnail/remove-asset-media'] = 'http://localhost/thumbnail/remove-asset-media';
+Roblox.Endpoints.Urls['/thumbnail/set-asset-media-sort-order'] = 'http://localhost/thumbnail/set-asset-media-sort-order';
+Roblox.Endpoints.Urls['/thumbnail/place-thumbnails'] = 'http://localhost/thumbnail/place-thumbnails';
+Roblox.Endpoints.Urls['/thumbnail/place-thumbnails-partial'] = 'http://localhost/thumbnail/place-thumbnails-partial';
+Roblox.Endpoints.Urls['/thumbnail_holder/g'] = 'http://localhost/thumbnail_holder/g';
+Roblox.Endpoints.Urls['/users/{id}/profile'] = 'http://localhost/users/{id}/profile';
+Roblox.Endpoints.Urls['/service-workers/push-notifications'] = 'http://localhost/service-workers/push-notifications';
 Roblox.Endpoints.addCrossDomainOptionsToAllRequests = true;
 </script>
 <script type="text/javascript">
@@ -97,30 +97,30 @@ var s = document.getElementsByTagName('script')[0];
 s.parentNode.insertBefore(ga, s);
 })();
 </script>
-<script type="text/javascript" src="http://www.voidrev.us/js/46eace8231bf3c1ce64c55407d9ae60d.js"></script>
-<script type="text/javascript">Roblox.config.externalResources = [];Roblox.config.paths['Pages.Catalog'] = 'http://www.voidrev.us/js/c14a216bd7773e7b637b4e6c3c2e619d.js';Roblox.config.paths['Pages.CatalogShared'] = 'http://www.voidrev.us/js/962d5b2c17eda7dc135bb442c25afff9.js';Roblox.config.paths['Widgets.AvatarImage'] = 'http://www.voidrev.us/js/0cca42624a8d34662e179c9aa18225da.js';Roblox.config.paths['Widgets.DropdownMenu'] = 'http://www.voidrev.us/js/7b436bae917789c0b84f40fdebd25d97.js';Roblox.config.paths['Widgets.GroupImage'] = 'http://www.voidrev.us/js/33d82b98045d49ec5a1f635d14cc7010.js';Roblox.config.paths['Widgets.HierarchicalDropdown'] = 'http://www.voidrev.us/js/3368571372da9b2e1713bb54ca42a65a.js';Roblox.config.paths['Widgets.ItemImage'] = 'http://www.voidrev.us/js/8babd891cf420dfe3999b3824a0154cb.js';Roblox.config.paths['Widgets.PlaceImage'] = 'http://www.voidrev.us/js/f2697119678d0851cfaa6c2270a727ed.js';Roblox.config.paths['Widgets.SurveyModal'] = 'http://www.voidrev.us/js/d6e979598c460090eafb6d38231159f6.js';</script>
+<script type="text/javascript" src="http://localhost/js/46eace8231bf3c1ce64c55407d9ae60d.js"></script>
+<script type="text/javascript">Roblox.config.externalResources = [];Roblox.config.paths['Pages.Catalog'] = 'http://localhost/js/c14a216bd7773e7b637b4e6c3c2e619d.js';Roblox.config.paths['Pages.CatalogShared'] = 'http://localhost/js/962d5b2c17eda7dc135bb442c25afff9.js';Roblox.config.paths['Widgets.AvatarImage'] = 'http://localhost/js/0cca42624a8d34662e179c9aa18225da.js';Roblox.config.paths['Widgets.DropdownMenu'] = 'http://localhost/js/7b436bae917789c0b84f40fdebd25d97.js';Roblox.config.paths['Widgets.GroupImage'] = 'http://localhost/js/33d82b98045d49ec5a1f635d14cc7010.js';Roblox.config.paths['Widgets.HierarchicalDropdown'] = 'http://localhost/js/3368571372da9b2e1713bb54ca42a65a.js';Roblox.config.paths['Widgets.ItemImage'] = 'http://localhost/js/8babd891cf420dfe3999b3824a0154cb.js';Roblox.config.paths['Widgets.PlaceImage'] = 'http://localhost/js/f2697119678d0851cfaa6c2270a727ed.js';Roblox.config.paths['Widgets.SurveyModal'] = 'http://localhost/js/d6e979598c460090eafb6d38231159f6.js';</script>
 <script type="text/javascript">
-function editTemplateInStudio(play_placeId) { RobloxLaunch._GoogleAnalyticsCallback = function() { var isInsideRobloxIDE = 'website'; if (Roblox && Roblox.Client && Roblox.Client.isIDE && Roblox.Client.isIDE()) { isInsideRobloxIDE = 'Studio'; };GoogleAnalyticsEvents.FireEvent(['Plugin Location', 'Launch Attempt', isInsideRobloxIDE]);GoogleAnalyticsEvents.FireEvent(['Plugin', 'Launch Attempt', 'Edit']);EventTracker.fireEvent('GameLaunchAttempt_Unknown', 'GameLaunchAttempt_Unknown_Plugin'); if (typeof Roblox.GamePlayEvents != 'undefined') { Roblox.GamePlayEvents.SendClientStartAttempt(null, play_placeId); } }; Roblox.Client.WaitForRoblox(function() { RobloxLaunch.StartGame('http://www.voidrev.us/Game/edit.ashx?PlaceID='+play_placeId+'&upload=', 'edit.ashx', 'http://www.voidrev.us/Login/Negotiate.ashx', 'FETCH', true); }); }
+function editTemplateInStudio(play_placeId) { RobloxLaunch._GoogleAnalyticsCallback = function() { var isInsideRobloxIDE = 'website'; if (Roblox && Roblox.Client && Roblox.Client.isIDE && Roblox.Client.isIDE()) { isInsideRobloxIDE = 'Studio'; };GoogleAnalyticsEvents.FireEvent(['Plugin Location', 'Launch Attempt', isInsideRobloxIDE]);GoogleAnalyticsEvents.FireEvent(['Plugin', 'Launch Attempt', 'Edit']);EventTracker.fireEvent('GameLaunchAttempt_Unknown', 'GameLaunchAttempt_Unknown_Plugin'); if (typeof Roblox.GamePlayEvents != 'undefined') { Roblox.GamePlayEvents.SendClientStartAttempt(null, play_placeId); } }; Roblox.Client.WaitForRoblox(function() { RobloxLaunch.StartGame('http://localhost/Game/edit.ashx?PlaceID='+play_placeId+'&upload=', 'edit.ashx', 'http://localhost/Login/Negotiate.ashx', 'FETCH', true); }); }
 </script>
 </head>
 <body id="StudioWelcomeBody">
 <div class="header">
 <div id="header-login-wrapper" class="iframe-login-signup" data-display-opened="">
-<a href="http://www.voidrev.us/" target="_blank" class="btn-control btn-control-large translate" id="studio-header-signup"><span>Sign Up</span></a>
+<a href="http://localhost/" target="_blank" class="btn-control btn-control-large translate" id="studio-header-signup"><span>Sign Up</span></a>
 <span id="header-or">or</span>
 <span class="studioiFrameLogin">
 <span id="login-span">
 <a id="header-login" class="btn-control btn-control-large">Login <span class="grey-arrow">▼</span></a>
 </span>
 <div id="iFrameLogin" class="studioiFrameLogin" style="display: none">
-<iframe id="iframe-login" class="login-frame" src="http://www.voidrev.us/Login/iFrameLogin.aspx?loginRedirect=True&amp;parentUrl=http%3a%2f%2fwww.voidrev.us%2fide%2fwelcome" scrolling="no" frameborder="0"></iframe>
+<iframe id="iframe-login" class="login-frame" src="http://localhost/Login/iFrameLogin.aspx?loginRedirect=True&amp;parentUrl=http%3a%2f%2flocalhost%2fide%2fwelcome" scrolling="no" frameborder="0"></iframe>
 </div>
 </span>
 </div>
 <!-- This is only after the login stuff because IE7 demands floated elements be before non-floated -->
-<img src="http://www.voidrev.us/img/63c8081b4b083e1b75685aef06cdfa77.png" alt="Roblox Studio Title"/>
+<img src="http://localhost/img/63c8081b4b083e1b75685aef06cdfa77.png" alt="Roblox Studio Title"/>
 <p id="HomeLink">
-<a class="text-link" href="http://www.voidrev.us/develop">Switch to Classic View</a>
+<a class="text-link" href="http://localhost/develop">Switch to Classic View</a>
 </p>
 </div>
 <div class="container">
@@ -149,63 +149,63 @@ function editTemplateInStudio(play_placeId) { RobloxLaunch._GoogleAnalyticsCallb
 </div>
 <div class="templates" data-templatetype="Basic" style="display: block;">
 <div class="template" placeid="95206881">
-<a class="game-image"><img class="" src="http://www.voidrev.us/img/437e5a1ef10e12231e8dd92f3d5423a1"></a>
+<a class="game-image"><img class="" src="http://localhost/img/437e5a1ef10e12231e8dd92f3d5423a1"></a>
 <p>Baseplate</p>
 </div>
 <div class="template" placeid="95206192">
-<a class="game-image"><img class="" src="http://www.voidrev.us/img/84782e12ef917af4c3b6c67385a0294a"></a>
+<a class="game-image"><img class="" src="http://localhost/img/84782e12ef917af4c3b6c67385a0294a"></a>
 <p>Flat Terrain</p>
 </div>
 </div>
 <div class="templates" data-templatetype="Theme">
 <div class="template" placeid="203783329">
-<a class="game-image"><img class="" src="http://www.voidrev.us/img/e4864dd5b7e4824f346ea872ffd350eb"></a>
+<a class="game-image"><img class="" src="http://localhost/img/e4864dd5b7e4824f346ea872ffd350eb"></a>
 <p>City</p>
 </div>
 <div class="template" placeid="203810088">
-<a class="game-image"><img class="" src="http://www.voidrev.us/img/1c6158e9e1b9d8cbc097c9f034a27934"></a>
+<a class="game-image"><img class="" src="http://localhost/img/1c6158e9e1b9d8cbc097c9f034a27934"></a>
 <p>Medieval</p>
 </div>
 <div class="template" placeid="264719325">
-<a class="game-image"><img class="" src="http://www.voidrev.us/img/0bb4461b2a053bbb4fc37675d6e91dc1"></a>
+<a class="game-image"><img class="" src="http://localhost/img/0bb4461b2a053bbb4fc37675d6e91dc1"></a>
 <p>Pirate Island</p>
 </div>
 <div class="template" placeid="366120910">
-<a class="game-image"><img class="" src="http://www.voidrev.us/img/32a8003137fea846bbe541664dd9aec9"></a>
+<a class="game-image"><img class="" src="http://localhost/img/32a8003137fea846bbe541664dd9aec9"></a>
 <p>Western</p>
 </div>
 <div class="template" placeid="366130569">
-<a class="game-image"><img class="" src="http://www.voidrev.us/img/afd2a8622948d55c53ee0194b6e8ca35"></a>
+<a class="game-image"><img class="" src="http://localhost/img/afd2a8622948d55c53ee0194b6e8ca35"></a>
 <p>Suburban</p>
 </div>
 </div>
 <div class="templates" data-templatetype="Gameplay">
 <div class="template" placeid="203812057">
-<a class="game-image"><img class="" src="http://www.voidrev.us/img/75af252c9f36755d98db3296e7e08750"></a>
+<a class="game-image"><img class="" src="http://localhost/img/75af252c9f36755d98db3296e7e08750"></a>
 <p>Obby</p>
 </div>
 <div class="template" placeid="215383192">
-<a class="game-image"><img class="" src="http://www.voidrev.us/img/e8ecec34669474c4162ecc5a04535102"></a>
+<a class="game-image"><img class="" src="http://localhost/img/e8ecec34669474c4162ecc5a04535102"></a>
 <p>Racing</p>
 </div>
 <div class="template" placeid="203885589">
-<a class="game-image"><img class="" src="http://www.voidrev.us/img/455d0f9e82e94c171181c2412c219376"></a>
+<a class="game-image"><img class="" src="http://localhost/img/455d0f9e82e94c171181c2412c219376"></a>
 <p>Shooter</p>
 </div>
 <div class="template" placeid="264715997">
-<a class="game-image"><img class="" src="http://www.voidrev.us/img/245ad7724f4f1a688efac0dea30086fe"></a>
+<a class="game-image"><img class="" src="http://localhost/img/245ad7724f4f1a688efac0dea30086fe"></a>
 <p>Infinite Runner</p>
 </div>
 <div class="template" placeid="92721754">
-<a class="game-image"><img class="" src="http://www.voidrev.us/img/cc6dd833e23a1ea730eda2476b40cbe6"></a>
+<a class="game-image"><img class="" src="http://localhost/img/cc6dd833e23a1ea730eda2476b40cbe6"></a>
 <p>Capture The Flag</p>
 </div>
 <div class="template" placeid="301529772">
-<a class="game-image"><img class="" src="http://www.voidrev.us/img/f2169bb0b3db528714b32dc785e6456d"></a>
+<a class="game-image"><img class="" src="http://localhost/img/f2169bb0b3db528714b32dc785e6456d"></a>
 <p>Team/FFA Arena</p>
 </div>
 <div class="template" placeid="301530843">
-<a class="game-image"><img class="" src="http://www.voidrev.us/img/3c5e97a9e7e25de299ac713e6d429c6c"></a>
+<a class="game-image"><img class="" src="http://localhost/img/3c5e97a9e7e25de299ac713e6d429c6c"></a>
 <p>Line Runner</p>
 </div>
 </div>
@@ -281,7 +281,7 @@ toBuild: "To build on ",
 placeInactive: "Place Inactive",
 activate: ", activate this place by going to File->My Published Projects.",
 emailVerifiedTitle: "Verify Your Email",
-emailVerifiedMessage: "You must verify your email before you can work on your place. You can verify your email on the <a href='http://www.voidrev.us/my/account?confirmemail=1'>Account</a> page.",
+emailVerifiedMessage: "You must verify your email before you can work on your place. You can verify your email on the <a href='http://localhost/my/account?confirmemail=1'>Account</a> page.",
 verify: "Verify",
 OK: "OK"
 //</sl:translate>

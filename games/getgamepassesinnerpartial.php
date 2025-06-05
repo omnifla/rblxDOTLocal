@@ -22,7 +22,7 @@ $passcreator = $passcreatorquery->fetch();
 ?>
         <li class="list-item real-game-pass">
             <div class="store-card">
-                <a href="/library/?id=<?=$pass['id'];?>" class="gear-passes-asset" ><img  class='' src='https://www.voidrev.us/asset/?id=<?=$pass['fileid'];?>' /></a>
+                <a href="/library/?id=<?=$pass['id'];?>" class="gear-passes-asset" ><img  class='' src='https://localhost/asset/?id=<?=$pass['fileid'];?>' /></a>
                 <div class="store-card-caption">
                     <div class="text-overflow store-card-name" title="2x Dig">
                         <?php echo NoXSSPlz($pass['name']); ?>

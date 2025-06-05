@@ -57,7 +57,7 @@ $signature = "";
 openssl_sign($script, $signature, $key, OPENSSL_ALGO_SHA1);
 return base64_encode($signature);
 }
-$charapp = "http://www.voidrev.us/v1.1/avatar-fetch?userId=$authid&placeId=$gameid";
+$charapp = "http://localhost/v1.1/avatar-fetch?userId=$authid&placeId=$gameid";
 if($_GET['type'] == "2018"){
 function authticket($id, $name, $charapp, $jobid, $privatekey) {
 $ticket = $id . "\n" . $jobid . "\n" . date('n\/j\/Y\ g\:i\:s\ A');
@@ -183,7 +183,7 @@ $joinscript = [
 "MachineAddress" => $ip,
 "ServerPort" => $port,
 "ServerConnections" => [["Address" => $ip, "Port" => $port]],
-"PingUrl" => "http://www.voidrev.us/Game/ClientPresence.ashx?PlaceID=".$gameid."&userID=".$authid,
+"PingUrl" => "http://localhost/Game/ClientPresence.ashx?PlaceID=".$gameid."&userID=".$authid,
 // change this to ping more
 "PingInterval" => 30,
 "UserName" => $authname,
@@ -196,7 +196,7 @@ $joinscript = [
 "GameLocale" => $locale,
 // guest shit
 "SuperSafeChat" => false,
-"CharacterAppearance" => "http://www.voidrev.us/v1.1/avatar-fetch?userId=".$authid."&placeId=".$gameid,
+"CharacterAppearance" => "http://localhost/v1.1/avatar-fetch?userId=".$authid."&placeId=".$gameid,
 "ClientTicket" => authticket($authid, $authname, $charapp, $jobid, $authkey),
 "GameId" => $jobid,
 "PlaceId" => $gameid,
@@ -204,7 +204,7 @@ $joinscript = [
 "MeasurementUrl" => "",
 // :shrug:
 "WaitingForCharacterGuid" => "26eb3e21-aa80-475b-a777-b43c3ea5f7d2",
-"BaseUrl" => "http://www.voidrev.us/",
+"BaseUrl" => "http://localhost/",
 // nobody likes anything else
 "ChatStyle" => "ClassicAndBubble",
 // device type

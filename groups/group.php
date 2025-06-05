@@ -27,11 +27,11 @@ exit();
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
     
-<link onerror='Roblox.BundleDetector && Roblox.BundleDetector.reportBundleError(this)' rel='stylesheet'  href='https://www.voidrev.us/css/leanbase.css' />
+<link onerror='Roblox.BundleDetector && Roblox.BundleDetector.reportBundleError(this)' rel='stylesheet'  href='https://localhost/css/leanbase.css' />
 
 
     
-<link onerror='Roblox.BundleDetector && Roblox.BundleDetector.reportBundleError(this)' rel='stylesheet'  href='https://www.voidrev.us/css/grouppage.css' />
+<link onerror='Roblox.BundleDetector && Roblox.BundleDetector.reportBundleError(this)' rel='stylesheet'  href='https://localhost/css/grouppage.css' />
 
     <script onerror='Roblox.BundleDetector && Roblox.BundleDetector.reportBundleError(this)' data-monitor='true'  type='text/javascript' src='https://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.11.1.min.js'></script>
 <script type='text/javascript'>window.jQuery || document.write("<script type='text/javascript' src='/js/jquery/jquery-1.11.1.js'><\/script>")</script>
@@ -85,7 +85,7 @@ exit();
         height="612"
         scrolling="no"
         data-src=""
-        src="https://www.voidrev.us/user-sponsorship/?id=1"
+        src="https://localhost/user-sponsorship/?id=1"
         width="160"
         data-js-adtype="iframead"
         data-ad-slot="Roblox_Default_Right_160x600"></iframe>
@@ -97,37 +97,37 @@ exit();
     <div class="footer">
         <ul class="row footer-links">
                 <li class="footer-link">
-                    <a href="http://www.voidrev.us" class="text-footer-nav roblox-interstitial" target="_blank">
+                    <a href="http://localhost" class="text-footer-nav roblox-interstitial" target="_blank">
                         About Us
                     </a>
                 </li>
                 <li class="footer-link">
-                    <a href="https://www.voidrev.us/careers/" class="text-footer-nav roblox-interstitial" target="_blank">
+                    <a href="https://localhost/careers/" class="text-footer-nav roblox-interstitial" target="_blank">
                         Jobs
                     </a>
                 </li>
             <li class=" footer-link">
-                <a href="https://www.voidrev.us" class="text-footer-nav" target="_blank">
+                <a href="https://localhost" class="text-footer-nav" target="_blank">
                     Blog
                 </a>
             </li>
             <li class=" footer-link">
-                <a href="http://www.voidrev.us/parents" class="text-footer-nav roblox-interstitial" target="_blank">
+                <a href="http://localhost/parents" class="text-footer-nav roblox-interstitial" target="_blank">
                     Parents
                 </a>
             </li>
             <li class=" footer-link">
-                <a href="https://www.voidrev.us/help?locale=en_us" class="text-footer-nav roblox-interstitial" target="_blank">
+                <a href="https://localhost/help?locale=en_us" class="text-footer-nav roblox-interstitial" target="_blank">
                     Help
                 </a>
             </li>
             <li class=" footer-link">
-                <a href="https://www.voidrev.us/info/terms?locale=en_us" class="text-footer-nav" target="_blank">
+                <a href="https://localhost/info/terms?locale=en_us" class="text-footer-nav" target="_blank">
                     Terms
                 </a>
             </li>
             <li class=" footer-link">
-                <a href="https://www.voidrev.us/info/privacy?locale=en_us" class="text-footer-nav privacy" target="_blank">
+                <a href="https://localhost/info/privacy?locale=en_us" class="text-footer-nav privacy" target="_blank">
                     Privacy
                 </a>
             </li>
@@ -161,7 +161,7 @@ exit();
             play: {
                 content: "<img src='https://images.rbxcdn.com/6304dfebadecbb3b338a79a6a528936c.svg.gzip' width='90' height='90' alt='R'/><p>You&#39;re moments away from getting into the game!</p>",
                 buttonText: "Download and Install Roblox",
-                footerContent: "<a href='https://www.voidrev.us/game/help'class= 'text-name small' target='_blank' >Click here for help</a> "
+                footerContent: "<a href='https://localhost/game/help'class= 'text-name small' target='_blank' >Click here for help</a> "
             },
             studio: {
                 content: "<img src='https://images.rbxcdn.com/3da410727fa2670dcb4f31316643138a.svg.gzip' width='95' height='95' alt='R' /><p>Get started creating your own games!</p>",
@@ -245,7 +245,7 @@ exit();
         </div>
         <div id="videoPrerollJoinBC">
             <span>Get more with Builders Club!</span>
-            <a href="https://www.voidrev.us/premium/membership?ctx=preroll" target="_blank" class="btn-medium btn-primary" id="videoPrerollJoinBCButton">Join Builders Club</a>
+            <a href="https://localhost/premium/membership?ctx=preroll" target="_blank" class="btn-medium btn-primary" id="videoPrerollJoinBCButton">Join Builders Club</a>
         </div>
     </div>   
     <script type="text/javascript">
@@ -282,7 +282,7 @@ exit();
 
 <script type="text/javascript">
 function checkRobloxInstall() {
-         return RobloxLaunch.CheckRobloxInstall('https://www.voidrev.us/install/download.aspx');
+         return RobloxLaunch.CheckRobloxInstall('https://localhost/install/download.aspx');
 }
 </script>
 
@@ -344,7 +344,7 @@ function checkRobloxInstall() {
 <script type="text/javascript">
     Roblox.Client._skip = null;
     Roblox.Client._CLSID = '76D50904-6780-4c8b-8986-1A7EE0B1716D';
-    Roblox.Client._installHost = 'www.voidrev.us';
+    Roblox.Client._installHost = 'localhost';
     Roblox.Client.ImplementsProxy = true;
     Roblox.Client._silentModeEnabled = true;
     Roblox.Client._bringAppToFrontEnabled = false;
@@ -459,7 +459,7 @@ function checkRobloxInstall() {
 
     <script type="text/javascript">
         $(function () {
-            Roblox.CookieUpgrader.domain = 'voidrev.us';
+            Roblox.CookieUpgrader.domain = 'localhost';
             Roblox.CookieUpgrader.upgrade("GuestData", { expires: Roblox.CookieUpgrader.thirtyYearsFromNow });
             Roblox.CookieUpgrader.upgrade("RBXSource", { expires: function (cookie) { return Roblox.CookieUpgrader.getExpirationFromCookieValue("rbx_acquisition_time", cookie); } });
             Roblox.CookieUpgrader.upgrade("RBXViralAcquisition", { expires: function (cookie) { return Roblox.CookieUpgrader.getExpirationFromCookieValue("time", cookie); } });

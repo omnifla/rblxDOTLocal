@@ -5,7 +5,7 @@
 		<Properties>
 			<token name="Face">5</token>
 			<string name="Name">face</string>
-			<Content name="Texture"><url>http://www.voidrev.us/asset/?id=REPLACEME </url></Content>
+			<Content name="Texture"><url>http://localhost/asset/?id=REPLACEME </url></Content>
 			<float name="Transparency">0</float>
 		</Properties>
 	</Item>
