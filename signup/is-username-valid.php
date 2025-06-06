@@ -7,7 +7,7 @@ $username = filter_var($_GET['username'], FILTER_SANITIZE_FULL_SPECIAL_CHARS, FI
 
 header("Content-Type: application/json");
 
-$url = 'https://www.voidrev.us/moderation/v2/filtertext/';
+$url = 'https://localhost/moderation/v2/filtertext/';
 
 $data = 'text='.$username;
 

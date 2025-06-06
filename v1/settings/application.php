@@ -1,7 +1,7 @@
 <?php
 header("Content-Type: application/json");
-if($_GET['applicationName'] == "PCClientBootstrapper"){
-echo'{
+if ($_GET['applicationName'] == "PCClientBootstrapper") {
+    echo '{
 "DFFlagRbxFormatMultiByteSizeFix": true,
 "DFIntCrashUploadToBacktracePercentage": 100,
 "DFStringHttpInfluxDatabase": "roblox_bootstrapper",
@@ -29,10 +29,10 @@ echo'{
 "ShowInstallSuccessPrompt": true,
 "UseCdn": true
 }';
-exit();
+    exit();
 }
-if($_GET['applicationName'] == "MacClientBootstrapper"){
-echo'{
+if ($_GET['applicationName'] == "MacClientBootstrapper") {
+    echo '{
 "DFFlagRbxFormatMultiByteSizeFix": true,
 "DFIntCrashUploadToBacktracePercentage": 100,
 "DFStringHttpInfluxDatabase": "roblox_bootstrapper",
@@ -60,10 +60,10 @@ echo'{
 "ShowInstallSuccessPrompt": true,
 "UseCdn": true
 }';
-exit();
+    exit();
 }
-if($_GET['applicationName'] == "PCStudioBootstrapper"){
-echo'{"applicationSettings":{
+if ($_GET['applicationName'] == "PCStudioBootstrapper") {
+    echo '{"applicationSettings":{
 "DFFlagRbxFormatMultiByteSizeFix": true,
 "DFStringHttpInfluxDatabase": "roblox_bootstrapper",
 "FFlagBootstrapper64BitStudioSupport": true,
@@ -112,7 +112,7 @@ echo'{"applicationSettings":{
 "InfluxInstallHundredthsPercentage": 1,
 "UseCdn": true
 }}';
-exit();
+    exit();
 }
 ?>
 {
@@ -1104,7 +1104,8 @@ exit();
 "DFStringCrashUploadToBacktraceMacPlayerToken":"24cb37449e120c3a0618b1bf0585e339571828cae4dc73c7b8c99f67fcd751e9",
 "DFStringCrashUploadToBacktraceWindowsPlayerToken":"417ecb0fbc032ce087e6af3b780c298e3356089f050c8130d2318109e80417a4",
 "DFStringCrashUploadToBacktraceWindowsPlayerToken_PlaceFilter":"30a794c06f5d61e51cf4b0b8103ef2cd7039c6b46bafce0cfba33518d5409010;6036870533",
-"DFStringDataStoreThrottleMsg":"DataStore request was added to queue. If request queue fills, further requests will be dropped. Try sending fewer requests.",
+"DFStringDataStoreThrottleMsg":"DataStore request was added to queue. If request queue fills, further requests will be
+dropped. Try sending fewer requests.",
 "DFStringDeveloperEventIngestEnd2EndLogUniveseIds":1149251775,
 "DFStringGamePerfMonitorPercentageCountryOverride":"CN,50,AU,50,NZ,50",
 "DFStringGlobalUniverse17sIds":"14743789;1482020489",
@@ -1123,7 +1124,8 @@ exit();
 "DFStringTelegrafAddress":"100.20.191.133",
 "DFStringTelegrafHTTPTransportUrl":"https://client-telemetry.roblox.com",
 "DFStringWorkspaceMessageLink":"https://devforum.roblox.com/t/physics-deprecating-the-legacy-spring-physics-solver/163521",
-"DFStringWorkspaceMessageText":"We are in the process of disabling and removing the legacy solver. Click here for more info...",
+"DFStringWorkspaceMessageText":"We are in the process of disabling and removing the legacy solver. Click here for more
+info...",
 "EnableAndroidSetTagOnContactAcceptFriendRequest":true,
 "EnableAppsFlyerDeferredLinks":true,
 "EnableBackupCookie":true,
@@ -3289,7 +3291,13 @@ exit();
 "FStringEnableiCloudWebCredentialsBtIdsList":"49593556386,49593556386,44219219422,49373021284,49849080647",
 "FStringGamesUrlPath":"/games/?referrer=roblox-player",
 "FStringGraphicsVulkanBlacklist":"",
-"FStringLuaAppGameSortGridABTestJSONV2_3":"{\"ABTestData\" : {\"Control\" : {\"GridEnabled\" : false, \"GridRows\" : 0, \"UseGridMediumTile\" : false }, \"Variation1\" : { \"GridEnabled\" : false, \"GridRows\" : 0, \"UseGridMediumTile\" : false }, \"Variation2\" : { \"GridEnabled\" : true, \"GridRows\" : 2, \"UseGridMediumTile\" : false, \"IncludedSorts\" : {\"Home\": [\"PersonalRecommendation\"]}, \"SeeAllButtonType\" : 1 }, \"Variation3\" : { \"GridEnabled\" : true, \"GridRows\" : 2, \"UseGridMediumTile\" : false, \"IncludedSorts\" : {\"Home\": [\"PersonalRecommendation\"]}, \"SeeAllButtonType\" : 2 }, \"Variation4\" : { \"GridEnabled\" : true, \"GridRows\" : 2, \"UseGridMediumTile\" : false, \"IncludedSorts\" : {\"Home\": [\"PersonalRecommendation\"]}, \"SeeAllButtonType\" : 3 } }}",
+"FStringLuaAppGameSortGridABTestJSONV2_3":"{\"ABTestData\" : {\"Control\" : {\"GridEnabled\" : false, \"GridRows\" : 0,
+\"UseGridMediumTile\" : false }, \"Variation1\" : { \"GridEnabled\" : false, \"GridRows\" : 0, \"UseGridMediumTile\" :
+false }, \"Variation2\" : { \"GridEnabled\" : true, \"GridRows\" : 2, \"UseGridMediumTile\" : false, \"IncludedSorts\" :
+{\"Home\": [\"PersonalRecommendation\"]}, \"SeeAllButtonType\" : 1 }, \"Variation3\" : { \"GridEnabled\" : true,
+\"GridRows\" : 2, \"UseGridMediumTile\" : false, \"IncludedSorts\" : {\"Home\": [\"PersonalRecommendation\"]},
+\"SeeAllButtonType\" : 2 }, \"Variation4\" : { \"GridEnabled\" : true, \"GridRows\" : 2, \"UseGridMediumTile\" : false,
+\"IncludedSorts\" : {\"Home\": [\"PersonalRecommendation\"]}, \"SeeAllButtonType\" : 3 } }}",
 "FStringLuaDraggersBetaUrl":"https://devforum.roblox.com/t/say-hello-to-the-new-lua-dragger-beta/504815",
 "FStringLuaErrorByPlatformCounter":"LuaErrorPlatformWin32UA",
 "FStringLuobuMarketplaceDisabledCategories":"FreePlugins;PaidPlugins;Plugins;FreeVideo",

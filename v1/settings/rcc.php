@@ -437,7 +437,8 @@ header("Content-Type: application/json");
 "DFLogSoundCheckResult":4,
 "DFStringAdditionalBlacklistHeaders":"SOAPAction",
 "DFStringAnalyticsNS1BeaconConfig":"https://c0ll.rbxcdn.com/test-50kb.png|g2kd2s|https://c0hw.rbxcdn.com/test-50kb.png|g2iyic|https://c0cfly.rbxcdn.com/test-50kb.png|g2hjxw|https://c0ak.rbxcdn.com/test-50kb.png|g2g5dg",
-"DFStringDataStoreThrottleMsg":"DataStore request was added to queue. If request queue fills, further requests will be dropped. Try sending fewer requests.",
+"DFStringDataStoreThrottleMsg":"DataStore request was added to queue. If request queue fills, further requests will be
+dropped. Try sending fewer requests.",
 "DFStringR15CollisionTypeField":"universeAvatarCollisionType",
 "DFStringReportSoundAssetsAssetList":"rbxassetid://1837038213,rbxassetid://1846492029,rbxassetid://1841601627,rbxassetid://1845571507,rbxassetid://1836362602,rbxassetid://1846368341,rbxassetid://1847611722,rbxassetid://1845891180,rbxassetid://1845891141,rbxassetid://1842957560,rbxassetid://1836553363",
 "DFStringRobloxAnalyticsURL":"http://ecsv2.roblox.com/",
@@ -1451,7 +1452,12 @@ header("Content-Type: application/json");
 "FFlagGraphicsVulkanEnableDepthBiasClamp":"True",
 "DFFlagLDLUseMinimalLocalFillElimination":"True",
 "DFFlagFixTerrainStreamOutOptOrder":"True",
-"FStringLuaAppGameSortGridABTestJSON":"{\"ABTestData\" : { \"Control\" : { \"UseGrid\" : false, \"GridRows\" : 0, \"UseGridMediumTile\" : false }, \"Variation1\" : { \"UseGrid\" : false, \"GridRows\" : 0, \"UseGridMediumTile\" : false }, \"Variation2\" : { \"UseGrid\" : true, \"GridRows\" : 3, \"UseGridMediumTile\" : true }, \"Variation3\" : { \"UseGrid\" : true, \"GridRows\" : 2, \"UseGridMediumTile\" : true }, \"Variation4\" : { \"UseGrid\" : true, \"GridRows\" : 3, \"UseGridMediumTile\" : false }, \"Variation5\" : { \"UseGrid\" : true, \"GridRows\" : 2, \"UseGridMediumTile\" : false } }}",
+"FStringLuaAppGameSortGridABTestJSON":"{\"ABTestData\" : { \"Control\" : { \"UseGrid\" : false, \"GridRows\" : 0,
+\"UseGridMediumTile\" : false }, \"Variation1\" : { \"UseGrid\" : false, \"GridRows\" : 0, \"UseGridMediumTile\" : false
+}, \"Variation2\" : { \"UseGrid\" : true, \"GridRows\" : 3, \"UseGridMediumTile\" : true }, \"Variation3\" : {
+\"UseGrid\" : true, \"GridRows\" : 2, \"UseGridMediumTile\" : true }, \"Variation4\" : { \"UseGrid\" : true,
+\"GridRows\" : 3, \"UseGridMediumTile\" : false }, \"Variation5\" : { \"UseGrid\" : true, \"GridRows\" : 2,
+\"UseGridMediumTile\" : false } }}",
 "FFlagMeasureSleepAssemblies":"False",
 "FFlagFixReplaceTerrainAir":true,
 "FFlagStudioProperCheckForServerContentLoaded":"True",
@@ -2703,7 +2709,13 @@ header("Content-Type: application/json");
 "DFFlagDataStoreNoSerializedDataInCache_PlaceFilter":"True;1052132952",
 "FFlagRenderTerrainGrassNoSpecular3":"False",
 "FFlagLuaAppGameSortGridABTestEnabledV2":"True",
-"FStringLuaAppGameSortGridABTestJSONV2":"{\"ABTestData\" : { \"Control\" : {\"GridEnabled\" : false, \"GridRows\" : 0, \"UseGridMediumTile\" : false }, \"Variation1\" : { \"GridEnabled\" : false, \"GridRows\" : 0, \"UseGridMediumTile\" : false }, \"Variation2\" : { \"GridEnabled\" : true, \"GridRows\" : 2, \"UseGridMediumTile\" : false, \"ExcludedSorts\" : [\"MyRecent\"], \"SeeAllButtonType\" : 1 }, \"Variation3\" : { \"GridEnabled\" : true, \"GridRows\" : 2, \"UseGridMediumTile\" : false, \"ExcludedSorts\" : [\"MyRecent\"], \"SeeAllButtonType\" : 2 }, \"Variation4\" : { \"GridEnabled\" : true, \"GridRows\" : 2, \"UseGridMediumTile\" : false, \"ExcludedSorts\" : [\"MyRecent\"], \"SeeAllButtonType\" : 3 } }}",
+"FStringLuaAppGameSortGridABTestJSONV2":"{\"ABTestData\" : { \"Control\" : {\"GridEnabled\" : false, \"GridRows\" : 0,
+\"UseGridMediumTile\" : false }, \"Variation1\" : { \"GridEnabled\" : false, \"GridRows\" : 0, \"UseGridMediumTile\" :
+false }, \"Variation2\" : { \"GridEnabled\" : true, \"GridRows\" : 2, \"UseGridMediumTile\" : false, \"ExcludedSorts\" :
+[\"MyRecent\"], \"SeeAllButtonType\" : 1 }, \"Variation3\" : { \"GridEnabled\" : true, \"GridRows\" : 2,
+\"UseGridMediumTile\" : false, \"ExcludedSorts\" : [\"MyRecent\"], \"SeeAllButtonType\" : 2 }, \"Variation4\" : {
+\"GridEnabled\" : true, \"GridRows\" : 2, \"UseGridMediumTile\" : false, \"ExcludedSorts\" : [\"MyRecent\"],
+\"SeeAllButtonType\" : 3 } }}",
 "FFlagLoadCoreScriptsBeforeLock":"True",
 "FFlagSimSolverOptimizedIslandizer3":"False",
 "FFlagSupportContentIdDictionaryRemoval":"True",
@@ -2926,7 +2938,8 @@ header("Content-Type: application/json");
 "DFStringSendJoinTimeStatsHundPrecCountryOverride":"CN,5000,US,100,AU,3000,KR,2000,NZ,3000",
 "DFStringSendJoinTimeStatsHundPrecCountryOverride_PlaceFilter":"CN,10000,US,10000,AU,10000,KR,10000,NZ,10000;189707",
 "DFStringWorkspaceMessageLink":"https://devforum.roblox.com/t/physics-deprecating-the-legacy-spring-physics-solver/163521",
-"DFStringWorkspaceMessageText":"We are in the process of disabling and removing the legacy solver. Click here for more info...",
+"DFStringWorkspaceMessageText":"We are in the process of disabling and removing the legacy solver. Click here for more
+info...",
 "EnableRemoteThemeCheckOnAndroidV3":true,
 "FFlagAdditionalTextBoxShortcuts":"True",
 "FFlagAdvancedMouseSensitivityEnabled":"True",

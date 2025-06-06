@@ -1,8 +1,8 @@
 <?php
-require ($_SERVER['DOCUMENT_ROOT'].'/config/includes.php');
-if($offline == true){
+require($_SERVER['DOCUMENT_ROOT'] . '/config/includes.php');
+if ($offline == true) {
     echo "true";
-}else{
+} else {
     echo "false";
 }
 ?>

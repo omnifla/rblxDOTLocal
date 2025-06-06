@@ -2,5 +2,5 @@
 header("Content-Type: application/json");
 ?>
 {
-  "hasConnectedXboxAccount": false
+"hasConnectedXboxAccount": false
 }

@@ -41,5 +41,5 @@ placeStop($JobId,$port);
 }catch(Throwable $e){
 placeStop($JobId,$port);
 }
-header("Location: https://www.voidrev.us/admi/?tab=GameServers&item=GameJobs");
+header("Location: https://localhost/admi/?tab=GameServers&item=GameJobs");
 ?>

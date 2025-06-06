@@ -2,5 +2,5 @@
 header("Content-Type: application/json");
 ?>
 {
-  "providers": []
+"providers": []
 }

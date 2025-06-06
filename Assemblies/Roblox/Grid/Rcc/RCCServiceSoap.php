@@ -23,7 +23,7 @@ class RCCServiceSoap
         $this->url = $url . $port;
         $this->SoapClient = new \SoapClient(__DIR__ . "/RCCService.wsdl", [
             "location" => "http://" . $url . ":" . $port,
-            "uri" => "http://voidrev.us/",
+            "uri" => "http://localhost/",
             "classmap" => $this->classmap,
             "exceptions" => true
         ]);

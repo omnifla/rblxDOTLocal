@@ -1,3 +1,3 @@
 <?php
-header("Location: https://www.voidrev.us")
+header("Location: https://localhost")
 ?>

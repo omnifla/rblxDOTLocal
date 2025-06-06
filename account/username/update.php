@@ -1,6 +1,6 @@
 <?php
 header("Content-Type: application/json");
-include ($_SERVER['DOCUMENT_ROOT'].'/config/includes.php');
+include($_SERVER['DOCUMENT_ROOT'] . '/config/includes.php');
 
 $logged = false;
 $response = array();

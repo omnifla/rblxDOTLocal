@@ -1,1 +1,1 @@
-<?php require ($_SERVER['DOCUMENT_ROOT'].'/Asset/index.php'); ?>
+<?php require($_SERVER['DOCUMENT_ROOT'] . '/Asset/index.php'); ?>

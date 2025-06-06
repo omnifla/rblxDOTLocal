@@ -57,7 +57,7 @@ $stmt = $con->prepare($sql);
 $stmt->bindValue(':date', $date, PDO::PARAM_INT);
 $stmt->bindValue(':GameId', $GameId, PDO::PARAM_INT);
 $stmt->execute();
-header("Location: https://www.voidrev.us/admi/?tab=Moderation&item=Games");
+header("Location: https://localhost/admi/?tab=Moderation&item=Games");
 die("Success, returning");
 }else{
 die("Bad Request");

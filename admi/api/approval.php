@@ -43,7 +43,7 @@ $stmt2 = $con->prepare($sql2);
 $stmt2->bindValue(':itemid', $itemid, PDO::PARAM_INT);
 $stmt2->bindValue(':itemid2', $itemid, PDO::PARAM_INT);
 $stmt2->execute();
-header("Location: https://www.voidrev.us/admi/?tab=Moderation&item=Approval");
+header("Location: https://localhost/admi/?tab=Moderation&item=Approval");
 exit();
 }
 if ($_POST["Unapprove"] && $_POST["isgame"]) {
@@ -52,7 +52,7 @@ $sql = "UPDATE `games` SET `icon`='-2' WHERE `id`=:itemid";
 $stmt = $con->prepare($sql);
 $stmt->bindValue(':itemid', $itemid, PDO::PARAM_INT);
 $stmt->execute();
-header("Location: https://www.voidrev.us/admi/?tab=Moderation&item=Approval");
+header("Location: https://localhost/admi/?tab=Moderation&item=Approval");
 exit();
 }
 if ($_POST["Unapprove"] && $_POST["isadvert"]) {
@@ -61,7 +61,7 @@ $sql = "DELETE FROM `ads` WHERE `id`=:itemid";
 $stmt = $con->prepare($sql);
 $stmt->bindValue(':itemid', $itemid, PDO::PARAM_INT);
 $stmt->execute();
-header("Location: https://www.voidrev.us/admi/?tab=Moderation&item=Approval");
+header("Location: https://localhost/admi/?tab=Moderation&item=Approval");
 exit();
 }
 if ($_POST["Approve"] && $_POST["isadvert"]) {
@@ -70,7 +70,7 @@ $sql = "UPDATE `ads` SET `approved`='1' WHERE `id`=:itemid";
 $stmt = $con->prepare($sql);
 $stmt->bindValue(':itemid', $itemid, PDO::PARAM_INT);
 $stmt->execute();
-header("Location: https://www.voidrev.us/admi/?tab=Moderation&item=Approval");
+header("Location: https://localhost/admi/?tab=Moderation&item=Approval");
 exit();
 }
 if ($_POST["Approve"] && $_POST["isvidadvert"]) {
@@ -79,7 +79,7 @@ $sql = "UPDATE `videoads` SET `approved`='1' WHERE `id`=:itemid";
 $stmt = $con->prepare($sql);
 $stmt->bindValue(':itemid', $itemid, PDO::PARAM_INT);
 $stmt->execute();
-header("Location: https://www.voidrev.us/admi/?tab=Moderation&item=Approval");
+header("Location: https://localhost/admi/?tab=Moderation&item=Approval");
 exit();
 }
 if ($_POST["Unapprove"] && $_POST["isvidadvert"]) {
@@ -89,7 +89,7 @@ $stmt = $con->prepare($sql);
 $stmt->bindValue(':itemid', $itemid, PDO::PARAM_INT);
 $stmt->execute();
 unlink($_SERVER["DOCUMENT_ROOT"] . "/videos/" . $itemid . ".mp4");
-header("Location: https://www.voidrev.us/admi/?tab=Moderation&item=Approval");
+header("Location: https://localhost/admi/?tab=Moderation&item=Approval");
 exit();
 }
 if ($_POST["Approve"] && $_POST["isthumb1"]) {
@@ -98,7 +98,7 @@ $sql = "UPDATE `games` SET `thumb1approved`='1' WHERE `id`=:itemid";
 $stmt = $con->prepare($sql);
 $stmt->bindValue(':itemid', $itemid, PDO::PARAM_INT);
 $stmt->execute();
-header("Location: https://www.voidrev.us/admi/?tab=Moderation&item=Approval");
+header("Location: https://localhost/admi/?tab=Moderation&item=Approval");
 exit();
 }
 if ($_POST["Approve"] && $_POST["isthumb2"]) {
@@ -107,7 +107,7 @@ $sql = "UPDATE `games` SET `thumb2approved`='1' WHERE `id`=:itemid";
 $stmt = $con->prepare($sql);
 $stmt->bindValue(':itemid', $itemid, PDO::PARAM_INT);
 $stmt->execute();
-header("Location: https://www.voidrev.us/admi/?tab=Moderation&item=Approval");
+header("Location: https://localhost/admi/?tab=Moderation&item=Approval");
 exit();
 }
 if ($_POST["Approve"] && $_POST["isthumb3"]) {
@@ -116,7 +116,7 @@ $sql = "UPDATE `games` SET `thumb3approved`='1' WHERE `id`=:itemid";
 $stmt = $con->prepare($sql);
 $stmt->bindValue(':itemid', $itemid, PDO::PARAM_INT);
 $stmt->execute();
-header("Location: https://www.voidrev.us/admi/?tab=Moderation&item=Approval");
+header("Location: https://localhost/admi/?tab=Moderation&item=Approval");
 exit();
 }
 if ($_POST["Approve"]) {
@@ -125,7 +125,7 @@ $sql = "UPDATE `library` SET `approved`='1' WHERE `id`=:itemid";
 $stmt = $con->prepare($sql);
 $stmt->bindValue(':itemid', $itemid, PDO::PARAM_INT);
 $stmt->execute();
-header("Location: https://www.voidrev.us/admi/?tab=Moderation&item=Approval");
+header("Location: https://localhost/admi/?tab=Moderation&item=Approval");
 exit();
 }
 if ($_POST["Unapprove"]) {
@@ -146,7 +146,7 @@ $sql = "DELETE FROM `owneditems` WHERE `itemid`=:itemid";
 $stmt = $con->prepare($sql);
 $stmt->bindValue(':itemid', $itemid, PDO::PARAM_INT);
 $stmt->execute();
-header("Location: https://www.voidrev.us/admi/?tab=Moderation&item=Approval");
+header("Location: https://localhost/admi/?tab=Moderation&item=Approval");
 exit();
 }
 ?>

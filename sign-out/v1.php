@@ -11,6 +11,6 @@ setcookie($name, '', - 24 * 60 * 60, '/', '.voidrev.us');
 }
 }
 setcookie("access", "yes", time() + 24 * 60 * 60, "/", '.voidrev.us');
-header("Location: https://www.voidrev.us");
+header("Location: https://localhost");
 exit();
 ?>
