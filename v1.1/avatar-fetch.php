@@ -88,7 +88,11 @@ $response = [
 if ($game['version'] == 2018) {
     echo json_encode($response);
 } else {
+<<<<<<< HEAD
     $response['bodyColorsUrl'] = "https://localhost/Asset/BodyColors.ashx?userId=$userid";
+=======
+    $response['bodyColorsUrl'] = "https://www.voidrev.us/Asset/BodyColors.ashx?userId=$userid";
+>>>>>>> e785962b7354eaca9514f02e1a70eaa4f37a2bd3
     $response['animations']['Run'] = 969731563;
     echo json_encode($response);
 }

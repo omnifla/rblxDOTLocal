@@ -59,8 +59,13 @@ $result = [
 ],
 "Thumbnail" => [
 "Final" => true,
+<<<<<<< HEAD
 "Url" => "https://localhost/model-thumbnails?assetId=" . $items['id'],
 "RetryUrl" => "https://localhost/model-thumbnails?assetId=" . $items['id'],
+=======
+"Url" => "https://www.voidrev.us/model-thumbnails?assetId=" . $items['id'],
+"RetryUrl" => "https://www.voidrev.us/model-thumbnails?assetId=" . $items['id'],
+>>>>>>> e785962b7354eaca9514f02e1a70eaa4f37a2bd3
 "UserId" => $cid,
 "EndpointType" => "Avatar"
 ],

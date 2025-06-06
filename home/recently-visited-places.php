@@ -89,7 +89,11 @@ $playercount = 0;
 $item = array(
 "CreatorID" => $gamerow['creatorid'],
 "CreatorName" => $creator['username'],
+<<<<<<< HEAD
 "CreatorAbsoluteUrl" => "https://localhost/users/".$gamerow['creatorid']."/profile/",
+=======
+"CreatorAbsoluteUrl" => "https://www.voidrev.us/users/".$gamerow['creatorid']."/profile/",
+>>>>>>> e785962b7354eaca9514f02e1a70eaa4f37a2bd3
 "Plays" => $gamerow['visits'],
 "Price" => 0,
 "ProductID" => 0,
@@ -103,10 +107,17 @@ $item = array(
 "Favorites" => $faves,
 "Description" => $gamerow['description'],
 "HideGameCardInfo" => false,
+<<<<<<< HEAD
 "GameDetailReferralUrl" => "https://localhost/games/".$gamerow['id']."/",
 "Thumbnail" => array(
 "Final" => true,
 "Url" => "https://localhost/img/games/".$icon."s.png",
+=======
+"GameDetailReferralUrl" => "https://www.voidrev.us/games/".$gamerow['id']."/",
+"Thumbnail" => array(
+"Final" => true,
+"Url" => "https://www.voidrev.us/img/games/".$icon."s.png",
+>>>>>>> e785962b7354eaca9514f02e1a70eaa4f37a2bd3
 "RetryUrl" => null,
 "UserId" => 1,
 "EndpointType" => "Avatar"

@@ -35,7 +35,11 @@ return($final);
 }
 ob_start();
 ?>
+<<<<<<< HEAD
 {"ClientPort":0,"MachineAddress":"127.0.0.1","ServerPort":53640,"PingUrl":"","PingInterval":120,"UserName":"<?=$authname;?>","DisplayName":"testicles","SeleniumTestMode":false,"UserId":<?=$authid;?>,"SuperSafeChat":false,"CharacterAppearance":"https://localhost/v1.1/avatar-fetch/?placeId=1&userId=<?=$authid;?>","ClientTicket":"<?php echo authticket($authid,$authname,"https://localhost/v1.1/avatar-fetch/?placeId=1&userId=".$authid,"Test", $key);?>","GameId":"Test","PlaceId":1,"MeasurementUrl":"","WaitingForCharacterGuid":"cad99b30-7983-434b-b24c-eac12595e5fd","BaseUrl":"http://localhost/","ChatStyle":"ClassicAndBubble","VendorId":0,"ScreenShotInfo":"","VideoInfo":"","CreatorId":1,"CreatorTypeEnum":"User","MembershipType":"<?=$membership;?>","AccountAge":365,"CookieStoreFirstTimePlayKey":"rbx_evt_ftp","CookieStoreFiveMinutePlayKey":"rbx_evt_fmp","CookieStoreEnabled":true,"IsRobloxPlace":false,"GenerateTeleportJoin":false,"IsUnknownOrUnder13":false,"SessionId":"","DataCenterId":0,"UniverseId":1,"BrowserTrackerId":0,"UsePortraitMode":false,"FollowUserId":0,"CharacterAppearanceId":1}
+=======
+{"ClientPort":0,"MachineAddress":"127.0.0.1","ServerPort":53640,"PingUrl":"","PingInterval":120,"UserName":"<?=$authname;?>","DisplayName":"testicles","SeleniumTestMode":false,"UserId":<?=$authid;?>,"SuperSafeChat":false,"CharacterAppearance":"https://www.voidrev.us/v1.1/avatar-fetch/?placeId=1&userId=<?=$authid;?>","ClientTicket":"<?php echo authticket($authid,$authname,"https://www.voidrev.us/v1.1/avatar-fetch/?placeId=1&userId=".$authid,"Test", $key);?>","GameId":"Test","PlaceId":1,"MeasurementUrl":"","WaitingForCharacterGuid":"cad99b30-7983-434b-b24c-eac12595e5fd","BaseUrl":"http://www.voidrev.us/","ChatStyle":"ClassicAndBubble","VendorId":0,"ScreenShotInfo":"","VideoInfo":"","CreatorId":1,"CreatorTypeEnum":"User","MembershipType":"<?=$membership;?>","AccountAge":365,"CookieStoreFirstTimePlayKey":"rbx_evt_ftp","CookieStoreFiveMinutePlayKey":"rbx_evt_fmp","CookieStoreEnabled":true,"IsRobloxPlace":false,"GenerateTeleportJoin":false,"IsUnknownOrUnder13":false,"SessionId":"","DataCenterId":0,"UniverseId":1,"BrowserTrackerId":0,"UsePortraitMode":false,"FollowUserId":0,"CharacterAppearanceId":1}
+>>>>>>> e785962b7354eaca9514f02e1a70eaa4f37a2bd3
 <?php
 $data = "\r\n" . ob_get_clean();
 $key = $key;

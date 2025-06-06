@@ -1,10 +1,16 @@
 <?php
+<<<<<<< HEAD
 ob_start();
 error_reporting(E_ERROR);
 ini_set('display_errors', 0);
 require($_SERVER['DOCUMENT_ROOT']."/config/includes.php");
 if (is_array(getUserData($con))) {
 header("Location: https://localhost/home");
+=======
+require($_SERVER['DOCUMENT_ROOT']."/config/includes.php");
+if (is_array(getUserData($con))) {
+header("Location: https://www.voidrev.us/home");
+>>>>>>> e785962b7354eaca9514f02e1a70eaa4f37a2bd3
 }
 // lets go bowling
 $words = [

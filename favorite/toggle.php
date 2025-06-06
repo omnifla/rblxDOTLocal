@@ -44,7 +44,11 @@ $usrquery->execute(['roblosec' => $roblosec]);
 $usr = $usrquery->fetch();
 $uID = $usr['id'];
 if(!is_array($usr)){
+<<<<<<< HEAD
 header("Location: https://localhost/newlogin/");
+=======
+header("Location: https://www.voidrev.us/newlogin/");
+>>>>>>> e785962b7354eaca9514f02e1a70eaa4f37a2bd3
 }
 $assetId = (int)$_POST['assetID'];
 $checkquery = $con->prepare("SELECT id FROM `games` WHERE `id`= :id");

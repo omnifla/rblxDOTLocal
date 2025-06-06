@@ -25,15 +25,24 @@ PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD
 <head data-machine-id="WEB1185">
 <?php if($ExperimentalTheme == "Dark"){
 ?>
+<<<<<<< HEAD
 <link rel="stylesheet" href="https://localhost/css/main.css"/>
 <?php
 }elseif($ExperimentalTheme == "Light"){
 ?>
 <link rel="stylesheet" href="https://localhost/css/main2.css"/>
+=======
+<link rel="stylesheet" href="https://www.voidrev.us/css/main.css"/>
+<?php
+}elseif($ExperimentalTheme == "Light"){
+?>
+<link rel="stylesheet" href="https://www.voidrev.us/css/main2.css"/>
+>>>>>>> e785962b7354eaca9514f02e1a70eaa4f37a2bd3
 <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600" rel="stylesheet" type="text/css">
 <?php
 }elseif($ExperimentalTheme == "2016E"){
 ?>
+<<<<<<< HEAD
 <link rel="stylesheet" href="https://localhost/css/2016e.css"/>
 <?
 }elseif($ExperimentalTheme == "AprilFools"){
@@ -47,6 +56,21 @@ PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD
 }else{
 ?>
 <link rel="stylesheet" href="https://localhost/css/main2.css"/>
+=======
+<link rel="stylesheet" href="https://www.voidrev.us/css/2016e.css"/>
+<?
+}elseif($ExperimentalTheme == "AprilFools"){
+?>
+<link rel="stylesheet" href="https://www.voidrev.us/css/aprilfools.css"/>
+<?
+}elseif($ExperimentalTheme == "newtheme"){
+?>
+<link rel="stylesheet" href="https://www.voidrev.us/css/newtheme.css"/>
+<?
+}else{
+?>
+<link rel="stylesheet" href="https://www.voidrev.us/css/main2.css"/>
+>>>>>>> e785962b7354eaca9514f02e1a70eaa4f37a2bd3
 <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600" rel="stylesheet" type="text/css">
 <?
 }
@@ -60,8 +84,13 @@ PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD
 <meta name="keywords" content="free games, online games, building games, virtual worlds, free mmo, gaming cloud, physics engine" />
 <meta name="apple-itunes-app" content="app-id=431946152" />
 <meta ng-csp="no-unsafe-eval">
+<<<<<<< HEAD
 <link onerror='Roblox.BundleDetector && Roblox.BundleDetector.reportBundleError(this)' rel='stylesheet' href="https://localhost/css/publishas.css" />
 <link onerror='Roblox.BundleDetector && Roblox.BundleDetector.reportBundleError(this)' rel='stylesheet' href="https://localhost/css/assetlist.css" />
+=======
+<link onerror='Roblox.BundleDetector && Roblox.BundleDetector.reportBundleError(this)' rel='stylesheet' href="https://www.voidrev.us/css/publishas.css" />
+<link onerror='Roblox.BundleDetector && Roblox.BundleDetector.reportBundleError(this)' rel='stylesheet' href="https://www.voidrev.us/css/assetlist.css" />
+>>>>>>> e785962b7354eaca9514f02e1a70eaa4f37a2bd3
 <script>
 //Set if it browser's do not track flag is enabled
 var Roblox = Roblox || {};
@@ -74,6 +103,7 @@ dnt = dnt || window.external.msTrackingProtectionEnabled();
 Roblox.browserDoNotTrack = dnt == "1" || dnt == "yes" || dnt === true;
 })();
 </script>
+<<<<<<< HEAD
 <script onerror='Roblox.BundleDetector && Roblox.BundleDetector.reportBundleError(this)' data-monitor='true' data-bundlename='studio' type='text/javascript' src="https://localhost/js/3719f3fb35135d05cf6b72d5b0f46333.js">
 </script>
 <script type='text/javascript'>
@@ -88,6 +118,22 @@ Roblox.config.paths['Widgets.ItemImage'] = 'http://localhost/js/61a0490ba23afa17
 Roblox.config.paths['Widgets.PlaceImage'] = 'http://localhost/js/a6df74a754523e097cab747621643c98.js';
 </script>
 <script onerror='Roblox.BundleDetector && Roblox.BundleDetector.reportBundleError(this)' data-monitor='true' data-bundlename='page' type='text/javascript' src="https://localhost/js/79e749bac5810474fd3195d27f63e209.js">
+=======
+<script onerror='Roblox.BundleDetector && Roblox.BundleDetector.reportBundleError(this)' data-monitor='true' data-bundlename='studio' type='text/javascript' src="https://www.voidrev.us/js/3719f3fb35135d05cf6b72d5b0f46333.js">
+</script>
+<script type='text/javascript'>
+Roblox.config.externalResources = [];
+Roblox.config.paths['Pages.Catalog'] = 'http://www.voidrev.us/js/109d883fe3988fca757e26e341ed0fe8.js';
+Roblox.config.paths['Pages.CatalogShared'] = 'http://www.voidrev.us/js/33126cd3e259a404a2563594f55a3f06.js';
+Roblox.config.paths['Widgets.AvatarImage'] = 'http://www.voidrev.us/js/7d49ac94271bd506077acc9d0130eebb.js';
+Roblox.config.paths['Widgets.DropdownMenu'] = 'http://www.voidrev.us/js/da553e6b77b3d79bec37441b5fb317e7.js';
+Roblox.config.paths['Widgets.HierarchicalDropdown'] =
+'http://www.voidrev.us/js/4a0af9989732810851e9e12809aeb8ad.js';
+Roblox.config.paths['Widgets.ItemImage'] = 'http://www.voidrev.us/js/61a0490ba23afa17f9ecca2a079a6a57.js';
+Roblox.config.paths['Widgets.PlaceImage'] = 'http://www.voidrev.us/js/a6df74a754523e097cab747621643c98.js';
+</script>
+<script onerror='Roblox.BundleDetector && Roblox.BundleDetector.reportBundleError(this)' data-monitor='true' data-bundlename='page' type='text/javascript' src="https://www.voidrev.us/js/79e749bac5810474fd3195d27f63e209.js">
+>>>>>>> e785962b7354eaca9514f02e1a70eaa4f37a2bd3
 </script>
 <script type="text/javascript">
 if (typeof (Roblox) === "undefined") {
@@ -95,6 +141,7 @@ Roblox = {};
 }
 Roblox.Endpoints = Roblox.Endpoints || {};
 Roblox.Endpoints.Urls = Roblox.Endpoints.Urls || {};
+<<<<<<< HEAD
 Roblox.Endpoints.Urls['/api/item.ashx'] = 'http://localhost/api/item.ashx';
 Roblox.Endpoints.Urls['/asset/'] = 'http://localhost/asset/';
 Roblox.Endpoints.Urls['/client-status/set'] = 'http://localhost/client-status/set';
@@ -157,6 +204,70 @@ Roblox.Endpoints.Urls['/service-workers/push-notifications'] = 'http://localhost
 Roblox.Endpoints.Urls['/notification-stream/notification-stream-data'] = 'http://localhost/notification-stream/notification-stream-data';
 Roblox.Endpoints.Urls['/api/friends/acceptfriendrequest'] = 'http://localhost/api/friends/acceptfriendrequest';
 Roblox.Endpoints.Urls['/api/friends/declinefriendrequest'] = 'http://localhost/api/friends/declinefriendrequest';
+=======
+Roblox.Endpoints.Urls['/api/item.ashx'] = 'http://www.voidrev.us/api/item.ashx';
+Roblox.Endpoints.Urls['/asset/'] = 'http://www.voidrev.us/asset/';
+Roblox.Endpoints.Urls['/client-status/set'] = 'http://www.voidrev.us/client-status/set';
+Roblox.Endpoints.Urls['/client-status'] = 'http://www.voidrev.us/client-status';
+Roblox.Endpoints.Urls['/game/'] = 'http://www.voidrev.us/game/';
+Roblox.Endpoints.Urls['/game-auth/getauthticket'] = 'http://www.voidrev.us/game-auth/getauthticket';
+Roblox.Endpoints.Urls['/game/edit.ashx'] = 'http://www.voidrev.us/game/edit.ashx';
+Roblox.Endpoints.Urls['/game/getauthticket'] = 'http://www.voidrev.us/game/getauthticket';
+Roblox.Endpoints.Urls['/game/placelauncher.ashx'] = 'http://www.voidrev.us/game/placelauncher.ashx';
+Roblox.Endpoints.Urls['/game/preloader'] = 'http://www.voidrev.us/game/preloader';
+Roblox.Endpoints.Urls['/game/report-stats'] = 'http://www.voidrev.us/game/report-stats';
+Roblox.Endpoints.Urls['/game/report-event'] = 'http://www.voidrev.us/game/report-event';
+Roblox.Endpoints.Urls['/game/updateprerollcount'] = 'http://www.voidrev.us/game/updateprerollcount';
+Roblox.Endpoints.Urls['/login/default.aspx'] = 'http://www.voidrev.us/login/default.aspx';
+Roblox.Endpoints.Urls['/my/character.aspx'] = 'http://www.voidrev.us/my/character.aspx';
+Roblox.Endpoints.Urls['/my/money.aspx'] = 'http://www.voidrev.us/my/money.aspx';
+Roblox.Endpoints.Urls['/chat/chat'] = 'http://www.voidrev.us/chat/chat';
+Roblox.Endpoints.Urls['/presence/users'] = 'http://www.voidrev.us/presence/users';
+Roblox.Endpoints.Urls['/presence/user'] = 'http://www.voidrev.us/presence/user';
+Roblox.Endpoints.Urls['/friends/list'] = 'http://www.voidrev.us/friends/list';
+Roblox.Endpoints.Urls['/navigation/getCount'] = 'http://www.voidrev.us/navigation/getCount';
+Roblox.Endpoints.Urls['/catalog/browse.aspx'] = 'http://www.voidrev.us/catalog/browse.aspx';
+Roblox.Endpoints.Urls['/catalog/html'] = 'http://www.voidrev.us/catalog/html';
+Roblox.Endpoints.Urls['/catalog/json'] = 'http://www.voidrev.us/catalog/json';
+Roblox.Endpoints.Urls['/catalog/contents'] = 'http://www.voidrev.us/catalog/contents';
+Roblox.Endpoints.Urls['/catalog/lists.aspx'] = 'http://www.voidrev.us/catalog/lists.aspx';
+Roblox.Endpoints.Urls['/asset-hash-thumbnail/image'] = 'http://www.voidrev.us/asset-hash-thumbnail/image';
+Roblox.Endpoints.Urls['/asset-hash-thumbnail/json'] = 'http://www.voidrev.us/asset-hash-thumbnail/json';
+Roblox.Endpoints.Urls['/asset-thumbnail-3d/json'] = 'http://www.voidrev.us/asset-thumbnail-3d/json';
+Roblox.Endpoints.Urls['/asset-thumbnail/image'] = 'http://www.voidrev.us/asset-thumbnail/image';
+Roblox.Endpoints.Urls['/asset-thumbnail/json'] = 'http://www.voidrev.us/asset-thumbnail/json';
+Roblox.Endpoints.Urls['/asset-thumbnail/url'] = 'http://www.voidrev.us/asset-thumbnail/url';
+Roblox.Endpoints.Urls['/asset/request-thumbnail-fix'] = 'http://www.voidrev.us/asset/request-thumbnail-fix';
+Roblox.Endpoints.Urls['/avatar-thumbnail-3d/json'] = 'http://www.voidrev.us/avatar-thumbnail-3d/json';
+Roblox.Endpoints.Urls['/avatar-thumbnail/image'] = 'http://www.voidrev.us/avatar-thumbnail/image';
+Roblox.Endpoints.Urls['/avatar-thumbnail/json'] = 'http://www.voidrev.us/avatar-thumbnail/json';
+Roblox.Endpoints.Urls['/avatar-thumbnails'] = 'http://www.voidrev.us/avatar-thumbnails';
+Roblox.Endpoints.Urls['/avatar/request-thumbnail-fix'] = 'http://www.voidrev.us/avatar/request-thumbnail-fix';
+Roblox.Endpoints.Urls['/bust-thumbnail/json'] = 'http://www.voidrev.us/bust-thumbnail/json';
+Roblox.Endpoints.Urls['/group-thumbnails'] = 'http://www.voidrev.us/group-thumbnails';
+Roblox.Endpoints.Urls['/groups/getprimarygroupinfo.ashx'] = 'http://www.voidrev.us/groups/getprimarygroupinfo.ashx';
+Roblox.Endpoints.Urls['/headshot-thumbnail/json'] = 'http://www.voidrev.us/headshot-thumbnail/json';
+Roblox.Endpoints.Urls['/item-thumbnails'] = 'http://www.voidrev.us/item-thumbnails';
+Roblox.Endpoints.Urls['/outfit-thumbnail/json'] = 'http://www.voidrev.us/outfit-thumbnail/json';
+Roblox.Endpoints.Urls['/place-thumbnails'] = 'http://www.voidrev.us/place-thumbnails';
+Roblox.Endpoints.Urls['/thumbnail/asset/'] = 'http://www.voidrev.us/thumbnail/asset/';
+Roblox.Endpoints.Urls['/thumbnail/avatar-headshot'] = 'http://www.voidrev.us/thumbnail/avatar-headshot';
+Roblox.Endpoints.Urls['/thumbnail/avatar-headshots'] = 'http://www.voidrev.us/thumbnail/avatar-headshots';
+Roblox.Endpoints.Urls['/thumbnail/user-avatar'] = 'http://www.voidrev.us/thumbnail/user-avatar';
+Roblox.Endpoints.Urls['/thumbnail/resolve-hash'] = 'http://www.voidrev.us/thumbnail/resolve-hash';
+Roblox.Endpoints.Urls['/thumbnail/place'] = 'http://www.voidrev.us/thumbnail/place';
+Roblox.Endpoints.Urls['/thumbnail/get-asset-media'] = 'http://www.voidrev.us/thumbnail/get-asset-media';
+Roblox.Endpoints.Urls['/thumbnail/remove-asset-media'] = 'http://www.voidrev.us/thumbnail/remove-asset-media';
+Roblox.Endpoints.Urls['/thumbnail/set-asset-media-sort-order'] = 'http://www.voidrev.us/thumbnail/set-asset-media-sort-order';
+Roblox.Endpoints.Urls['/thumbnail/place-thumbnails'] = 'http://www.voidrev.us/thumbnail/place-thumbnails';
+Roblox.Endpoints.Urls['/thumbnail/place-thumbnails-partial'] = 'http://www.voidrev.us/thumbnail/place-thumbnails-partial';
+Roblox.Endpoints.Urls['/thumbnail_holder/g'] = 'http://www.voidrev.us/thumbnail_holder/g';
+Roblox.Endpoints.Urls['/users/{id}/profile'] = 'http://www.voidrev.us/users/{id}/profile';
+Roblox.Endpoints.Urls['/service-workers/push-notifications'] = 'http://www.voidrev.us/service-workers/push-notifications';
+Roblox.Endpoints.Urls['/notification-stream/notification-stream-data'] = 'http://www.voidrev.us/notification-stream/notification-stream-data';
+Roblox.Endpoints.Urls['/api/friends/acceptfriendrequest'] = 'http://www.voidrev.us/api/friends/acceptfriendrequest';
+Roblox.Endpoints.Urls['/api/friends/declinefriendrequest'] = 'http://www.voidrev.us/api/friends/declinefriendrequest';
+>>>>>>> e785962b7354eaca9514f02e1a70eaa4f37a2bd3
 Roblox.Endpoints.addCrossDomainOptionsToAllRequests = true;
 </script>
 <script type="text/javascript">
@@ -179,9 +290,15 @@ $gamequery->execute(['creatorid' => $uID]);
 $gamecount = $gamequery->fetchColumn();
 if($gamecount < 100 || $usr['Admin'] == 1){
 ?>
+<<<<<<< HEAD
 <div class="asset model" id="newasset" onclick="document.location.href ='http://localhost/ide/publish/newplace';">
 <a class="model-image">
 <img id="newModelImage" class="modelThumbnail" src="http://localhost/img/062d582034de086290214f59685f9090.png" alt="Create New" />
+=======
+<div class="asset model" id="newasset" onclick="document.location.href ='http://www.voidrev.us/ide/publish/newplace';">
+<a class="model-image">
+<img id="newModelImage" class="modelThumbnail" src="http://www.voidrev.us/img/062d582034de086290214f59685f9090.png" alt="Create New" />
+>>>>>>> e785962b7354eaca9514f02e1a70eaa4f37a2bd3
 </a>
 <p class="item-name-container ellipsis-overflow">(Create New)</p>
 </div>
@@ -194,9 +311,15 @@ $placeId = $games['id'];
 $placename = $games['name'];
 $icon = $games['icon'];
 echo'
+<<<<<<< HEAD
 <div class="asset model" id="newasset" onclick="document.location.href =\'http://localhost/ide/publish/editplace?placeId='.$placeId.'\';">
 <a class="model-image">
 <img id="newModelImage" class="modelThumbnail" src="https://localhost/img/games/'.$icon.'s.png" alt="'.NoXSSPlz($placename).'">
+=======
+<div class="asset model" id="newasset" onclick="document.location.href =\'http://www.voidrev.us/ide/publish/editplace?placeId='.$placeId.'\';">
+<a class="model-image">
+<img id="newModelImage" class="modelThumbnail" src="https://www.voidrev.us/img/games/'.$icon.'s.png" alt="'.NoXSSPlz($placename).'">
+>>>>>>> e785962b7354eaca9514f02e1a70eaa4f37a2bd3
 </a>
 <p class="item-name-container ellipsis-overflow">'.NoXSSPlz($placename).'</p>
 </div>

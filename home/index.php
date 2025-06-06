@@ -1,6 +1,10 @@
 <?php include($_SERVER['DOCUMENT_ROOT'] . '/global.php');
 if (!$logged) {
+<<<<<<< HEAD
 header('Location: https://localhost/');
+=======
+header('Location: https://www.voidrev.us/');
+>>>>>>> e785962b7354eaca9514f02e1a70eaa4f37a2bd3
 }
 ?>
 <!--[if IE 8]><html class=ie8 ng-app=robloxApp><![endif]--> <!--[if gt IE 8]><!-->
@@ -8,10 +12,17 @@ header('Location: https://localhost/');
 <head data-machine-id=WEB1166>
 <title>Home - Void</title>
 <meta name=user-data data-userid=<?=$uID;?> data-name=<?php echo NoXSSPlz($username);?> data-isunder13=false>
+<<<<<<< HEAD
 <meta name=locale-data data-language-code=en_us data-language-name=English data-locale-api-url=https://localhost>
 <link rel=canonical href="https://localhost/home?nl=true">
 <link rel=stylesheet href=https://localhost/css/leanbase.css>
 <link rel=stylesheet href=https://localhost/css/home.css>
+=======
+<meta name=locale-data data-language-code=en_us data-language-name=English data-locale-api-url=https://www.voidrev.us>
+<link rel=canonical href="https://www.voidrev.us/home?nl=true">
+<link rel=stylesheet href=https://www.voidrev.us/css/leanbase.css>
+<link rel=stylesheet href=https://www.voidrev.us/css/home.css>
+>>>>>>> e785962b7354eaca9514f02e1a70eaa4f37a2bd3
 <script src=//ajax.aspnetcdn.com/ajax/jQuery/jquery-1.11.1.min.js></script>
 <script>
 window.jQuery || document.write("<script type='text/javascript' src='/js/jquery/jquery-1.11.1.js'><\/script>")
@@ -20,11 +31,19 @@ window.jQuery || document.write("<script type='text/javascript' src='/js/jquery/
 <script>
 window.jQuery || document.write("<script type='text/javascript' src='/js/jquery/jquery-migrate-1.2.1.js'><\/script>")
 </script>
+<<<<<<< HEAD
 <script src=https://localhost/js/274cdda5d1120633af7486a6f25b2019.js></script>
 <script>
 var Roblox = Roblox || {};
 Roblox.RealTimeSettings = Roblox.RealTimeSettings || {
 NotificationsEndpoint: "https://localhost/",
+=======
+<script src=https://www.voidrev.us/js/274cdda5d1120633af7486a6f25b2019.js></script>
+<script>
+var Roblox = Roblox || {};
+Roblox.RealTimeSettings = Roblox.RealTimeSettings || {
+NotificationsEndpoint: "https://www.voidrev.us/",
+>>>>>>> e785962b7354eaca9514f02e1a70eaa4f37a2bd3
 NotificationsTestInterval: "5000",
 MaxConnectionTime: "43200000",
 IsStateTrackingEnabled: true,
@@ -37,10 +56,17 @@ UserId: "<?=$uID;?>"
 </script>
 <meta name=viewport content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
 <div id="Skyscraper-Abp-Left" class="abp abp-container left-abp">
+<<<<<<< HEAD
 <iframe name="Roblox_GameDetail_Left_160x600" allowtransparency="true" frameborder="0" height="612" scrolling="no" data-src="" src="https://localhost/user-sponsorship/?id=1" width="160" data-js-adtype="iframead" data-ad-slot="Roblox_GameDetail_Left_160x600"></iframe>
 </div>
 <div id=HomeContainer class="row home-container">
 <div class="col-xs-12 home-header"><a href=https://localhost/users/<?=$uID;?>/profile class="avatar avatar-headshot-lg"> <img alt=avatar src=<?=getUserHeadshotThumbnail($con,$uID);?> id=home-avatar-thumb class=avatar-card-image> </a>
+=======
+<iframe name="Roblox_GameDetail_Left_160x600" allowtransparency="true" frameborder="0" height="612" scrolling="no" data-src="" src="https://www.voidrev.us/user-sponsorship/?id=1" width="160" data-js-adtype="iframead" data-ad-slot="Roblox_GameDetail_Left_160x600"></iframe>
+</div>
+<div id=HomeContainer class="row home-container">
+<div class="col-xs-12 home-header"><a href=https://www.voidrev.us/users/<?=$uID;?>/profile class="avatar avatar-headshot-lg"> <img alt=avatar src=<?=getUserHeadshotThumbnail($con,$uID);?> id=home-avatar-thumb class=avatar-card-image> </a>
+>>>>>>> e785962b7354eaca9514f02e1a70eaa4f37a2bd3
 <script>
 $("img#home-avatar-thumb").on('load', function() {
 if (Roblox && Roblox.Performance) {
@@ -49,7 +75,11 @@ Roblox.Performance.setPerformanceMark("head_avatar");
 });
 </script>
 <div class="home-header-content non-bc">
+<<<<<<< HEAD
 <h1><a href=https://localhost/users/<?=$uID;?>/profile> Hello, <?php echo NoXSSPlz($username);?>! </a>
+=======
+<h1><a href=https://www.voidrev.us/users/<?=$uID;?>/profile> Hello, <?php echo NoXSSPlz($username);?>! </a>
+>>>>>>> e785962b7354eaca9514f02e1a70eaa4f37a2bd3
 </h1>
 <?php
 if($membership == "BuildersClub"){
@@ -69,7 +99,11 @@ echo'<span class="icon-obc"></span>';
 <?php $friendcount = $con->prepare("SELECT * FROM `friends` WHERE `status`='2' AND (toid= :toid OR fromid= :fromid)");
 $friendcount->execute(['toid' => $uID, 'fromid' => $uID]);
 $number = $friendcount->rowCount(); ?>
+<<<<<<< HEAD
 <h3>Friends (<?=$number;?>)</h3><a href=https://localhost/users/friends class="btn-secondary-xs btn-more btn-fixed-width">See All</a>
+=======
+<h3>Friends (<?=$number;?>)</h3><a href=https://www.voidrev.us/users/friends class="btn-secondary-xs btn-more btn-fixed-width">See All</a>
+>>>>>>> e785962b7354eaca9514f02e1a70eaa4f37a2bd3
 </div>
 <div class=section-content>
 <ul class="hlist friend-list">
@@ -95,7 +129,11 @@ $clientstat = $friends['clientstatus'];
 $friendsuser = $friends;
 ?>
 <li id=friend_<?=$friendsuser['id'];?> class="list-item friend">
+<<<<<<< HEAD
 <div class=avatar-container><a href=https://localhost/users/<?=$friendsuser['id'];?>/profile class="avatar avatar-card-fullbody friend-link" title=<?php echo NoXSSPlz($friendsuser['username']);?>> <span class="avatar-card-link friend-avatar" data-3d-url="/avatar-thumbnail-3d/json?userId=<?=$friendsuser['id'];?>" data-orig-retry-url="/avatar-thumbnail/json?userId=<?=$friendsuser['id'];?>&amp;width=100&amp;height=100&amp;format=png"><img alt=<?php echo NoXSSPlz($friendsuser['username']);?> class=avatar-card-image src="<?=getUserHeadshotThumbnail($con,$friendsuser['id']);?>"></span> <span class="text-overflow friend-name"><?php echo NoXSSPlz($friendsuser['username']);?></span> </a> <?php if($onlinestat == "online" && $clientstat != "InGame" && $clientstat != "AppStarted"){ ?></span>
+=======
+<div class=avatar-container><a href=https://www.voidrev.us/users/<?=$friendsuser['id'];?>/profile class="avatar avatar-card-fullbody friend-link" title=<?php echo NoXSSPlz($friendsuser['username']);?>> <span class="avatar-card-link friend-avatar" data-3d-url="/avatar-thumbnail-3d/json?userId=<?=$friendsuser['id'];?>" data-orig-retry-url="/avatar-thumbnail/json?userId=<?=$friendsuser['id'];?>&amp;width=100&amp;height=100&amp;format=png"><img alt=<?php echo NoXSSPlz($friendsuser['username']);?> class=avatar-card-image src="<?=getUserHeadshotThumbnail($con,$friendsuser['id']);?>"></span> <span class="text-overflow friend-name"><?php echo NoXSSPlz($friendsuser['username']);?></span> </a> <?php if($onlinestat == "online" && $clientstat != "InGame" && $clientstat != "AppStarted"){ ?></span>
+>>>>>>> e785962b7354eaca9514f02e1a70eaa4f37a2bd3
 <span class="avatar-status online friend-status icon-online" title="Website"></span>
 <?php }else if($onlinestat != "online"){ ?>
 <span class="avatar-status offline friend-status icon-offline" title="Offline"></span>
@@ -112,7 +150,11 @@ $friendsuser = $friends;
 </div>
 <div id=recently-visited-places class="col-xs-12 container-list home-games">
 <div id=recently-visited-places-header class=container-header>
+<<<<<<< HEAD
 <h3>Recently Played</h3><a href="https://localhost/games?sortFilter=6" class="btn-secondary-xs btn-more btn-fixed-width">See All</a>
+=======
+<h3>Recently Played</h3><a href="https://www.voidrev.us/games?sortFilter=6" class="btn-secondary-xs btn-more btn-fixed-width">See All</a>
+>>>>>>> e785962b7354eaca9514f02e1a70eaa4f37a2bd3
 </div>
 <div id=recently-visited-places-list class=game-card-list>
 <div id=recently-visited-places-content-spinner class="loading-animated game-card-list-spinner">
@@ -127,7 +169,11 @@ $friendsuser = $friends;
 </div>
 <div id=my-favorites-games class="col-xs-12 container-list home-games">
 <div id=my-favorites-games-header class=container-header>
+<<<<<<< HEAD
 <h3>My Favorites</h3><a href=https://localhost/users/<?=$uID;?>/favorites#!/places class="btn-secondary-xs btn-more btn-fixed-width">See All</a>
+=======
+<h3>My Favorites</h3><a href=https://www.voidrev.us/users/<?=$uID;?>/favorites#!/places class="btn-secondary-xs btn-more btn-fixed-width">See All</a>
+>>>>>>> e785962b7354eaca9514f02e1a70eaa4f37a2bd3
 </div>
 <div id=my-favorites-games-list class=game-card-list>
 <div id=my-favorites-games-content-spinner class="loading-animated game-card-list-spinner">
@@ -175,7 +221,11 @@ $friendsuser = $friends;
 </div>
 <div id=friend-activity class="col-xs-12 container-list home-games">
 <div class=container-header>
+<<<<<<< HEAD
 <h3>Friend Activity</h3><a href="https://localhost/games?sortFilter=17" class="btn-secondary-xs btn-more btn-fixed-width">See All</a>
+=======
+<h3>Friend Activity</h3><a href="https://www.voidrev.us/games?sortFilter=17" class="btn-secondary-xs btn-more btn-fixed-width">See All</a>
+>>>>>>> e785962b7354eaca9514f02e1a70eaa4f37a2bd3
 </div>
 <ul class="hlist game-cards">
 </ul>
@@ -183,7 +233,11 @@ $friendsuser = $friends;
 <div class="col-xs-12 col-sm-6 home-right-col">
 <div class=section>
 <div class=section-header>
+<<<<<<< HEAD
 <h3>Blog News</h3><a href=https://localhost class="btn-control-xs btn-more btn-fixed-width">See More</a>
+=======
+<h3>Blog News</h3><a href=https://www.voidrev.us class="btn-control-xs btn-more btn-fixed-width">See More</a>
+>>>>>>> e785962b7354eaca9514f02e1a70eaa4f37a2bd3
 </div>
 <div class=section-content>
 <ul class=blog-news>
@@ -200,7 +254,11 @@ $friendsuser = $friends;
 <div class="form-horizontal flex-box" id=statusForm role=form>
 <div class=form-group><input class="form-control input-field" id=txtStatusMessage maxlength=254 placeholder="What are you up to?">
 <p class=form-control-label>Status update failed.
+<<<<<<< HEAD
 </div><a type=button class=btn-primary-md id=shareButton>Share</a> <img id=loadingImage class=share-login alt=Sharing... src=https://localhost/img/ec4e85b0c4396cf753a06fade0a8d8af.gif height=17 width=48>
+=======
+</div><a type=button class=btn-primary-md id=shareButton>Share</a> <img id=loadingImage class=share-login alt=Sharing... src=https://www.voidrev.us/img/ec4e85b0c4396cf753a06fade0a8d8af.gif height=17 width=48>
+>>>>>>> e785962b7354eaca9514f02e1a70eaa4f37a2bd3
 </div>
 <ul class="vlist feeds">
 <?php
@@ -213,10 +271,17 @@ $userquery = $con->prepare("SELECT * FROM `users` WHERE `id`= :id");
 $userquery->execute(['id' => $posterid]);
 $userfriends = $userquery->fetch();
 ?>
+<<<<<<< HEAD
 <li class=list-item><a href="https://localhost/users/<?=$feed['userid'];?>/profile" class=list-header><img class=header-thumb src=<?=getUserThumbnail($con,$feed['userid']);?>></a>
 <div class=list-body>
 <p class=list-content><a href="https://localhost/users/<?=$feed['userid'];?>/profile"><? echo NoXSSPlz($userfriends['username']); ?></a>
 <p class="feedtext linkify">"<? echo NoXSSPlz($feed['status']); ?>"</p><span class="xsmall text-date-hint"><?php echo date("M d, Y | h:i A (T)", (int)$feed["timestamp"]); ?></span> <a href="https://localhost/abusereport/Feed?id=<?=$feed['id'];?>&amp;redirectUrl=https%3A%2F%2Flocalhost%2Fhome" class=abuse-report-modal> <span class=icon-report></span> </a>
+=======
+<li class=list-item><a href="https://www.voidrev.us/users/<?=$feed['userid'];?>/profile" class=list-header><img class=header-thumb src=<?=getUserThumbnail($con,$feed['userid']);?>></a>
+<div class=list-body>
+<p class=list-content><a href="https://www.voidrev.us/users/<?=$feed['userid'];?>/profile"><? echo NoXSSPlz($userfriends['username']); ?></a>
+<p class="feedtext linkify">"<? echo NoXSSPlz($feed['status']); ?>"</p><span class="xsmall text-date-hint"><?php echo date("M d, Y | h:i A (T)", (int)$feed["timestamp"]); ?></span> <a href="https://www.voidrev.us/abusereport/Feed?id=<?=$feed['id'];?>&amp;redirectUrl=https%3A%2F%2Fwww.voidrev.us%2Fhome" class=abuse-report-modal> <span class=icon-report></span> </a>
+>>>>>>> e785962b7354eaca9514f02e1a70eaa4f37a2bd3
 </div>
 <? } ?>
 </ul>
@@ -240,13 +305,18 @@ Roblox.Home.doProofOfWork(name, hashRegex, devType);
 });
 </script>
 <div id="Skyscraper-Abp-Right" class="abp abp-container right-abp">
+<<<<<<< HEAD
 <iframe name="Roblox_GameDetail_Right_160x600" allowtransparency="true" frameborder="0" height="612" scrolling="no" data-src="" src="https://localhost/user-sponsorship/?id=1" width="160" data-js-adtype="iframead" data-ad-slot="Roblox_GameDetail_Right_160x600"></iframe>
+=======
+<iframe name="Roblox_GameDetail_Right_160x600" allowtransparency="true" frameborder="0" height="612" scrolling="no" data-src="" src="https://www.voidrev.us/user-sponsorship/?id=1" width="160" data-js-adtype="iframead" data-ad-slot="Roblox_GameDetail_Right_160x600"></iframe>
+>>>>>>> e785962b7354eaca9514f02e1a70eaa4f37a2bd3
 </div>
 </div>
 </div>
 <footer class=container-footer>
 <div class=footer>
 <ul class="row footer-links">
+<<<<<<< HEAD
 <li class="col-4 col-xs-1 footer-link"><a href=http://localhost class="text-footer-nav roblox-interstitial" target=_blank> About Us </a>
 <li class="col-4 col-xs-1 footer-link"><a href="https://localhost/careers/" class="text-footer-nav roblox-interstitial" target=_blank> Jobs </a>
 <li class="col-4 col-xs-1 footer-link"><a href=https://localhost class=text-footer-nav target=_blank> Blog </a>
@@ -254,6 +324,15 @@ Roblox.Home.doProofOfWork(name, hashRegex, devType);
 <li class="col-4 col-xs-1 footer-link"><a href=https://localhost/help class="text-footer-nav roblox-interstitial" target=_blank> Help </a>
 <li class="col-4 col-xs-1 footer-link"><a href=https://localhost/info/terms class=text-footer-nav target=_blank> Terms </a>
 <li class="col-4 col-xs-1 footer-link"><a href=https://localhost/info/privacy class="text-footer-nav privacy" target=_blank> Privacy </a>
+=======
+<li class="col-4 col-xs-1 footer-link"><a href=http://www.voidrev.us class="text-footer-nav roblox-interstitial" target=_blank> About Us </a>
+<li class="col-4 col-xs-1 footer-link"><a href="https://www.voidrev.us/careers/" class="text-footer-nav roblox-interstitial" target=_blank> Jobs </a>
+<li class="col-4 col-xs-1 footer-link"><a href=https://www.voidrev.us class=text-footer-nav target=_blank> Blog </a>
+<li class="col-4 col-xs-1 footer-link"><a href=http://www.voidrev.us/parents class="text-footer-nav roblox-interstitial" target=_blank> Parents </a>
+<li class="col-4 col-xs-1 footer-link"><a href=https://www.voidrev.us/help class="text-footer-nav roblox-interstitial" target=_blank> Help </a>
+<li class="col-4 col-xs-1 footer-link"><a href=https://www.voidrev.us/info/terms class=text-footer-nav target=_blank> Terms </a>
+<li class="col-4 col-xs-1 footer-link"><a href=https://www.voidrev.us/info/privacy class="text-footer-nav privacy" target=_blank> Privacy </a>
+>>>>>>> e785962b7354eaca9514f02e1a70eaa4f37a2bd3
 </ul>
 <p class="text-footer footer-note">&copy;2018 Roblox Corporation. Roblox, the Roblox logo, Robux, Bloxy, and Powering Imagination are among our registered and unregistered trademarks in the U.S. and other countries.
 </div>
@@ -269,7 +348,11 @@ function urchinTracker() {}
 </script>
 <div id=PlaceLauncherStatusPanel style=display:none;width:300px data-new-plugin-events-enabled=True data-event-stream-for-plugin-enabled=True data-event-stream-for-protocol-enabled=True data-is-game-launch-interface-enabled=True data-is-protocol-handler-launch-enabled=True data-is-user-logged-in=True data-os-name=OSX data-protocol-name-for-client=roblox-player data-protocol-name-for-studio=roblox-studio data-protocol-url-includes-launchtime=true data-protocol-detection-enabled=true data-protocol-version=1>
 <div class="modalPopup blueAndWhite PlaceLauncherModal" style=min-height:160px>
+<<<<<<< HEAD
 <div id=Spinner class=Spinner style="padding:20px 0"><img data-delaysrc=https://localhost/img/e998fb4c03e8c2e30792f2f3436e9416.gif height=32 width=32 alt=Progress></div>
+=======
+<div id=Spinner class=Spinner style="padding:20px 0"><img data-delaysrc=https://www.voidrev.us/img/e998fb4c03e8c2e30792f2f3436e9416.gif height=32 width=32 alt=Progress></div>
+>>>>>>> e785962b7354eaca9514f02e1a70eaa4f37a2bd3
 <div id=status style="min-height:40px;text-align:center;margin:5px 20px">
 <div id=Starting class="PlaceLauncherStatus MadStatusStarting" style=display:block>Starting Roblox...</div>
 <div id=Waiting class="PlaceLauncherStatus MadStatusField">Connecting to Players...</div>
@@ -282,6 +365,7 @@ function urchinTracker() {}
 <div class="modalPopup ph-modal-popup">
 <div class=ph-modal-header></div>
 <div class=play-modal>
+<<<<<<< HEAD
 <div class=ph-logo-row><img src=https://localhost/img/6304dfebadecbb3b338a79a6a528936c.svg width=90 height=90 alt=R></div>
 <div class=ph-areyouinstalleddialog-content>
 <p class=larger-font-size>Roblox is now loading. Get ready to play!
@@ -293,6 +377,19 @@ function urchinTracker() {}
 <div class=ph-areyouinstalleddialog-content>
 <p class="larger-font-size studio-text">Checking for Roblox Studio...
 <div class=ph-startingdialog-spinner-row><img src=https://localhost/img/4bed93c91f909002b1f17f05c0ce13d1.gif width=82 height=24></div>
+=======
+<div class=ph-logo-row><img src=https://www.voidrev.us/img/6304dfebadecbb3b338a79a6a528936c.svg width=90 height=90 alt=R></div>
+<div class=ph-areyouinstalleddialog-content>
+<p class=larger-font-size>Roblox is now loading. Get ready to play!
+<div class=ph-startingdialog-spinner-row><img src=https://www.voidrev.us/img/4bed93c91f909002b1f17f05c0ce13d1.gif width=82 height=24></div>
+</div>
+</div>
+<div class="studio-modal hidden">
+<div class=ph-logo-row><img src=https://www.voidrev.us/img/3da410727fa2670dcb4f31316643138a.svg width=90 height=90 alt=R class=studio-logo-image></div>
+<div class=ph-areyouinstalleddialog-content>
+<p class="larger-font-size studio-text">Checking for Roblox Studio...
+<div class=ph-startingdialog-spinner-row><img src=https://www.voidrev.us/img/4bed93c91f909002b1f17f05c0ce13d1.gif width=82 height=24></div>
+>>>>>>> e785962b7354eaca9514f02e1a70eaa4f37a2bd3
 </div>
 </div>
 </div>
@@ -301,18 +398,30 @@ function urchinTracker() {}
 <div class=play-modal>
 <div class="modalPopup ph-modal-popup">
 <div class=ph-modal-header><span class="icon-close simplemodal-close"></span></div>
+<<<<<<< HEAD
 <div class=ph-logo-row><img src=https://localhost/img/6304dfebadecbb3b338a79a6a528936c.svg width=90 height=90 alt=R></div>
 <div class=ph-areyouinstalleddialog-content>
 <p class=larger-font-size>You're moments away from getting into the game!
 <div><button type=button class="btn btn-primary-md" id=ProtocolHandlerInstallButton> Download and Install Roblox </button></div>
 <div class=small><a href=https://en.help.roblox.com/hc/en-us/articles/204473560 class=text-name target=_blank>Click here for help</a></div>
+=======
+<div class=ph-logo-row><img src=https://www.voidrev.us/img/6304dfebadecbb3b338a79a6a528936c.svg width=90 height=90 alt=R></div>
+<div class=ph-areyouinstalleddialog-content>
+<p class=larger-font-size>You're moments away from getting into the game!
+<div><button type=button class="btn btn-primary-md" id=ProtocolHandlerInstallButton> Download and Install Roblox </button></div>
+<div class=small><a href=https://en.help.voidrev.us/hc/en-us/articles/204473560 class=text-name target=_blank>Click here for help</a></div>
+>>>>>>> e785962b7354eaca9514f02e1a70eaa4f37a2bd3
 </div>
 </div>
 </div>
 <div class="studio-modal hidden">
 <div class="modalPopup ph-modal-popup">
 <div class=ph-modal-header><span class="icon-close simplemodal-close"></span></div>
+<<<<<<< HEAD
 <div class=ph-logo-row><img src=https://localhost/img/3da410727fa2670dcb4f31316643138a.svg width=95 height=95 alt=R></div>
+=======
+<div class=ph-logo-row><img src=https://www.voidrev.us/img/3da410727fa2670dcb4f31316643138a.svg width=95 height=95 alt=R></div>
+>>>>>>> e785962b7354eaca9514f02e1a70eaa4f37a2bd3
 <div class=ph-areyouinstalleddialog-content>
 <p class="larger-font-size text-header">Get started creating your own games!
 <div><button type=button class="btn btn-primary-md btn-install" id=ProtocolHandlerStudioInstallButton> Download Studio </button></div>
@@ -333,7 +442,11 @@ function urchinTracker() {}
 <div id=videoPrerollLoadingBarCompleted></div>
 </div>
 </div>
+<<<<<<< HEAD
 <div id=videoPrerollJoinBC><span>Get more with Builders Club!</span> <a href="https://localhost/premium/membership?ctx=preroll" target=_blank class="btn-medium btn-primary" id=videoPrerollJoinBCButton>Join Builders Club</a></div>
+=======
+<div id=videoPrerollJoinBC><span>Get more with Builders Club!</span> <a href="https://www.voidrev.us/premium/membership?ctx=preroll" target=_blank class="btn-medium btn-primary" id=videoPrerollJoinBCButton>Join Builders Club</a></div>
+>>>>>>> e785962b7354eaca9514f02e1a70eaa4f37a2bd3
 </div>
 <script>
 $(function() {
@@ -376,15 +489,25 @@ $(videoPreRollDFP.checkEligibility);
 </div>
 <div style=clear:both;height:25px></div>
 <div class=RevisedFooter>
+<<<<<<< HEAD
 <div style="width:200px;margin:10px auto 0 auto"><a href="https://localhost/?returnUrl=https%3A%2F%2Flocalhost%2Fhome%3Fnl%3Dtrue">
 <div class=RevisedCharacterSelectSignup></div>
 </a> <a class=HaveAccount href="https://localhost/newlogin?returnUrl=https%3A%2F%2Flocalhost%2Fhome%3Fnl%3Dtrue">I have an account</a></div>
+=======
+<div style="width:200px;margin:10px auto 0 auto"><a href="https://www.voidrev.us/?returnUrl=https%3A%2F%2Fwww.voidrev.us%2Fhome%3Fnl%3Dtrue">
+<div class=RevisedCharacterSelectSignup></div>
+</a> <a class=HaveAccount href="https://www.voidrev.us/newlogin?returnUrl=https%3A%2F%2Fwww.voidrev.us%2Fhome%3Fnl%3Dtrue">I have an account</a></div>
+>>>>>>> e785962b7354eaca9514f02e1a70eaa4f37a2bd3
 </div>
 </div>
 </div>
 <script>
 function checkRobloxInstall() {
+<<<<<<< HEAD
 return RobloxLaunch.CheckRobloxInstall('https://localhost/install/download.aspx');
+=======
+return RobloxLaunch.CheckRobloxInstall('https://www.voidrev.us/install/download.aspx');
+>>>>>>> e785962b7354eaca9514f02e1a70eaa4f37a2bd3
 }
 </script>
 <div id=InstallationInstructions style=display:none>
@@ -397,6 +520,7 @@ return RobloxLaunch.CheckRobloxInstall('https://localhost/install/download.aspx'
 <ul class=modal-col-5>
 <li class=step1-of-5>
 <h2>1</h2>
+<<<<<<< HEAD
 <p class=larger-font-size>Click <strong>Roblox.dmg</strong> to run the Roblox installer, which just downloaded via your web browser.</p><img data-delaysrc=https://localhost/img/a70f6029e3dd81c18f837b958feb7f4c.png>
 <li class=step2-of-5>
 <h2>2</h2>
@@ -407,6 +531,18 @@ return RobloxLaunch.CheckRobloxInstall('https://localhost/install/download.aspx'
 <li class=step4-of-5>
 <h2>4</h2>
 <p class=larger-font-size>Click <strong>Ok</strong> once you've successfully installed Roblox.</p><img data-delaysrc=https://localhost/img/e7439961916d36f97ea5e7af3b5077ad.png>
+=======
+<p class=larger-font-size>Click <strong>Roblox.dmg</strong> to run the Roblox installer, which just downloaded via your web browser.</p><img data-delaysrc=https://www.voidrev.us/img/a70f6029e3dd81c18f837b958feb7f4c.png>
+<li class=step2-of-5>
+<h2>2</h2>
+<p class=larger-font-size>Double-click the Roblox app icon to begin the installation process.</p><img data-delaysrc=https://www.voidrev.us/img/57f502e3d6e41987f1fa2d988366feba.png>
+<li class=step3-of-5>
+<h2>3</h2>
+<p class=larger-font-size>Click <strong>Open</strong> when prompted by your computer.</p><img data-delaysrc=https://www.voidrev.us/img/13760ce84c2c382927405c0774886eba.png>
+<li class=step4-of-5>
+<h2>4</h2>
+<p class=larger-font-size>Click <strong>Ok</strong> once you've successfully installed Roblox.</p><img data-delaysrc=https://www.voidrev.us/img/e7439961916d36f97ea5e7af3b5077ad.png>
+>>>>>>> e785962b7354eaca9514f02e1a70eaa4f37a2bd3
 <li class=step5-of-5>
 <h2>5</h2>
 <p class=larger-font-size>After installation, click <strong>Play</strong> below to join the action!
@@ -419,11 +555,19 @@ return RobloxLaunch.CheckRobloxInstall('https://localhost/install/download.aspx'
 </div>
 <div class=InstallInstructionsImage data-modalwidth=970 style=display:none></div>
 <div id=pluginObjDiv style=height:1px;width:1px;visibility:hidden;position:absolute;top:0></div><iframe id=downloadInstallerIFrame name=downloadInstallerIFrame style=visibility:hidden;height:0;width:1px;position:absolute></iframe>
+<<<<<<< HEAD
 <script src=https://localhost/js/e2cb6070c58f829226a04307a3f3e28a.js></script>
 <script>
 Roblox.Client._skip = null;
 Roblox.Client._CLSID = '76D50904-6780-4c8b-8986-1A7EE0B1716D';
 Roblox.Client._installHost = 'localhost';
+=======
+<script src=https://www.voidrev.us/js/e2cb6070c58f829226a04307a3f3e28a.js></script>
+<script>
+Roblox.Client._skip = null;
+Roblox.Client._CLSID = '76D50904-6780-4c8b-8986-1A7EE0B1716D';
+Roblox.Client._installHost = 'www.voidrev.us';
+>>>>>>> e785962b7354eaca9514f02e1a70eaa4f37a2bd3
 Roblox.Client.ImplementsProxy = true;
 Roblox.Client._silentModeEnabled = true;
 Roblox.Client._bringAppToFrontEnabled = false;
@@ -495,7 +639,11 @@ Cancel: "Cancel"
 <div class="modal-checkbox checkbox"><input id=modal-checkbox-input type=checkbox> <label for=modal-checkbox-input></label></div>
 </div>
 <div class=modal-btns><a href="" id=confirm-btn><span></span></a> <a href="" id=decline-btn><span></span></a></div>
+<<<<<<< HEAD
 <div class="loading modal-processing"><img class=loading-default src=https://localhost/img/4bed93c91f909002b1f17f05c0ce13d1.gif alt=Processing...></div>
+=======
+<div class="loading modal-processing"><img class=loading-default src=https://www.voidrev.us/img/4bed93c91f909002b1f17f05c0ce13d1.gif alt=Processing...></div>
+>>>>>>> e785962b7354eaca9514f02e1a70eaa4f37a2bd3
 </div>
 <div class="modal-footer text-footer"></div>
 </div>
@@ -516,8 +664,13 @@ Agree: "Agree"
 <script>
 Roblox = Roblox || {};
 Roblox.ContactUpsellMeta = {
+<<<<<<< HEAD
 accountSettingsApiDomain: "https://localhost",
 apiProxyDomain: "https://localhost",
+=======
+accountSettingsApiDomain: "https://www.voidrev.us",
+apiProxyDomain: "https://www.voidrev.us",
+>>>>>>> e785962b7354eaca9514f02e1a70eaa4f37a2bd3
 codeLength: 6
 };
 </script>
@@ -553,6 +706,7 @@ expires: Roblox.CookieUpgrader.thirtyYearsFromNow
 });
 });
 </script>
+<<<<<<< HEAD
 <script src=https://localhost/js/3a25d0eb48bed7aea3692d1ddbca637b.js></script>
 <script src=https://localhost/js/7825498393db2b92524062e06460f88a.js></script>
 <div ng-modules=baseTemplateApp>
@@ -573,6 +727,28 @@ Roblox.config.paths['Widgets.HierarchicalDropdown'] = 'https://localhost/js/7689
 Roblox.config.paths['Widgets.ItemImage'] = 'https://localhost/js/c2aa2fcc2b1e8ec82e1bacfdb9dfffea.js';
 Roblox.config.paths['Widgets.PlaceImage'] = 'https://localhost/js/52ff803e77bb661839e8b2c93bb5ba27.js';
 Roblox.config.paths['Widgets.SurveyModal'] = 'https://localhost/js/56ad7af86ee4f8bc82af94269ed50148.js';
+=======
+<script src=https://www.voidrev.us/js/3a25d0eb48bed7aea3692d1ddbca637b.js></script>
+<script src=https://www.voidrev.us/js/7825498393db2b92524062e06460f88a.js></script>
+<div ng-modules=baseTemplateApp>
+<script src=https://www.voidrev.us/js/cbd9a121217c4887264ffe32686ecd52.js></script>
+</div>
+<div ng-modules=pageTemplateApp>
+<script src=https://www.voidrev.us/js/289160c4f8099399d0ed5cb5023ca37d.js></script>
+</div>
+<script src=https://www.voidrev.us/js/a1c1db9de0e1d721ba154d95aed2f861.js></script>
+<script>
+Roblox.config.externalResources = [];
+Roblox.config.paths['Pages.Catalog'] = 'https://www.voidrev.us/js/8d6821a4eed971155a4829a1e43336f4.js';
+Roblox.config.paths['Pages.CatalogShared'] = 'https://www.voidrev.us/js/5c0ac85bd60f40a577bfff7e323e3690.js';
+Roblox.config.paths['Widgets.AvatarImage'] = 'https://www.voidrev.us/js/823c7d686e6b3d8321275740fe498f9d.js';
+Roblox.config.paths['Widgets.DropdownMenu'] = 'https://www.voidrev.us/js/5cf0eb71249768c86649bbf0c98591b0.js';
+Roblox.config.paths['Widgets.GroupImage'] = 'https://www.voidrev.us/js/556af22c86bce192fb12defcd4d2121c.js';
+Roblox.config.paths['Widgets.HierarchicalDropdown'] = 'https://www.voidrev.us/js/7689b2fd3f7467640cda2d19e5968409.js';
+Roblox.config.paths['Widgets.ItemImage'] = 'https://www.voidrev.us/js/c2aa2fcc2b1e8ec82e1bacfdb9dfffea.js';
+Roblox.config.paths['Widgets.PlaceImage'] = 'https://www.voidrev.us/js/52ff803e77bb661839e8b2c93bb5ba27.js';
+Roblox.config.paths['Widgets.SurveyModal'] = 'https://www.voidrev.us/js/56ad7af86ee4f8bc82af94269ed50148.js';
+>>>>>>> e785962b7354eaca9514f02e1a70eaa4f37a2bd3
 </script>
 <script>
 Roblox.XsrfToken.setToken('AltJRVSnjl0T');
@@ -654,11 +830,19 @@ accept: "Upgrade Now",
 decline: "No, thanks"
 };
 </script>
+<<<<<<< HEAD
 <script src=https://localhost/js/80ec894ff5392edec25e6bc79cbad240.js></script>
 <script src=https://localhost/js/5926309ff55b06c732ffe910f2100b1e.js></script>
 <script src=https://localhost/js/9ffc48c1bb642f795fdccc44f9ba50a4.js></script>
 <div id=push-notification-registrar-settings data-notificationshost=https://localhost data-reregistrationinterval=0 data-registrationpath=register-chrome data-shoulddeliveryendpointbesentduringregistration=False data-platformtype=ChromeOnDesktop></div>
 <div id=push-notification-registration-ui-settings data-noncontextualpromptallowed=true data-promptonfriendrequestsentenabled=true data-promptonprivatemessagesentenabled=false data-promptintervals=[604800000,1209600000,2419200000] data-notificationsdomain=https://localhost data-userid=<?=$uID;?>></div>
+=======
+<script src=https://www.voidrev.us/js/80ec894ff5392edec25e6bc79cbad240.js></script>
+<script src=https://www.voidrev.us/js/5926309ff55b06c732ffe910f2100b1e.js></script>
+<script src=https://www.voidrev.us/js/9ffc48c1bb642f795fdccc44f9ba50a4.js></script>
+<div id=push-notification-registrar-settings data-notificationshost=https://www.voidrev.us data-reregistrationinterval=0 data-registrationpath=register-chrome data-shoulddeliveryendpointbesentduringregistration=False data-platformtype=ChromeOnDesktop></div>
+<div id=push-notification-registration-ui-settings data-noncontextualpromptallowed=true data-promptonfriendrequestsentenabled=true data-promptonprivatemessagesentenabled=false data-promptintervals=[604800000,1209600000,2419200000] data-notificationsdomain=https://www.voidrev.us data-userid=<?=$uID;?>></div>
+>>>>>>> e785962b7354eaca9514f02e1a70eaa4f37a2bd3
 <script type=text/template id=push-notifications-initial-global-prompt-template>
 <div class="push-notifications-global-prompt">
 <div class="alert-info push-notifications-global-prompt-site-wide-body">
@@ -694,7 +878,11 @@ Can we send you notifications on this computer?
 Now just click <strong>Allow</strong> in your browser, and we'll start sending you push notifications!
 </div>
 <div class="push-notifications-permissions-prompt-instructional-image">
+<<<<<<< HEAD
 <img width="380" height="250" src="https://localhost/images/Notifications/push-permission-prompt-chrome-mac-20160701.png" />
+=======
+<img width="380" height="250" src="https://www.voidrev.us/images/Notifications/push-permission-prompt-chrome-mac-20160701.png" />
+>>>>>>> e785962b7354eaca9514f02e1a70eaa4f37a2bd3
 </div>
 </div>
 <div class="modal-footer">
@@ -720,17 +908,29 @@ Now just click <strong>Allow</strong> in your browser, and we'll start sending y
 <div class="reenable-step reenable-step1-of3">
 <h1>1</h1>
 <p class="larger-font-size push-notifications-modal-step-instruction">Click the green lock next to the URL bar to open up your site permissions.</p>
+<<<<<<< HEAD
 <img width="270" height="139" src="https://localhost/images/Notifications/push-permission-unblock-step1-chrome-20160701.png">
+=======
+<img width="270" height="139" src="https://www.voidrev.us/images/Notifications/push-permission-unblock-step1-chrome-20160701.png">
+>>>>>>> e785962b7354eaca9514f02e1a70eaa4f37a2bd3
 </div>
 <div class="reenable-step reenable-step2-of3">
 <h1>2</h1>
 <p class="larger-font-size push-notifications-modal-step-instruction">Click the drop-down arrow next to Notifications in the <strong>Permissions</strong> tab.</p>
+<<<<<<< HEAD
 <img width="270" height="229" src="https://localhost/images/Notifications/push-permission-unblock-step2-chrome-20160701.png">
+=======
+<img width="270" height="229" src="https://www.voidrev.us/images/Notifications/push-permission-unblock-step2-chrome-20160701.png">
+>>>>>>> e785962b7354eaca9514f02e1a70eaa4f37a2bd3
 </div>
 <div class="reenable-step reenable-step3-of3">
 <h1>3</h1>
 <p class="larger-font-size push-notifications-modal-step-instruction">Select <strong>Always allow on this site</strong> to turn notifications back on.</p>
+<<<<<<< HEAD
 <img width="270" height="229" src="https://localhost/images/Notifications/push-permission-unblock-step3-chrome-20160701.png">
+=======
+<img width="270" height="229" src="https://www.voidrev.us/images/Notifications/push-permission-unblock-step3-chrome-20160701.png">
+>>>>>>> e785962b7354eaca9514f02e1a70eaa4f37a2bd3
 </div>
 </div>
 <div class="modal-footer">

@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 <?php include($_SERVER['DOCUMENT_ROOT'] . '/config/includes.php');
+=======
+<?php include ($_SERVER['DOCUMENT_ROOT'].'/config/includes.php');
+>>>>>>> e785962b7354eaca9514f02e1a70eaa4f37a2bd3
 header("Content-Type: application/json");
 $usr = getUserData($con);
 $uID = $usr['id'];

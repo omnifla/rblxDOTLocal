@@ -1,18 +1,32 @@
 <?php
+<<<<<<< HEAD
 if (!(isset($_SERVER['HTTPS']) && ($_SERVER['HTTPS'] == 'on' || $_SERVER['HTTPS'] == 1) || isset($_SERVER['HTTP_X_FORWARDED_PROTO']) && $_SERVER['HTTP_X_FORWARDED_PROTO'] == 'https')) {
 if (!(isset($_SERVER['HTTPS']) && ($_SERVER['HTTPS'] == 'on' || $_SERVER['HTTPS'] == 1) || isset($_SERVER['HTTP_X_FORWARDED_PROTO']) && $_SERVER['HTTP_X_FORWARDED_PROTO'] == 'https')) {
+=======
+// yes i cleaned ur code cuz MY EYESSS
+// i agree
+if (!(isset($_SERVER['HTTPS']) && ($_SERVER['HTTPS'] == 'on' || $_SERVER['HTTPS'] == 1) || isset($_SERVER['HTTP_X_FORWARDED_PROTO']) && $_SERVER['HTTP_X_FORWARDED_PROTO'] == 'https')) {
+$redirect = 'https://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
+>>>>>>> e785962b7354eaca9514f02e1a70eaa4f37a2bd3
 header('HTTP/1.1 301 Moved Permanently');
 header('Location: ' . $redirect);
 exit();
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> e785962b7354eaca9514f02e1a70eaa4f37a2bd3
 $redirs = array(
 "/index.php" => "/",
 "/login/index.php" => "/login/",
 "/register/index.php" => "/register/"
 );
+<<<<<<< HEAD
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config/includes.php');
 include_once($_SERVER['DOCUMENT_ROOT'] . '/config/includes.php');
+=======
+include_once ($_SERVER['DOCUMENT_ROOT'].'/config/includes.php');
+>>>>>>> e785962b7354eaca9514f02e1a70eaa4f37a2bd3
 $logged = false;
 $url = basename($_SERVER['REQUEST_URI']);
 $urlArray = explode("/", $url);
@@ -27,12 +41,20 @@ $Robux = $usr['Robux'];
 } else {
 $logged = false;
 if (strpos($_SERVER['HTTP_USER_AGENT'], "Discord") === false) {
+<<<<<<< HEAD
 if (strpos($_SERVER['HTTP_USER_AGENT'], "Discord") === false) {
+=======
+if (array_key_exists(basename($_SERVER['PHP_SELF']), $redirs)) {
+>>>>>>> e785962b7354eaca9514f02e1a70eaa4f37a2bd3
 $redirectURL = $redirs[basename($_SERVER['PHP_SELF'])];
 header("Location: $redirectURL");
 exit();
 } else {
+<<<<<<< HEAD
 header("Location: https://localhost/login/");
+=======
+header("Location: https://www.voidrev.us/login/");
+>>>>>>> e785962b7354eaca9514f02e1a70eaa4f37a2bd3
 exit();
 }
 }
@@ -43,14 +65,22 @@ $redirectURL = $redirs[basename($_SERVER['PHP_SELF'])];
 header("Location: $redirectURL");
 exit();
 } else {
+<<<<<<< HEAD
 header("Location: https://localhost/login/");
+=======
+header("Location: https://www.voidrev.us/login/");
+>>>>>>> e785962b7354eaca9514f02e1a70eaa4f37a2bd3
 exit();
 }
 }
 $timey = time();
 if ($usr['banned'] > 0) {
 if ($_SERVER['PHP_SELF'] != "/banned/index.php") {
+<<<<<<< HEAD
 if ($_SERVER['PHP_SELF'] != "/banned/index.php") {
+=======
+header('Location: /banned/');
+>>>>>>> e785962b7354eaca9514f02e1a70eaa4f37a2bd3
 exit();
 }
 }
@@ -59,16 +89,26 @@ $ExperimentalTheme = $usr['ExperimentalTheme'];
 if (is_array($usr)) {
 if ($usr['activated'] == 0) {
 if (basename($_SERVER['PHP_SELF']) != "/login/index.php" && $_SERVER['PHP_SELF'] != "/forgotPasswordOrUsername/index.php") {
+<<<<<<< HEAD
 header("Location: https://localhost/register/notactivated");
+=======
+header("Location: https://www.voidrev.us/register/notactivated");
+>>>>>>> e785962b7354eaca9514f02e1a70eaa4f37a2bd3
 exit();
 }
 }
 }
 $SuperAdmin = $usr['SuperAdmin'];
 if($usr['CanSee2020'] == 1){
+<<<<<<< HEAD
     $CanSee2020 = true;
 } else {
     $CanSee2020 = false;
+=======
+$CanSee2020 = true;
+}else{
+$CanSee2020 = false;
+>>>>>>> e785962b7354eaca9514f02e1a70eaa4f37a2bd3
 }
 function robloxNumberFormat($number, $decimals = 1) {
 if ($number >= 1000000000) {
@@ -92,6 +132,7 @@ $messageamquery->execute(['toid' => $uID]);
 $messagescount = $messageamquery->rowCount();
 $notificationvalue = $friendreqcount + $messagescount;
 if($friendreqcount > 0){
+<<<<<<< HEAD
 if ($friendreqcount > 0) {
 } else {
 $friendsnotifcation = "false";
@@ -99,6 +140,15 @@ $friendsnotifcation = "false";
 if($messagescount > 0){
 if ($messagescount > 0) {
 } else {
+=======
+$friendsnotifcation = "true";
+}else{
+$friendsnotifcation = "false";
+}
+if($messagescount > 0){
+$messagenotifcation = "true";
+}else{
+>>>>>>> e785962b7354eaca9514f02e1a70eaa4f37a2bd3
 $messagenotifcation = "false";
 }
 $now = time();
@@ -185,14 +235,21 @@ $fulllocale = $localeMappings[$locale];
 $fulllocale = "English";
 }
 }else{
+<<<<<<< HEAD
     $fulllocale = "English";
 }
 } // Closing brace for if($usr['CanSee2020'] == 1)
 } // Closing brace for the main PHP block
+=======
+$locale = "en-us";
+$fulllocale = "English";
+}
+>>>>>>> e785962b7354eaca9514f02e1a70eaa4f37a2bd3
 ?>
 <head>
 <?php
 if($ExperimentalTheme == "Light"){
+<<<<<<< HEAD
     echo '<link rel="stylesheet" href="https://localhost/css/main2.css"/>';
     echo '<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600" rel="stylesheet" type="text/css">';
 } elseif($ExperimentalTheme == "2016E"){
@@ -219,6 +276,34 @@ if($ExperimentalTheme == "Light"){
 ?>
     }
 ?>
+=======
+?>
+<link rel="stylesheet" href="https://www.voidrev.us/css/main2.css"/>
+<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600" rel="stylesheet" type="text/css">
+<?php
+}elseif($ExperimentalTheme == "2016E"){
+?>
+<link rel="stylesheet" href="https://www.voidrev.us/css/2016e.css"/>
+<?
+}elseif($ExperimentalTheme == "AprilFools"){
+?>
+<link rel="stylesheet" href="https://www.voidrev.us/css/aprilfools.css"/>
+<?
+}elseif($ExperimentalTheme == "Pdark"){
+?>
+<link rel="stylesheet" href="https://www.voidrev.us/css/pdark.css"/>
+<?
+}elseif($ExperimentalTheme == "newtheme"){
+?>
+<link rel="stylesheet" href="https://www.voidrev.us/css/newtheme.css"/>
+<?
+}else{
+?>
+<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600" rel="stylesheet" type="text/css">
+<?
+}
+?>
+>>>>>>> e785962b7354eaca9514f02e1a70eaa4f37a2bd3
 <?php
 if($username == "dinnerbone"){
 echo'<style>
@@ -235,32 +320,53 @@ transform: rotate(180deg);
 <!DOCTYPE html><!--[if IE 8]>
 <html class=ie8 ng-app=robloxApp>
 <![endif]--> <!--[if gt IE 8]><!-->
+<<<<<<< HEAD
 <![endif--> <!--[if gt IE 8]><!-->
+=======
+<html>
+>>>>>>> e785962b7354eaca9514f02e1a70eaa4f37a2bd3
 <!--<![endif]-->
 <head data-machine-id=WEB1262>
 <meta http-equiv=X-UA-Compatible content="IE=edge">
 <meta charset=UTF-8>
 <meta name=viewport content="width=device-width, initial-scale=1">
 <script type=application/ld+json>
+<<<<<<< HEAD
 function robloxNumberFormat($number, $decimals = 1)
+=======
+>>>>>>> e785962b7354eaca9514f02e1a70eaa4f37a2bd3
 {
 "@context" : "http://schema.org",
 "@type" : "Organization",
 "name" : "Limbo",
+<<<<<<< HEAD
 "url" : "https://localhost/",
 "logo": "https://localhost/img/c69b74f49e785df33b732273fad9dbe0.png",
+=======
+"url" : "https://www.voidrev.us/",
+"logo": "https://www.voidrev.us/img/c69b74f49e785df33b732273fad9dbe0.png",
+>>>>>>> e785962b7354eaca9514f02e1a70eaa4f37a2bd3
 "sameAs" : [
 "https://www.facebook.com/ROBLOX/",
 "https://twitter.com/roblox",
 "https://www.linkedin.com/company/147977",
 "https://www.instagram.com/roblox/",
 "https://www.youtube.com/user/roblox",
+<<<<<<< HEAD
 
 
 ]
 }
 </script>
 <meta name=locale-data data-language-code=<?php echo $locale;?> data-language-name=<?php echo $fulllocale;?> data-locale-api-url=https://localhost>
+=======
+"https://plus.google.com/+roblox",
+"https://www.twitch.tv/roblox"
+]
+}
+</script>
+<meta name=locale-data data-language-code=<?php echo $locale;?> data-language-name=<?php echo $fulllocale;?> data-locale-api-url=https://www.voidrev.us>
+>>>>>>> e785962b7354eaca9514f02e1a70eaa4f37a2bd3
 <meta name=device-meta data-device-type=computer data-is-in-app=false data-is-desktop=true data-is-phone=false data-is-tablet=false data-is-console=false data-is-android-app=false data-is-ios-app=false data-is-uwp-app=false data-is-xbox-app=false data-is-amazon-app=false data-is-studio=false data-app-type=unknown>
 <meta name="user-data"
 data-userid="<?=$uID;?>"
@@ -276,18 +382,32 @@ else{ephemeralCounterName=this.counterNames.jsError;failedBundle=bundleTag.src;c
 this.bundlesReported[failedBundle]=true;this.logToEphemeralCounter(ephemeralCounterName);this.getCdnInfo(failedBundle,ctx,ctx);},bundleDetected:function(bundleName){this.jsBundlesLoaded[bundleName]=true;},verifyBundles:function(document){var ephemeralCounterName=this.counterNames.jsFileError,eventContext=ephemeralCounterName;var scripts=(document&&document.scripts)||window.document.scripts;var errorsList=[];for(var i=0;i<scripts.length;i++){var item=scripts[i];if(item.src&&item.dataset.monitor&&item.dataset.bundlename){if(!Roblox.BundleDetector.jsBundlesLoaded.hasOwnProperty(item.dataset.bundlename)){errorsList.push(item);}}}
 if(errorsList.length>0){for(var j=0;j<errorsList.length;j++){var script=errorsList[j];if(!this.bundlesReported[script.src]){this.logToEphemeralCounter(ephemeralCounterName);this.getCdnInfo(script.src,eventContext,'js');}}}}};window.addEventListener("load",function(evt){Roblox.BundleDetector.verifyBundles();});Roblox.BundleDetector.setTiming(window.performance.timing);
 </script>
+<<<<<<< HEAD
 <link href=https://localhost/favicon.ico rel=icon>
 <link rel="manifest" href="https://localhost/v2/push-notifications/chrome-manifest" crossorigin="use-credentials">
 <script onerror=Roblox.BundleDetector&amp;&amp;Roblox.BundleDetector.reportBundleError(this) data-monitor=true src=//ajax.aspnetcdn.com/ajax/jQuery/jquery-1.11.1.min.js></script><script>window.jQuery||document.write("<script type='text/javascript' src='/js/jquery/jquery-1.11.1.js'><\/script>")</script><script onerror=Roblox.BundleDetector&amp;&amp;Roblox.BundleDetector.reportBundleError(this) data-monitor=true src=//ajax.aspnetcdn.com/ajax/jquery.migrate/jquery-migrate-1.2.1.min.js></script><script>window.jQuery||document.write("<script type='text/javascript' src='/js/jquery/jquery-migrate-1.2.1.js'><\/script>")</script><script>var Roblox=Roblox||{};Roblox.EnvironmentUrls=Roblox.EnvironmentUrls||{};Roblox.EnvironmentUrls={abuseAppSite:"https://localhost",accountSettingsApi:"https://localhost",amazonStoreLink:"http://amzn.com/B00NUF4YOA",apiProxyUrl:"https://localhost",appProtocolUrl:"robloxmobile://",appStoreLink:"https://itunes.apple.com/us/app/roblox-mobile/id431946152",authApi:"https://localhost",authAppSite:"https://localhost",avatarApi:"https://localhost",avatarAppSite:"https://localhost",badgesApi:"https://localhost",catalogApi:"https://localhost",chatApi:"https://localhost",chatAppSite:"https://chatsite.voidrev.us",domain:"voidrev.us",followingsApi:"https://localhost",friendsApi:"https://localhost",friendsAppSite:"https://localhost",gamesApi:"https://localhost",gamesAppSite:"https://localhost",googlePlayStoreLink:"https://play.google.com/store/apps/details?id=com.roblox.client&amp;hl=en",groupsApi:"https://localhost",groupsAppSite:"https://localhost",iosAppStoreLink:"https://itunes.apple.com/us/app/roblox-mobile/id431946152",localeApi:"https://localhost",notificationApi:"https://localhost",notificationAppSite:"https://localhost",presenceApi:"https://localhost",publishApi:"https://localhost",surveysAppSite:"https://localhost",thumbnailsApi:"https://localhost",translationAppSite:"https://localhost",websiteUrl:"https://localhost",windowsStoreLink:"https://www.microsoft.com/en-us/store/games/roblox/9nblgggzm6wm",xboxStoreLink:"https://www.microsoft.com/en-us/p/roblox/bq1tn1t79v9k"}</script><script>var Roblox=Roblox||{};Roblox.GaEventSettings={gaDFPPreRollEnabled:"false"==="true",gaLaunchAttemptAndLaunchSuccessEnabled:"false"==="true",gaPerformanceEventEnabled:"false"==="true"};</script><script onerror=Roblox.BundleDetector&amp;&amp;Roblox.BundleDetector.reportBundleError(this) data-monitor=true data-bundlename=headerinit src=https://localhost/js/320c48b73216ab58062c45351addcaa1.js></script>
+=======
+<link href=https://www.voidrev.us/favicon.ico rel=icon>
+<link rel="manifest" href="https://www.voidrev.us/v2/push-notifications/chrome-manifest" crossorigin="use-credentials">
+<script onerror=Roblox.BundleDetector&amp;&amp;Roblox.BundleDetector.reportBundleError(this) data-monitor=true src=//ajax.aspnetcdn.com/ajax/jQuery/jquery-1.11.1.min.js></script><script>window.jQuery||document.write("<script type='text/javascript' src='/js/jquery/jquery-1.11.1.js'><\/script>")</script><script onerror=Roblox.BundleDetector&amp;&amp;Roblox.BundleDetector.reportBundleError(this) data-monitor=true src=//ajax.aspnetcdn.com/ajax/jquery.migrate/jquery-migrate-1.2.1.min.js></script><script>window.jQuery||document.write("<script type='text/javascript' src='/js/jquery/jquery-migrate-1.2.1.js'><\/script>")</script><script>var Roblox=Roblox||{};Roblox.EnvironmentUrls=Roblox.EnvironmentUrls||{};Roblox.EnvironmentUrls={abuseAppSite:"https://www.voidrev.us",accountSettingsApi:"https://www.voidrev.us",amazonStoreLink:"http://amzn.com/B00NUF4YOA",apiProxyUrl:"https://www.voidrev.us",appProtocolUrl:"robloxmobile://",appStoreLink:"https://itunes.apple.com/us/app/roblox-mobile/id431946152",authApi:"https://www.voidrev.us",authAppSite:"https://www.voidrev.us",avatarApi:"https://www.voidrev.us",avatarAppSite:"https://www.voidrev.us",badgesApi:"https://www.voidrev.us",catalogApi:"https://www.voidrev.us",chatApi:"https://www.voidrev.us",chatAppSite:"https://chatsite.voidrev.us",domain:"voidrev.us",followingsApi:"https://www.voidrev.us",friendsApi:"https://www.voidrev.us",friendsAppSite:"https://www.voidrev.us",gamesApi:"https://www.voidrev.us",gamesAppSite:"https://www.voidrev.us",googlePlayStoreLink:"https://play.google.com/store/apps/details?id=com.roblox.client&amp;hl=en",groupsApi:"https://www.voidrev.us",groupsAppSite:"https://www.voidrev.us",iosAppStoreLink:"https://itunes.apple.com/us/app/roblox-mobile/id431946152",localeApi:"https://www.voidrev.us",notificationApi:"https://www.voidrev.us",notificationAppSite:"https://www.voidrev.us",presenceApi:"https://www.voidrev.us",publishApi:"https://www.voidrev.us",surveysAppSite:"https://www.voidrev.us",thumbnailsApi:"https://www.voidrev.us",translationAppSite:"https://www.voidrev.us",websiteUrl:"https://www.voidrev.us",windowsStoreLink:"https://www.microsoft.com/en-us/store/games/roblox/9nblgggzm6wm",xboxStoreLink:"https://www.microsoft.com/en-us/p/roblox/bq1tn1t79v9k"}</script><script>var Roblox=Roblox||{};Roblox.GaEventSettings={gaDFPPreRollEnabled:"false"==="true",gaLaunchAttemptAndLaunchSuccessEnabled:"false"==="true",gaPerformanceEventEnabled:"false"==="true"};</script><script onerror=Roblox.BundleDetector&amp;&amp;Roblox.BundleDetector.reportBundleError(this) data-monitor=true data-bundlename=headerinit src=https://www.voidrev.us/js/320c48b73216ab58062c45351addcaa1.js></script>
+>>>>>>> e785962b7354eaca9514f02e1a70eaa4f37a2bd3
 <script type="text/javascript">
 var Roblox = Roblox || {};
 Roblox.RealTimeSettings = Roblox.RealTimeSettings ||
 {
+<<<<<<< HEAD
 NotificationsEndpoint: "https://localhost",
 MaxConnectionTime: "21600000",
 IsEventPublishingEnabled: false,
 IsDisconnectOnSlowConnectionDisabled: true,
 IsDisconnectOnSlowConnectionConnectionDisabled: true,
+=======
+NotificationsEndpoint: "https://www.voidrev.us",
+MaxConnectionTime: "21600000",
+IsEventPublishingEnabled: false,
+IsDisconnectOnSlowConnectionDisabled: true,
+IsSignalRClientTransportRestrictionEnabled: true,
+>>>>>>> e785962b7354eaca9514f02e1a70eaa4f37a2bd3
 IsLocalStorageInRealTimeEnabled: true,
 IsDebuggerEnabled: "False"
 }
@@ -297,6 +417,7 @@ var Roblox = Roblox || {};
 Roblox.EnvironmentUrls = Roblox.EnvironmentUrls || {};
 // please keep the list in alphabetical order
 Roblox.EnvironmentUrls = {
+<<<<<<< HEAD
 abtestingApiSite: "https://localhost",
 accountInformationApi: "https://localhost",
 accountSettingsApi: "https://localhost",
@@ -343,6 +464,54 @@ thumbnailsApi: "https://localhost",
 translationRolesApi: "https://localhost",
 voiceApi: "https://localhost",
 websiteUrl: "https://localhost",
+=======
+abtestingApiSite: "https://www.voidrev.us",
+accountInformationApi: "https://www.voidrev.us",
+accountSettingsApi: "https://www.voidrev.us",
+amazonStoreLink: "http://amzn.com/B00NUF4YOA",
+apiGatewayUrl: "https://www.voidrev.us",
+apiProxyUrl: "https://www.voidrev.us",
+appProtocolUrl: "robloxmobile://",
+appStoreLink: "https://itunes.apple.com/us/app/roblox-mobile/id431946152",
+authApi: "https://www.voidrev.us",
+authAppSite: "https://www.voidrev.us",
+avatarApi: "https://www.voidrev.us",
+avatarAppSite: "https://www.voidrev.us",
+badgesApi: "https://www.voidrev.us",
+billingApi: "https://www.voidrev.us",
+captchaApi: "https://www.voidrev.us",
+catalogApi: "https://www.voidrev.us",
+chatApi: "https://www.voidrev.us",
+contactsApi: "https://www.voidrev.us",
+developApi: "https://www.voidrev.us",
+domain: "voidrev.us",
+economyApi: "https://www.voidrev.us",
+followingsApi: "https://www.voidrev.us",
+friendsApi: "https://www.voidrev.us",
+friendsAppSite: "https://www.voidrev.us",
+gamesApi: "https://www.voidrev.us",
+gamesAppSite: "https://www.voidrev.us",
+gameInternationalizationApi: "https://www.voidrev.us",
+googlePlayStoreLink: "https://play.google.com/store/apps/details?id=com.roblox.client&amp;hl=en",
+groupsApi: "https://www.voidrev.us",
+inventoryApi: "https://www.voidrev.us",
+itemConfigurationApi: "https://www.voidrev.us",
+iosAppStoreLink: "https://itunes.apple.com/us/app/roblox-mobile/id431946152",
+localeApi: "https://www.voidrev.us",
+localizationTablesApi: "https://www.voidrev.us",
+metricsApi: "https://www.voidrev.us",
+midasApi: "https://www.voidrev.us",
+notificationApi: "https://www.voidrev.us",
+notificationAppSite: "https://www.voidrev.us",
+premiumFeaturesApi: "https://www.voidrev.us",
+presenceApi: "https://www.voidrev.us",
+publishApi: "https://www.voidrev.us",
+surveysAppSite: "https://www.voidrev.us",
+thumbnailsApi: "https://www.voidrev.us",
+translationRolesApi: "https://www.voidrev.us",
+voiceApi: "https://www.voidrev.us",
+websiteUrl: "https://www.voidrev.us",
+>>>>>>> e785962b7354eaca9514f02e1a70eaa4f37a2bd3
 windowsStoreLink: "https://www.microsoft.com/en-us/store/games/roblox/9nblgggzm6wm",
 xboxStoreLink: "https://www.microsoft.com/en-us/p/roblox/bq1tn1t79v9k"
 }
@@ -351,7 +520,11 @@ xboxStoreLink: "https://www.microsoft.com/en-us/p/roblox/bq1tn1t79v9k"
 <script>var Roblox=Roblox||{};Roblox.AdsHelper=Roblox.AdsHelper||{};Roblox.AdsLibrary=Roblox.AdsLibrary||{};Roblox.AdsHelper.toggleAdsSlot=function(slotId,GPTRandomSlotIdentifier){var gutterAdsEnabled=false;if(gutterAdsEnabled){googletag.display(GPTRandomSlotIdentifier);return;}
 if(typeof slotId!=='undefined'&&slotId&&slotId.length>0){var slotElm=$("#"+slotId);if(slotElm.is(":visible")){googletag.display(GPTRandomSlotIdentifier);}else{var adParam=Roblox.AdsLibrary.adsParameters[slotId];if(adParam){adParam.template=slotElm.html();slotElm.empty();}}}}
 </script><script>$(function(){Roblox.JSErrorTracker.initialize({'suppressConsoleError':true});});</script><!--[if lt IE 9]><script src=//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js></script><script src=//oss.maxcdn.com/respond/1.4.2/respond.min.js></script><![endif]--><script>var _gaq=_gaq||[];window.GoogleAnalyticsDisableRoblox2=true;_gaq.push(['b._setAccount','UA-486632-1']);_gaq.push(['b._setSampleRate','10']);_gaq.push(['b._setCampSourceKey','rbx_source']);_gaq.push(['b._setCampMediumKey','rbx_medium']);_gaq.push(['b._setCampContentKey','rbx_campaign']);_gaq.push(['b._setDomainName','voidrev.us']);_gaq.push(['b._setCustomVar',1,'Visitor','Anonymous',2]);_gaq.push(['b._setPageGroup',1,'Games']);_gaq.push(['b._trackPageview']);_gaq.push(['c._setAccount','UA-26810151-2']);_gaq.push(['c._setSampleRate','1']);_gaq.push(['c._setDomainName','voidrev.us']);_gaq.push(['c._setPageGroup',1,'Games']);(function(){var ga=document.createElement('script');ga.type='text/javascript';ga.async=true;ga.src=('https:'==document.location.protocol?'https://ssl':'http://www')+'.google-analytics.com/ga.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(ga,s);})();</script><script>if(Roblox&&Roblox.EventStream){Roblox.EventStream.Init("https://ecsv2.voidrev.us/www/e.png","https://ecsv2.voidrev.us/www/e.png","https://ecsv2.voidrev.us/pe?t=studio","https://ecsv2.voidrev.us/pe?t=diagnostic");}</script><script>if(Roblox&&Roblox.PageHeartbeatEvent){Roblox.PageHeartbeatEvent.Init([2,8,20,60]);}</script><script>if(typeof(Roblox)==="undefined"){Roblox={};}
+<<<<<<< HEAD
 Roblox.Endpoints=Roblox.Endpoints||{};Roblox.Endpoints.Urls=Roblox.Endpoints.Urls||{};Roblox.Endpoints.Urls['/api/item.ashx']='https://localhost/api/item.ashx';Roblox.Endpoints.Urls['/asset/']='https://localhost/asset/';Roblox.Endpoints.Urls['/client-status/set']='https://localhost/client-status/set';Roblox.Endpoints.Urls['/client-status']='https://localhost/client-status';Roblox.Endpoints.Urls['/game/']='https://localhost/game/';Roblox.Endpoints.Urls['/game-auth/getauthticket']='https://localhost/game-auth/getauthticket';Roblox.Endpoints.Urls['/game/edit.ashx']='https://localhost/game/edit.ashx';Roblox.Endpoints.Urls['/game/getauthticket']='https://localhost/game/getauthticket';Roblox.Endpoints.Urls['/game/get-hash']='https://localhost/game/get-hash';Roblox.Endpoints.Urls['/game/placelauncher.ashx']='https://localhost/game/placelauncher.ashx';Roblox.Endpoints.Urls['/game/preloader']='https://localhost/game/preloader';Roblox.Endpoints.Urls['/game/report-stats']='https://localhost/game/report-stats';Roblox.Endpoints.Urls['/game/report-event']='https://localhost/game/report-event';Roblox.Endpoints.Urls['/game/updateprerollcount']='https://localhost/game/updateprerollcount';Roblox.Endpoints.Urls['/login/default.aspx']='https://localhost/login/default.aspx';Roblox.Endpoints.Urls['/my/avatar']='https://localhost/my/avatar';Roblox.Endpoints.Urls['/my/money.aspx']='https://localhost/my/money.aspx';Roblox.Endpoints.Urls['/navigation/userdata']='https://localhost/navigation/userdata';Roblox.Endpoints.Urls['/chat/chat']='https://localhost/chat/chat';Roblox.Endpoints.Urls['/chat/data']='https://localhost/chat/data';Roblox.Endpoints.Urls['/presence/users']='https://localhost/presence/users';Roblox.Endpoints.Urls['/presence/user']='https://localhost/presence/user';Roblox.Endpoints.Urls['/friends/list']='https://localhost/friends/list';Roblox.Endpoints.Urls['/navigation/getcount']='https://localhost/navigation/getCount';Roblox.Endpoints.Urls['/regex/email']='https://localhost/regex/email';Roblox.Endpoints.Urls['/catalog/browse.aspx']='https://localhost/catalog/browse.aspx';Roblox.Endpoints.Urls['/catalog/html']='https://localhost/catalog/html';Roblox.Endpoints.Urls['/catalog/json']='https://localhost/catalog/json';Roblox.Endpoints.Urls['/catalog/contents']='https://localhost/catalog/contents';Roblox.Endpoints.Urls['/catalog/lists.aspx']='https://localhost/catalog/lists.aspx';Roblox.Endpoints.Urls['/catalog/items']='https://localhost/catalog/items';Roblox.Endpoints.Urls['/asset-hash-thumbnail/image']='https://localhost/asset-hash-thumbnail/image';Roblox.Endpoints.Urls['/asset-hash-thumbnail/json']='https://localhost/asset-hash-thumbnail/json';Roblox.Endpoints.Urls['/asset-thumbnail-3d/json']='https://localhost/asset-thumbnail-3d/json';Roblox.Endpoints.Urls['/asset-thumbnail/image']='https://localhost/asset-thumbnail/image';Roblox.Endpoints.Urls['/asset-thumbnail/json']='https://localhost/asset-thumbnail/json';Roblox.Endpoints.Urls['/asset-thumbnail/url']='https://localhost/asset-thumbnail/url';Roblox.Endpoints.Urls['/asset/request-thumbnail-fix']='https://localhost/asset/request-thumbnail-fix';Roblox.Endpoints.Urls['/avatar-thumbnail-3d/json']='https://localhost/avatar-thumbnail-3d/json';Roblox.Endpoints.Urls['/avatar-thumbnail/image']='https://localhost/avatar-thumbnail/image';Roblox.Endpoints.Urls['/avatar-thumbnail/json']='https://localhost/avatar-thumbnail/json';Roblox.Endpoints.Urls['/avatar-thumbnails']='https://localhost/avatar-thumbnails';Roblox.Endpoints.Urls['/avatar/request-thumbnail-fix']='https://localhost/avatar/request-thumbnail-fix';Roblox.Endpoints.Urls['/bust-thumbnail/json']='https://localhost/bust-thumbnail/json';Roblox.Endpoints.Urls['/group-thumbnails']='https://localhost/group-thumbnails';Roblox.Endpoints.Urls['/groups/getprimarygroupinfo.ashx']='https://localhost/groups/getprimarygroupinfo.ashx';Roblox.Endpoints.Urls['/headshot-thumbnail/json']='https://localhost/headshot-thumbnail/json';Roblox.Endpoints.Urls['/item-thumbnails']='https://localhost/item-thumbnails';Roblox.Endpoints.Urls['/outfit-thumbnail/json']='https://localhost/outfit-thumbnail/json';Roblox.Endpoints.Urls['/place-thumbnails']='https://localhost/place-thumbnails';Roblox.Endpoints.Urls['/thumbnail/asset/']='https://localhost/thumbnail/asset/';Roblox.Endpoints.Urls['/thumbnail/avatar-headshot']='https://localhost/thumbnail/avatar-headshot';Roblox.Endpoints.Urls['/thumbnail/avatar-headshots']='https://localhost/thumbnail/avatar-headshots';Roblox.Endpoints.Urls['/thumbnail/user-avatar']='https://localhost/thumbnail/user-avatar';Roblox.Endpoints.Urls['/thumbnail/resolve-hash']='https://localhost/thumbnail/resolve-hash';Roblox.Endpoints.Urls['/thumbnail/place']='https://localhost/thumbnail/place';Roblox.Endpoints.Urls['/thumbnail/get-asset-media']='https://localhost/thumbnail/get-asset-media';Roblox.Endpoints.Urls['/thumbnail/remove-asset-media']='https://localhost/thumbnail/remove-asset-media';Roblox.Endpoints.Urls['/thumbnail/set-asset-media-sort-order']='https://localhost/thumbnail/set-asset-media-sort-order';Roblox.Endpoints.Urls['/thumbnail/place-thumbnails']='https://localhost/thumbnail/place-thumbnails';Roblox.Endpoints.Urls['/thumbnail/place-thumbnails-partial']='https://localhost/thumbnail/place-thumbnails-partial';Roblox.Endpoints.Urls['/thumbnail_holder/g']='https://localhost/thumbnail_holder/g';Roblox.Endpoints.Urls['/users/{id}/profile']='https://localhost/users/{id}/profile';Roblox.Endpoints.Urls['/service-workers/push-notifications']='https://localhost/service-workers/push-notifications';Roblox.Endpoints.Urls['/notification-stream/notification-stream-data']='https://localhost/notification-stream/notification-stream-data';Roblox.Endpoints.Urls['/api/friends/acceptfriendrequest']='https://localhost/api/friends/acceptfriendrequest';Roblox.Endpoints.Urls['/api/friends/declinefriendrequest']='https://localhost/api/friends/declinefriendrequest';Roblox.Endpoints.Urls['/authentication/is-logged-in']='https://localhost/authentication/is-logged-in';Roblox.Endpoints.addCrossDomainOptionsToAllRequests=true;
+=======
+Roblox.Endpoints=Roblox.Endpoints||{};Roblox.Endpoints.Urls=Roblox.Endpoints.Urls||{};Roblox.Endpoints.Urls['/api/item.ashx']='https://www.voidrev.us/api/item.ashx';Roblox.Endpoints.Urls['/asset/']='https://www.voidrev.us/asset/';Roblox.Endpoints.Urls['/client-status/set']='https://www.voidrev.us/client-status/set';Roblox.Endpoints.Urls['/client-status']='https://www.voidrev.us/client-status';Roblox.Endpoints.Urls['/game/']='https://www.voidrev.us/game/';Roblox.Endpoints.Urls['/game-auth/getauthticket']='https://www.voidrev.us/game-auth/getauthticket';Roblox.Endpoints.Urls['/game/edit.ashx']='https://www.voidrev.us/game/edit.ashx';Roblox.Endpoints.Urls['/game/getauthticket']='https://www.voidrev.us/game/getauthticket';Roblox.Endpoints.Urls['/game/get-hash']='https://www.voidrev.us/game/get-hash';Roblox.Endpoints.Urls['/game/placelauncher.ashx']='https://www.voidrev.us/game/placelauncher.ashx';Roblox.Endpoints.Urls['/game/preloader']='https://www.voidrev.us/game/preloader';Roblox.Endpoints.Urls['/game/report-stats']='https://www.voidrev.us/game/report-stats';Roblox.Endpoints.Urls['/game/report-event']='https://www.voidrev.us/game/report-event';Roblox.Endpoints.Urls['/game/updateprerollcount']='https://www.voidrev.us/game/updateprerollcount';Roblox.Endpoints.Urls['/login/default.aspx']='https://www.voidrev.us/login/default.aspx';Roblox.Endpoints.Urls['/my/avatar']='https://www.voidrev.us/my/avatar';Roblox.Endpoints.Urls['/my/money.aspx']='https://www.voidrev.us/my/money.aspx';Roblox.Endpoints.Urls['/navigation/userdata']='https://www.voidrev.us/navigation/userdata';Roblox.Endpoints.Urls['/chat/chat']='https://www.voidrev.us/chat/chat';Roblox.Endpoints.Urls['/chat/data']='https://www.voidrev.us/chat/data';Roblox.Endpoints.Urls['/presence/users']='https://www.voidrev.us/presence/users';Roblox.Endpoints.Urls['/presence/user']='https://www.voidrev.us/presence/user';Roblox.Endpoints.Urls['/friends/list']='https://www.voidrev.us/friends/list';Roblox.Endpoints.Urls['/navigation/getcount']='https://www.voidrev.us/navigation/getCount';Roblox.Endpoints.Urls['/regex/email']='https://www.voidrev.us/regex/email';Roblox.Endpoints.Urls['/catalog/browse.aspx']='https://www.voidrev.us/catalog/browse.aspx';Roblox.Endpoints.Urls['/catalog/html']='https://www.voidrev.us/catalog/html';Roblox.Endpoints.Urls['/catalog/json']='https://www.voidrev.us/catalog/json';Roblox.Endpoints.Urls['/catalog/contents']='https://www.voidrev.us/catalog/contents';Roblox.Endpoints.Urls['/catalog/lists.aspx']='https://www.voidrev.us/catalog/lists.aspx';Roblox.Endpoints.Urls['/catalog/items']='https://www.voidrev.us/catalog/items';Roblox.Endpoints.Urls['/asset-hash-thumbnail/image']='https://www.voidrev.us/asset-hash-thumbnail/image';Roblox.Endpoints.Urls['/asset-hash-thumbnail/json']='https://www.voidrev.us/asset-hash-thumbnail/json';Roblox.Endpoints.Urls['/asset-thumbnail-3d/json']='https://www.voidrev.us/asset-thumbnail-3d/json';Roblox.Endpoints.Urls['/asset-thumbnail/image']='https://www.voidrev.us/asset-thumbnail/image';Roblox.Endpoints.Urls['/asset-thumbnail/json']='https://www.voidrev.us/asset-thumbnail/json';Roblox.Endpoints.Urls['/asset-thumbnail/url']='https://www.voidrev.us/asset-thumbnail/url';Roblox.Endpoints.Urls['/asset/request-thumbnail-fix']='https://www.voidrev.us/asset/request-thumbnail-fix';Roblox.Endpoints.Urls['/avatar-thumbnail-3d/json']='https://www.voidrev.us/avatar-thumbnail-3d/json';Roblox.Endpoints.Urls['/avatar-thumbnail/image']='https://www.voidrev.us/avatar-thumbnail/image';Roblox.Endpoints.Urls['/avatar-thumbnail/json']='https://www.voidrev.us/avatar-thumbnail/json';Roblox.Endpoints.Urls['/avatar-thumbnails']='https://www.voidrev.us/avatar-thumbnails';Roblox.Endpoints.Urls['/avatar/request-thumbnail-fix']='https://www.voidrev.us/avatar/request-thumbnail-fix';Roblox.Endpoints.Urls['/bust-thumbnail/json']='https://www.voidrev.us/bust-thumbnail/json';Roblox.Endpoints.Urls['/group-thumbnails']='https://www.voidrev.us/group-thumbnails';Roblox.Endpoints.Urls['/groups/getprimarygroupinfo.ashx']='https://www.voidrev.us/groups/getprimarygroupinfo.ashx';Roblox.Endpoints.Urls['/headshot-thumbnail/json']='https://www.voidrev.us/headshot-thumbnail/json';Roblox.Endpoints.Urls['/item-thumbnails']='https://www.voidrev.us/item-thumbnails';Roblox.Endpoints.Urls['/outfit-thumbnail/json']='https://www.voidrev.us/outfit-thumbnail/json';Roblox.Endpoints.Urls['/place-thumbnails']='https://www.voidrev.us/place-thumbnails';Roblox.Endpoints.Urls['/thumbnail/asset/']='https://www.voidrev.us/thumbnail/asset/';Roblox.Endpoints.Urls['/thumbnail/avatar-headshot']='https://www.voidrev.us/thumbnail/avatar-headshot';Roblox.Endpoints.Urls['/thumbnail/avatar-headshots']='https://www.voidrev.us/thumbnail/avatar-headshots';Roblox.Endpoints.Urls['/thumbnail/user-avatar']='https://www.voidrev.us/thumbnail/user-avatar';Roblox.Endpoints.Urls['/thumbnail/resolve-hash']='https://www.voidrev.us/thumbnail/resolve-hash';Roblox.Endpoints.Urls['/thumbnail/place']='https://www.voidrev.us/thumbnail/place';Roblox.Endpoints.Urls['/thumbnail/get-asset-media']='https://www.voidrev.us/thumbnail/get-asset-media';Roblox.Endpoints.Urls['/thumbnail/remove-asset-media']='https://www.voidrev.us/thumbnail/remove-asset-media';Roblox.Endpoints.Urls['/thumbnail/set-asset-media-sort-order']='https://www.voidrev.us/thumbnail/set-asset-media-sort-order';Roblox.Endpoints.Urls['/thumbnail/place-thumbnails']='https://www.voidrev.us/thumbnail/place-thumbnails';Roblox.Endpoints.Urls['/thumbnail/place-thumbnails-partial']='https://www.voidrev.us/thumbnail/place-thumbnails-partial';Roblox.Endpoints.Urls['/thumbnail_holder/g']='https://www.voidrev.us/thumbnail_holder/g';Roblox.Endpoints.Urls['/users/{id}/profile']='https://www.voidrev.us/users/{id}/profile';Roblox.Endpoints.Urls['/service-workers/push-notifications']='https://www.voidrev.us/service-workers/push-notifications';Roblox.Endpoints.Urls['/notification-stream/notification-stream-data']='https://www.voidrev.us/notification-stream/notification-stream-data';Roblox.Endpoints.Urls['/api/friends/acceptfriendrequest']='https://www.voidrev.us/api/friends/acceptfriendrequest';Roblox.Endpoints.Urls['/api/friends/declinefriendrequest']='https://www.voidrev.us/api/friends/declinefriendrequest';Roblox.Endpoints.Urls['/authentication/is-logged-in']='https://www.voidrev.us/authentication/is-logged-in';Roblox.Endpoints.addCrossDomainOptionsToAllRequests=true;
+>>>>>>> e785962b7354eaca9514f02e1a70eaa4f37a2bd3
 </script><script>if(typeof(Roblox)==="undefined"){Roblox={};}
 Roblox.Endpoints=Roblox.Endpoints||{};Roblox.Endpoints.Urls=Roblox.Endpoints.Urls||{};
 </script><script>Roblox=Roblox||{};Roblox.AbuseReportPVMeta={desktopEnabled:true,phoneEnabled:false,inAppEnabled:false,inApp:false};</script>
@@ -360,6 +533,7 @@ Roblox.Endpoints=Roblox.Endpoints||{};Roblox.Endpoints.Urls=Roblox.Endpoints.Url
 <div id="image-retry-data" data-image-retry-max-times="10" data-image-retry-timer="1500" data-ga-logging-percent="10"></div>
 <div id="http-retry-data" data-http-retry-max-timeout="0" data-http-retry-base-timeout="0" data-http-retry-max-times="1"></div>
 <div id="TosAgreementInfo" data-terms-check-needed="false"></div>
+<<<<<<< HEAD
 
 
 
@@ -515,6 +689,15 @@ if ($usr['locale'] != NULL) {
     data-name="<?php echo NOXSSPlz($username);?>"
     data-isunder13="false" />
     <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+=======
+<div id="fb-root"></div>
+<?php if($maincss == false){echo'
+<div id="wrap" class="wrap no-gutter-ads logged-in" data-gutter-ads-enabled="false">';
+}else{
+echo '<div id="wrap" class="wrap no-gutter-ads logged-in nav-content" data-gutter-ads-enabled="false">';
+}
+?>
+>>>>>>> e785962b7354eaca9514f02e1a70eaa4f37a2bd3
 <div id="header" class="navbar-fixed-top rbx-header <?=$hidenavbar;?>" data-isauthenticated="true" role="navigation">
 <div class="container-fluid">
 <div class="rbx-navbar-header">
@@ -522,7 +705,11 @@ if ($usr['locale'] != NULL) {
 <span class="icon-nav-menu"></span>
 </div>
 <div class="navbar-header">
+<<<<<<< HEAD
 <a class="navbar-brand" href="https://localhost/">
+=======
+<a class="navbar-brand" href="https://www.voidrev.us/">
+>>>>>>> e785962b7354eaca9514f02e1a70eaa4f37a2bd3
 <span class="icon-logo"></span>
 <span class="icon-logo-r"></span>
 </a>
@@ -530,6 +717,7 @@ if ($usr['locale'] != NULL) {
 </div>
 <ul class="nav rbx-navbar hidden-xs hidden-sm col-md-4 col-lg-3">
 <li>
+<<<<<<< HEAD
 <a class="nav-menu-title text-header" href="https://localhost/games">Games</a>
 </li>
 <li>
@@ -540,6 +728,18 @@ if ($usr['locale'] != NULL) {
 </li>
 <li>
 <a class="buy-robux nav-menu-title text-header" href="https://localhost/upgrades/robux?ctx=nav">Robux</a>
+=======
+<a class="nav-menu-title text-header" href="https://www.voidrev.us/games">Games</a>
+</li>
+<li>
+<a class="nav-menu-title text-header" href="https://www.voidrev.us/catalog/">Catalog</a>
+</li>
+<li>
+<a class="nav-menu-title text-header" href="https://www.voidrev.us/develop">Create</a>
+</li>
+<li>
+<a class="buy-robux nav-menu-title text-header" href="https://www.voidrev.us/upgrades/robux?ctx=nav">Robux</a>
+>>>>>>> e785962b7354eaca9514f02e1a70eaa4f37a2bd3
 </li>
 </ul>
 <div id="navbar-universal-search" class="navbar-left rbx-navbar-search col-xs-5 col-sm-6 col-md-3" data-behavior="univeral-search" role="search">
@@ -552,6 +752,7 @@ if ($usr['locale'] != NULL) {
 </div>
 </div>
 <ul data-toggle="dropdown-menu" class="dropdown-menu" role="menu">
+<<<<<<< HEAD
 <li class="rbx-navbar-search-option rbx-clickable-li selected" data-searchurl="https://localhost/search/users?keyword=">
 <a class="rbx-navbar-search-anchor" href="https://localhost/search/users?keyword=">
 <span class="rbx-navbar-search-text"> Search "<span class="rbx-navbar-search-string"></span>" in Players </span>
@@ -574,6 +775,30 @@ if ($usr['locale'] != NULL) {
 </li>
 <li class="rbx-navbar-search-option rbx-clickable-li" data-searchurl="https://localhost/develop/library?CatalogContext=2&amp;Category=6&amp;Keyword=">
 <a class="rbx-navbar-search-anchor" href="https://localhost/develop/library?CatalogContext=2&amp;Category=6&amp;Keyword=">
+=======
+<li class="rbx-navbar-search-option rbx-clickable-li selected" data-searchurl="https://www.voidrev.us/search/users?keyword=">
+<a class="rbx-navbar-search-anchor" href="https://www.voidrev.us/search/users?keyword=">
+<span class="rbx-navbar-search-text"> Search "<span class="rbx-navbar-search-string"></span>" in Players </span>
+</a>
+</li>
+<li class="rbx-navbar-search-option rbx-clickable-li" data-searchurl="https://www.voidrev.us/games/?Keyword=">
+<a class="rbx-navbar-search-anchor" href="https://www.voidrev.us/games/?Keyword=">
+<span class="rbx-navbar-search-text"> Search "<span class="rbx-navbar-search-string"></span>" in Games </span>
+</a>
+</li>
+<li class="rbx-navbar-search-option rbx-clickable-li" data-searchurl="https://www.voidrev.us/catalog/browse.aspx?CatalogContext=1&amp;Keyword=">
+<a class="rbx-navbar-search-anchor" href="https://www.voidrev.us/catalog/browse.aspx?CatalogContext=1&amp;Keyword=">
+<span class="rbx-navbar-search-text"> Search "<span class="rbx-navbar-search-string"></span>" in Catalog </span>
+</a>
+</li>
+<li class="rbx-navbar-search-option rbx-clickable-li" data-searchurl="https://www.voidrev.us/search/groups?keyword=">
+<a class="rbx-navbar-search-anchor" href="https://www.voidrev.us/search/groups?keyword=">
+<span class="rbx-navbar-search-text"> Search "<span class="rbx-navbar-search-string"></span>" in Groups </span>
+</a>
+</li>
+<li class="rbx-navbar-search-option rbx-clickable-li" data-searchurl="https://www.voidrev.us/develop/library?CatalogContext=2&amp;Category=6&amp;Keyword=">
+<a class="rbx-navbar-search-anchor" href="https://www.voidrev.us/develop/library?CatalogContext=2&amp;Category=6&amp;Keyword=">
+>>>>>>> e785962b7354eaca9514f02e1a70eaa4f37a2bd3
 <span class="rbx-navbar-search-text"> Search "<span class="rbx-navbar-search-string"></span>" in Library </span>
 </a>
 </li>
@@ -590,23 +815,41 @@ if ($usr['locale'] != NULL) {
 <div class="rbx-popover-content" data-toggle="popover-setting">
 <ul class="dropdown-menu" role="menu">
 <li>
+<<<<<<< HEAD
 <a class="rbx-menu-item" href="https://localhost/my/account"> Settings <span class="notification-blue nav-setting-highlight hidden">0</span>
 </a>
 </li>
 <li>
 <a class="rbx-menu-item" href="https://localhost/users/extrasettings">Extra Settings</span>
+=======
+<a class="rbx-menu-item" href="https://www.voidrev.us/my/account"> Settings <span class="notification-blue nav-setting-highlight hidden">0</span>
+</a>
+</li>
+<li>
+<a class="rbx-menu-item" href="https://www.voidrev.us/users/extrasettings">Extra Settings</span>
+>>>>>>> e785962b7354eaca9514f02e1a70eaa4f37a2bd3
 </a>
 </li>
 <?php if($usr['Admin'] == '1'){
 echo' <li>
+<<<<<<< HEAD
 <a class="rbx-menu-item" href="https://localhost/Admi">
+=======
+<a class="rbx-menu-item" href="https://www.voidrev.us/Admi">
+>>>>>>> e785962b7354eaca9514f02e1a70eaa4f37a2bd3
 Admin
 </a>
 </li>';
 } ?>
+<<<<<<< HEAD
 <li><a class="rbx-menu-item" href="https://localhost/users/switchthemes/" target="_blank">Themes</a></li>
 <li>
 <a class="rbx-menu-item" data-behavior="logout" data-bind="https://localhost/authentication/logout">Logout</a>
+=======
+<li><a class="rbx-menu-item" href="https://www.voidrev.us/users/switchthemes/" target="_blank">Themes</a></li>
+<li>
+<a class="rbx-menu-item" data-behavior="logout" data-bind="https://www.voidrev.us/authentication/logout">Logout</a>
+>>>>>>> e785962b7354eaca9514f02e1a70eaa4f37a2bd3
 </li>
 </ul>
 </div>
@@ -619,10 +862,17 @@ Admin
 <div class="rbx-popover-content" data-toggle="popover-robux">
 <ul class="dropdown-menu" role="menu">
 <li>
+<<<<<<< HEAD
 <a href="https://localhost/My/Money.aspx#/#Summary_tab" id="nav-robux-balance" class="rbx-menu-item"><?php echo $Robux;?>&nbsp;Robux</a>
 </li>
 <li>
 <a href="https://localhost/upgrades/robux?ctx=navpopover" class="rbx-menu-item">Buy Robux</a>
+=======
+<a href="https://www.voidrev.us/My/Money.aspx#/#Summary_tab" id="nav-robux-balance" class="rbx-menu-item"><?php echo $Robux;?>&nbsp;Robux</a>
+</li>
+<li>
+<a href="https://www.voidrev.us/upgrades/robux?ctx=navpopover" class="rbx-menu-item">Buy Robux</a>
+>>>>>>> e785962b7354eaca9514f02e1a70eaa4f37a2bd3
 </li>
 </ul>
 </div>
@@ -648,6 +898,7 @@ Admin
 </div>
 <ul class="nav rbx-navbar hidden-md hidden-lg col-xs-12">
 <li>
+<<<<<<< HEAD
 <a class="nav-menu-title text-header" href="https://localhost/games">Games</a>
 </li>
 <li>
@@ -658,6 +909,18 @@ Admin
 </li>
 <li>
 <a class="buy-robux nav-menu-title" href="https://localhost/upgrades/robux?ctx=nav">Robux</a>
+=======
+<a class="nav-menu-title text-header" href="https://www.voidrev.us/games">Games</a>
+</li>
+<li>
+<a class="nav-menu-title text-header" href="https://www.voidrev.us/catalog/">Catalog</a>
+</li>
+<li>
+<a class="nav-menu-title text-header" href="https://www.voidrev.us/develop">Create</a>
+</li>
+<li>
+<a class="buy-robux nav-menu-title" href="https://www.voidrev.us/upgrades/robux?ctx=nav">Robux</a>
+>>>>>>> e785962b7354eaca9514f02e1a70eaa4f37a2bd3
 </li>
 </ul>
 </div>
@@ -666,7 +929,11 @@ Admin
 <div id="navigation" class="rbx-left-col" data-behavior="left-col">
 <ul>
 <li class="text-lead">
+<<<<<<< HEAD
 <a class="text-nav text-overflow" href="https://localhost/users/<?=$uID;?>/profile"><?php echo NoXSSPlz($username);?></a>
+=======
+<a class="text-nav text-overflow" href="https://www.voidrev.us/users/<?=$uID;?>/profile"><?php echo NoXSSPlz($username);?></a>
+>>>>>>> e785962b7354eaca9514f02e1a70eaa4f37a2bd3
 </li>
 <li class="rbx-divider"></li>
 </ul>
@@ -675,57 +942,93 @@ Admin
 <div id="mCSB_1_container" class="mCSB_container mCS_y_hidden mCS_no_scrollbar_y" style="position:relative; top:0; left:0;" dir="ltr">
 <ul>
 <li>
+<<<<<<< HEAD
 <a href="https://localhost/home" id="nav-home" class="text-nav">
+=======
+<a href="https://www.voidrev.us/home" id="nav-home" class="text-nav">
+>>>>>>> e785962b7354eaca9514f02e1a70eaa4f37a2bd3
 <span class="icon-nav-home"></span>
 <span>Home</span>
 </a>
 </li>
 <li>
+<<<<<<< HEAD
 <a href="https://localhost/users/<?=$uID;?>/profile" id="nav-profile" class="text-nav">
+=======
+<a href="https://www.voidrev.us/users/<?=$uID;?>/profile" id="nav-profile" class="text-nav">
+>>>>>>> e785962b7354eaca9514f02e1a70eaa4f37a2bd3
 <span class="icon-nav-profile"></span>
 <span>Profile</span>
 </a>
 </li>
 <li id="navigation-messages">
+<<<<<<< HEAD
 <a href="https://localhost/my/messages/#!/inbox" id="nav-message" data-count="<?=$messagescount;?>" class="text-nav">
+=======
+<a href="https://www.voidrev.us/my/messages/#!/inbox" id="nav-message" data-count="<?=$messagescount;?>" class="text-nav">
+>>>>>>> e785962b7354eaca9514f02e1a70eaa4f37a2bd3
 <span class="icon-nav-message"></span>
 <span>Messages</span>
 <span class="notification-blue <?php if($messagenotifcation === "true"){echo"";}else{echo"hidden";}?>" title="<?=$messagescount;?>"><?=$messagescount;?></span>
 </a>
 </li>
 <li id="navigation-friends">
+<<<<<<< HEAD
 <a href="https://localhost/users/friends/?id=<?=$uID;?>" id="nav-friends" data-count="<?=$friendreqcount;?>" class="text-nav">
+=======
+<a href="https://www.voidrev.us/users/friends/?id=<?=$uID;?>" id="nav-friends" data-count="<?=$friendreqcount;?>" class="text-nav">
+>>>>>>> e785962b7354eaca9514f02e1a70eaa4f37a2bd3
 <span class="icon-nav-friends"></span>
 <span>Friends</span>
 <span class="notification-blue <?php if($friendsnotifcation === "true"){echo"";}else{echo"hidden";}?>" title="<?=$friendreqcount;?>"><?=$friendreqcount;?></span>
 </a>
 </li>
 <li>
+<<<<<<< HEAD
 <a href="https://localhost/my/avatar" id="nav-character" class="text-nav">
+=======
+<a href="https://www.voidrev.us/my/avatar" id="nav-character" class="text-nav">
+>>>>>>> e785962b7354eaca9514f02e1a70eaa4f37a2bd3
 <span class="icon-nav-charactercustomizer"></span>
 <span>Avatar</span>
 </a>
 </li>
 <li>
+<<<<<<< HEAD
 <a href="https://localhost/users/profile/inventory/?id=<?=$usr['id']?>" id="nav-inventory" class="text-nav">
+=======
+<a href="https://www.voidrev.us/users/profile/inventory/?id=<?=$usr['id']?>" id="nav-inventory" class="text-nav">
+>>>>>>> e785962b7354eaca9514f02e1a70eaa4f37a2bd3
 <span class="icon-nav-inventory"></span>
 <span>Inventory</span>
 </a>
 </li>
 <li>
+<<<<<<< HEAD
 <a href="https://localhost/my/money.aspx#/#TradeItems_tab" id="nav-trade" class="text-nav">
+=======
+<a href="https://www.voidrev.us/my/money.aspx#/#TradeItems_tab" id="nav-trade" class="text-nav">
+>>>>>>> e785962b7354eaca9514f02e1a70eaa4f37a2bd3
 <span class="icon-nav-trade"></span>
 <span>Trade</span>
 </a>
 </li>
 <li>
+<<<<<<< HEAD
 <a href="https://localhost/my/groups.aspx" id="nav-group" class="text-nav">
+=======
+<a href="https://www.voidrev.us/my/groups.aspx" id="nav-group" class="text-nav">
+>>>>>>> e785962b7354eaca9514f02e1a70eaa4f37a2bd3
 <span class="icon-nav-group"></span>
 <span>Groups</span>
 </a>
 </li>
 <li>
+<<<<<<< HEAD
 <a href="https://localhost" id="nav-blog" class="text-nav">
+=======
+<a href="https://www.voidrev.us" id="nav-blog" class="text-nav">
+>>>>>>> e785962b7354eaca9514f02e1a70eaa4f37a2bd3
 <span class="icon-nav-blog"></span>
 <span>Blog</span>
 </a>
@@ -736,11 +1039,19 @@ Admin
 <span>Shop</span>
 </a>
 </li>
+<<<<<<< HEAD
 <?php if($membership == "None"){ ?>
 <li class="rbx-upgrade-now">
 <a href="https://localhost/premium/membership?ctx=leftnav" class="btn-growth-md btn-secondary-md" id="upgrade-now-button">Upgrade Now</a>
 </li>
 <?php } ?>
+=======
+<?php if($membership == "None"){?>
+<li class="rbx-upgrade-now">
+<a href="https://www.voidrev.us/premium/membership?ctx=leftnav" class="btn-growth-md btn-secondary-md" id="upgrade-now-button">Upgrade Now</a>
+</li>
+<? } ?>
+>>>>>>> e785962b7354eaca9514f02e1a70eaa4f37a2bd3
 <li class="font-bold small text-nav">Events</li>
 </ul>
 </div>
@@ -755,10 +1066,14 @@ Admin
 </div>
 </div>
 </div>
+<<<<<<< HEAD
 </div>
 </div>
 </div>
 <?php } ?>
+=======
+<? } ?>
+>>>>>>> e785962b7354eaca9514f02e1a70eaa4f37a2bd3
 <div id=i18nForAmazonShopSwitch data-is-i18n-enabled-for-shop-amazon-dialog=true data-amazon-store-url="https://www.amazon.com/roblox?&amp;_encoding=UTF8&amp;tag=r05d13-20&amp;linkCode=ur2&amp;linkId=4ba2e1ad82f781c8e8cc98329b1066d0&amp;camp=1789&amp;creative=9325" style=display:none></div>
 <script>var Roblox=Roblox||{};(function(){if(Roblox&&Roblox.Performance){Roblox.Performance.setPerformanceMark("navigation_end");}})();</script>
 <div class=container-main>
@@ -783,7 +1098,11 @@ echo '
 </div>';
 }
 ?>
+<<<<<<< HEAD
 <div class="content">
 </div>
 </body>
 </html>
+=======
+<div class=content>
+>>>>>>> e785962b7354eaca9514f02e1a70eaa4f37a2bd3

@@ -7,11 +7,19 @@ $search = urldecode(filter_var($_GET['val'], FILTER_SANITIZE_FULL_SPECIAL_CHARS,
     <title>Search - LimboRevival</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge,requiresActiveX=true">
     
+<<<<<<< HEAD
 <link rel="stylesheet" href="https://localhost/css/leanbase.css">
 
 
     
 <link rel="stylesheet" href="https://localhost/css/groupsearch.css">
+=======
+<link rel="stylesheet" href="https://www.voidrev.us/css/leanbase.css">
+
+
+    
+<link rel="stylesheet" href="https://www.voidrev.us/css/groupsearch.css">
+>>>>>>> e785962b7354eaca9514f02e1a70eaa4f37a2bd3
 
     
     
@@ -23,13 +31,21 @@ $search = urldecode(filter_var($_GET['val'], FILTER_SANITIZE_FULL_SPECIAL_CHARS,
 
 
     
+<<<<<<< HEAD
     <script type="text/javascript" src="https://localhost/js/772ab381c3064441d07dc1235c79872c.js"></script>
+=======
+    <script type="text/javascript" src="https://www.voidrev.us/js/772ab381c3064441d07dc1235c79872c.js"></script>
+>>>>>>> e785962b7354eaca9514f02e1a70eaa4f37a2bd3
 
 
     
     
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+<<<<<<< HEAD
         <link href="https://localhost/img/7aee41db80c1071f60377c3575a0ed87.ico" rel="icon">
+=======
+        <link href="https://www.voidrev.us/img/7aee41db80c1071f60377c3575a0ed87.ico" rel="icon">
+>>>>>>> e785962b7354eaca9514f02e1a70eaa4f37a2bd3
 
 <script type="text/javascript">
     var Roblox = Roblox || {};
@@ -124,6 +140,7 @@ $search = urldecode(filter_var($_GET['val'], FILTER_SANITIZE_FULL_SPECIAL_CHARS,
 if (typeof(Roblox) === "undefined") { Roblox = {}; }
 Roblox.Endpoints = Roblox.Endpoints || {};
 Roblox.Endpoints.Urls = Roblox.Endpoints.Urls || {};
+<<<<<<< HEAD
 Roblox.Endpoints.Urls['/api/item.ashx'] = 'https://localhost/api/item.ashx';
 Roblox.Endpoints.Urls['/asset/'] = 'https://localhost/asset/';
 Roblox.Endpoints.Urls['/client-status/set'] = 'https://localhost/client-status/set';
@@ -182,6 +199,66 @@ Roblox.Endpoints.Urls['/thumbnail/place-thumbnails-partial'] = 'https://localhos
 Roblox.Endpoints.Urls['/thumbnail_holder/g'] = 'https://localhost/thumbnail_holder/g';
 Roblox.Endpoints.Urls['/users/{id}/profile'] = 'https://localhost/users/{id}/profile';
 Roblox.Endpoints.Urls['/service-workers/push-notifications'] = 'https://localhost/service-workers/push-notifications';
+=======
+Roblox.Endpoints.Urls['/api/item.ashx'] = 'https://www.voidrev.us/api/item.ashx';
+Roblox.Endpoints.Urls['/asset/'] = 'https://www.voidrev.us/asset/';
+Roblox.Endpoints.Urls['/client-status/set'] = 'https://www.voidrev.us/client-status/set';
+Roblox.Endpoints.Urls['/client-status'] = 'https://www.voidrev.us/client-status';
+Roblox.Endpoints.Urls['/game/'] = 'https://www.voidrev.us/game/';
+Roblox.Endpoints.Urls['/game/edit.ashx'] = 'https://www.voidrev.us/game/edit.ashx';
+Roblox.Endpoints.Urls['/game/getauthticket'] = 'https://www.voidrev.us/game/getauthticket';
+Roblox.Endpoints.Urls['/game/placelauncher.ashx'] = 'https://www.voidrev.us/game/placelauncher.ashx';
+Roblox.Endpoints.Urls['/game/preloader'] = 'https://www.voidrev.us/game/preloader';
+Roblox.Endpoints.Urls['/game/report-stats'] = 'https://www.voidrev.us/game/report-stats';
+Roblox.Endpoints.Urls['/game/report-event'] = 'https://www.voidrev.us/game/report-event';
+Roblox.Endpoints.Urls['/game/updateprerollcount'] = 'https://www.voidrev.us/game/updateprerollcount';
+Roblox.Endpoints.Urls['/login/default.aspx'] = 'https://www.voidrev.us/login/default.aspx';
+Roblox.Endpoints.Urls['/my/character.aspx'] = 'https://www.voidrev.us/my/character.aspx';
+Roblox.Endpoints.Urls['/my/money.aspx'] = 'https://www.voidrev.us/my/money.aspx';
+Roblox.Endpoints.Urls['/chat/chat'] = 'https://www.voidrev.us/chat/chat';
+Roblox.Endpoints.Urls['/presence/users'] = 'https://www.voidrev.us/presence/users';
+Roblox.Endpoints.Urls['/presence/user'] = 'https://www.voidrev.us/presence/user';
+Roblox.Endpoints.Urls['/friends/list'] = 'https://www.voidrev.us/friends/list';
+Roblox.Endpoints.Urls['/navigation/getCount'] = 'https://www.voidrev.us/navigation/getCount';
+Roblox.Endpoints.Urls['/catalog/browse.aspx'] = 'https://www.voidrev.us/catalog/browse.aspx';
+Roblox.Endpoints.Urls['/catalog/html'] = 'https://www.voidrev.us/catalog/html';
+Roblox.Endpoints.Urls['/catalog/json'] = 'https://www.voidrev.us/catalog/json';
+Roblox.Endpoints.Urls['/catalog/contents'] = 'https://www.voidrev.us/catalog/contents';
+Roblox.Endpoints.Urls['/catalog/lists.aspx'] = 'https://www.voidrev.us/catalog/lists.aspx';
+Roblox.Endpoints.Urls['/asset-hash-thumbnail/image'] = 'https://www.voidrev.us/asset-hash-thumbnail/image';
+Roblox.Endpoints.Urls['/asset-hash-thumbnail/json'] = 'https://www.voidrev.us/asset-hash-thumbnail/json';
+Roblox.Endpoints.Urls['/asset-thumbnail-3d/json'] = 'https://www.voidrev.us/asset-thumbnail-3d/json';
+Roblox.Endpoints.Urls['/asset-thumbnail/image'] = 'https://www.voidrev.us/asset-thumbnail/image';
+Roblox.Endpoints.Urls['/asset-thumbnail/json'] = 'https://www.voidrev.us/asset-thumbnail/json';
+Roblox.Endpoints.Urls['/asset-thumbnail/url'] = 'https://www.voidrev.us/asset-thumbnail/url';
+Roblox.Endpoints.Urls['/asset/request-thumbnail-fix'] = 'https://www.voidrev.us/asset/request-thumbnail-fix';
+Roblox.Endpoints.Urls['/avatar-thumbnail-3d/json'] = 'https://www.voidrev.us/avatar-thumbnail-3d/json';
+Roblox.Endpoints.Urls['/avatar-thumbnail/image'] = 'https://www.voidrev.us/avatar-thumbnail/image';
+Roblox.Endpoints.Urls['/avatar-thumbnail/json'] = 'https://www.voidrev.us/avatar-thumbnail/json';
+Roblox.Endpoints.Urls['/avatar-thumbnails'] = 'https://www.voidrev.us/avatar-thumbnails';
+Roblox.Endpoints.Urls['/avatar/request-thumbnail-fix'] = 'https://www.voidrev.us/avatar/request-thumbnail-fix';
+Roblox.Endpoints.Urls['/bust-thumbnail/json'] = 'https://www.voidrev.us/bust-thumbnail/json';
+Roblox.Endpoints.Urls['/group-thumbnails'] = 'https://www.voidrev.us/group-thumbnails';
+Roblox.Endpoints.Urls['/groups/getprimarygroupinfo.ashx'] = 'https://www.voidrev.us/groups/getprimarygroupinfo.ashx';
+Roblox.Endpoints.Urls['/headshot-thumbnail/json'] = 'https://www.voidrev.us/headshot-thumbnail/json';
+Roblox.Endpoints.Urls['/item-thumbnails'] = 'https://www.voidrev.us/item-thumbnails';
+Roblox.Endpoints.Urls['/outfit-thumbnail/json'] = 'https://www.voidrev.us/outfit-thumbnail/json';
+Roblox.Endpoints.Urls['/place-thumbnails'] = 'https://www.voidrev.us/place-thumbnails';
+Roblox.Endpoints.Urls['/thumbnail/asset/'] = 'https://www.voidrev.us/thumbnail/asset/';
+Roblox.Endpoints.Urls['/thumbnail/avatar-headshot'] = 'https://www.voidrev.us/thumbnail/avatar-headshot';
+Roblox.Endpoints.Urls['/thumbnail/avatar-headshots'] = 'https://www.voidrev.us/thumbnail/avatar-headshots';
+Roblox.Endpoints.Urls['/thumbnail/user-avatar'] = 'https://www.voidrev.us/thumbnail/user-avatar';
+Roblox.Endpoints.Urls['/thumbnail/resolve-hash'] = 'https://www.voidrev.us/thumbnail/resolve-hash';
+Roblox.Endpoints.Urls['/thumbnail/place'] = 'https://www.voidrev.us/thumbnail/place';
+Roblox.Endpoints.Urls['/thumbnail/get-asset-media'] = 'https://www.voidrev.us/thumbnail/get-asset-media';
+Roblox.Endpoints.Urls['/thumbnail/remove-asset-media'] = 'https://www.voidrev.us/thumbnail/remove-asset-media';
+Roblox.Endpoints.Urls['/thumbnail/set-asset-media-sort-order'] = 'https://www.voidrev.us/thumbnail/set-asset-media-sort-order';
+Roblox.Endpoints.Urls['/thumbnail/place-thumbnails'] = 'https://www.voidrev.us/thumbnail/place-thumbnails';
+Roblox.Endpoints.Urls['/thumbnail/place-thumbnails-partial'] = 'https://www.voidrev.us/thumbnail/place-thumbnails-partial';
+Roblox.Endpoints.Urls['/thumbnail_holder/g'] = 'https://www.voidrev.us/thumbnail_holder/g';
+Roblox.Endpoints.Urls['/users/{id}/profile'] = 'https://www.voidrev.us/users/{id}/profile';
+Roblox.Endpoints.Urls['/service-workers/push-notifications'] = 'https://www.voidrev.us/service-workers/push-notifications';
+>>>>>>> e785962b7354eaca9514f02e1a70eaa4f37a2bd3
 Roblox.Endpoints.addCrossDomainOptionsToAllRequests = true;
 </script>
 
@@ -223,7 +300,11 @@ Roblox.Endpoints.Urls = Roblox.Endpoints.Urls || {};
                                         <div id="Leaderboard-Abp" class="abp leaderboard-abp">
                     
 
+<<<<<<< HEAD
 <iframe name="Roblox_Search_Top_728x90" allowtransparency="true" frameborder="0" height="110" scrolling="no" src="https://localhost/user-sponsorship/?id=3" width="728" data-js-adtype="iframead"></iframe>
+=======
+<iframe name="Roblox_Search_Top_728x90" allowtransparency="true" frameborder="0" height="110" scrolling="no" src="https://www.voidrev.us/user-sponsorship/?id=3" width="728" data-js-adtype="iframead"></iframe>
+>>>>>>> e785962b7354eaca9514f02e1a70eaa4f37a2bd3
 
                 </div>
             
@@ -312,37 +393,65 @@ Roblox.Endpoints.Urls = Roblox.Endpoints.Urls || {};
     <div class="footer">
         <ul class="row footer-links">
                 <li class="col-4 col-xs-1 footer-link">
+<<<<<<< HEAD
                     <a href="http://corp.roblox.com/" class="text-footer-nav roblox-interstitial" target="_blank">
+=======
+                    <a href="http://corp.voidrev.us/" class="text-footer-nav roblox-interstitial" target="_blank">
+>>>>>>> e785962b7354eaca9514f02e1a70eaa4f37a2bd3
                         About Us
                     </a>
                 </li>
                 <li class="col-4 col-xs-1 footer-link">
+<<<<<<< HEAD
                     <a href="http://corp.roblox.com/jobs" class="text-footer-nav roblox-interstitial" target="_blank">
+=======
+                    <a href="http://corp.voidrev.us/jobs" class="text-footer-nav roblox-interstitial" target="_blank">
+>>>>>>> e785962b7354eaca9514f02e1a70eaa4f37a2bd3
                         Jobs
                     </a>
                 </li>
             <li class="col-4 col-xs-1 footer-link">
+<<<<<<< HEAD
                 <a href="http://blog.roblox.com/" class="text-footer-nav" target="_blank">
+=======
+                <a href="http://blog.voidrev.us/" class="text-footer-nav" target="_blank">
+>>>>>>> e785962b7354eaca9514f02e1a70eaa4f37a2bd3
                     Blog
                 </a>
             </li>
             <li class="col-4 col-xs-1 footer-link">
+<<<<<<< HEAD
                 <a href="http://corp.roblox.com/parents" class="text-footer-nav roblox-interstitial" target="_blank">
+=======
+                <a href="http://corp.voidrev.us/parents" class="text-footer-nav roblox-interstitial" target="_blank">
+>>>>>>> e785962b7354eaca9514f02e1a70eaa4f37a2bd3
                     Parents
                 </a>
             </li>
             <li class="col-4 col-xs-1 footer-link">
+<<<<<<< HEAD
                 <a href="http://en.help.roblox.com/" class="text-footer-nav roblox-interstitial" target="_blank">
+=======
+                <a href="http://en.help.voidrev.us/" class="text-footer-nav roblox-interstitial" target="_blank">
+>>>>>>> e785962b7354eaca9514f02e1a70eaa4f37a2bd3
                     Help
                 </a>
             </li>
             <li class="col-4 col-xs-1 footer-link">
+<<<<<<< HEAD
                 <a href="https://localhost/Info/terms-of-service" class="text-footer-nav roblox-interstitial" target="_blank">
+=======
+                <a href="https://www.voidrev.us/Info/terms-of-service" class="text-footer-nav roblox-interstitial" target="_blank">
+>>>>>>> e785962b7354eaca9514f02e1a70eaa4f37a2bd3
                     Terms
                 </a>
             </li>
             <li class="col-4 col-xs-1 footer-link">
+<<<<<<< HEAD
                 <a href="https://localhost/Info/Privacy.aspx" class="text-footer-nav privacy" target="_blank">
+=======
+                <a href="https://www.voidrev.us/Info/Privacy.aspx" class="text-footer-nav privacy" target="_blank">
+>>>>>>> e785962b7354eaca9514f02e1a70eaa4f37a2bd3
                     Privacy
                 </a>
             </li>
@@ -364,7 +473,11 @@ Roblox.Endpoints.Urls = Roblox.Endpoints.Urls || {};
 <div id="PlaceLauncherStatusPanel" style="display:none;width:300px" data-new-plugin-events-enabled="True" data-event-stream-for-plugin-enabled="True" data-event-stream-for-protocol-enabled="True" data-is-game-launch-interface-enabled="True" data-is-protocol-handler-launch-enabled="True" data-is-user-logged-in="False" data-os-name="Windows" data-protocol-name-for-client="roblox-player" data-protocol-name-for-studio="roblox-studio" data-protocol-url-includes-launchtime="true" data-protocol-detection-enabled="true">
     <div class="modalPopup blueAndWhite PlaceLauncherModal" style="min-height: 160px">
         <div id="Spinner" class="Spinner" style="padding:20px 0;">
+<<<<<<< HEAD
             <img src="https://localhost/img/e998fb4c03e8c2e30792f2f3436e9416.gif" height="32" width="32" alt="Progress">
+=======
+            <img src="https://www.voidrev.us/img/e998fb4c03e8c2e30792f2f3436e9416.gif" height="32" width="32" alt="Progress">
+>>>>>>> e785962b7354eaca9514f02e1a70eaa4f37a2bd3
         </div>
         <div id="status" style="min-height:40px;text-align:center;margin:5px 20px">
             <div id="Starting" class="PlaceLauncherStatus MadStatusStarting" style="display:block">
@@ -384,14 +497,22 @@ Roblox.Endpoints.Urls = Roblox.Endpoints.Urls || {};
 
         </div>
         <div class="ph-logo-row">
+<<<<<<< HEAD
             <img src="https://localhost/img/e060b59b57fdcc7874c820d13fdcee71.svg" width="90" height="90" alt="R">
+=======
+            <img src="https://www.voidrev.us/img/e060b59b57fdcc7874c820d13fdcee71.svg" width="90" height="90" alt="R">
+>>>>>>> e785962b7354eaca9514f02e1a70eaa4f37a2bd3
         </div>
         <div class="ph-areyouinstalleddialog-content">
             <p class="larger-font-size">
                 ROBLOX is now loading. Get ready to play!
             </p>
             <div class="ph-startingdialog-spinner-row">
+<<<<<<< HEAD
                 <img src="https://localhost/img/4bed93c91f909002b1f17f05c0ce13d1.gif" width="82" height="24">
+=======
+                <img src="https://www.voidrev.us/img/4bed93c91f909002b1f17f05c0ce13d1.gif" width="82" height="24">
+>>>>>>> e785962b7354eaca9514f02e1a70eaa4f37a2bd3
             </div>
         </div>
     </div>
@@ -402,7 +523,11 @@ Roblox.Endpoints.Urls = Roblox.Endpoints.Urls || {};
             <span class="icon-close simplemodal-close"></span>
         </div>
         <div class="ph-logo-row">
+<<<<<<< HEAD
             <img src="https://localhost/img/e060b59b57fdcc7874c820d13fdcee71.svg" width="90" height="90" alt="R">
+=======
+            <img src="https://www.voidrev.us/img/e060b59b57fdcc7874c820d13fdcee71.svg" width="90" height="90" alt="R">
+>>>>>>> e785962b7354eaca9514f02e1a70eaa4f37a2bd3
         </div>
         <div class="ph-areyouinstalleddialog-content">
             <p class="larger-font-size">
@@ -414,7 +539,11 @@ Roblox.Endpoints.Urls = Roblox.Endpoints.Urls || {};
                 </button>
             </div>
             <div class="small">
+<<<<<<< HEAD
                 <a href="https://en.help.roblox.com/hc/en-us/articles/204473560" class="text-name" target="_blank">Click here for help</a>
+=======
+                <a href="https://en.help.voidrev.us/hc/en-us/articles/204473560" class="text-name" target="_blank">Click here for help</a>
+>>>>>>> e785962b7354eaca9514f02e1a70eaa4f37a2bd3
             </div>
 
         </div>
@@ -424,7 +553,11 @@ Roblox.Endpoints.Urls = Roblox.Endpoints.Urls || {};
     <p class="larger-font-size">
         <span class="icon-moreinfo"></span>
         Check <b>Remember my choice</b> and click
+<<<<<<< HEAD
             <img src="https://localhost/img/7c8d7a39b4335931221857cca2b5430b.png" alt="Launch Application">
+=======
+            <img src="https://www.voidrev.us/img/7c8d7a39b4335931221857cca2b5430b.png" alt="Launch Application">
+>>>>>>> e785962b7354eaca9514f02e1a70eaa4f37a2bd3
         in the dialog box above to join games faster in the future!
     </p>
 </div>
@@ -445,7 +578,11 @@ Roblox.Endpoints.Urls = Roblox.Endpoints.Urls || {};
         </div>
         <div id="videoPrerollJoinBC">
             <span>Get more with Builders Club!</span>
+<<<<<<< HEAD
             <a href="https://localhost/premium/membership?ctx=preroll" target="_blank" class="btn-medium btn-primary" id="videoPrerollJoinBCButton">Join Builders Club</a>
+=======
+            <a href="https://www.voidrev.us/premium/membership?ctx=preroll" target="_blank" class="btn-medium btn-primary" id="videoPrerollJoinBCButton">Join Builders Club</a>
+>>>>>>> e785962b7354eaca9514f02e1a70eaa4f37a2bd3
         </div>
     </div>
     <script type="text/javascript">
@@ -496,8 +633,13 @@ Roblox.Endpoints.Urls = Roblox.Endpoints.Urls || {};
         <div style="clear:both; height:25px;"></div>
         <div class="RevisedFooter">
             <div style="width:200px;margin:10px auto 0 auto;">
+<<<<<<< HEAD
                 <a href="https://localhost/?returnUrl=https%3A%2F%2Flocalhost%2Fsearch%2Fgroups%3Fkeyword%3Dteam%2520c00lkidd"><div class="RevisedCharacterSelectSignup"></div></a>
                 <a class="HaveAccount" href="https://localhost/newlogin?returnUrl=https%3A%2F%2Flocalhost%2Fsearch%2Fgroups%3Fkeyword%3Dteam%2520c00lkidd">I have an account</a>
+=======
+                <a href="https://www.voidrev.us/?returnUrl=https%3A%2F%2Fwww.voidrev.us%2Fsearch%2Fgroups%3Fkeyword%3Dteam%2520c00lkidd"><div class="RevisedCharacterSelectSignup"></div></a>
+                <a class="HaveAccount" href="https://www.voidrev.us/newlogin?returnUrl=https%3A%2F%2Fwww.voidrev.us%2Fsearch%2Fgroups%3Fkeyword%3Dteam%2520c00lkidd">I have an account</a>
+>>>>>>> e785962b7354eaca9514f02e1a70eaa4f37a2bd3
             </div>
         </div>
     </div>
@@ -505,7 +647,11 @@ Roblox.Endpoints.Urls = Roblox.Endpoints.Urls || {};
 
 <script type="text/javascript">
     function checkRobloxInstall() {
+<<<<<<< HEAD
              return RobloxLaunch.CheckRobloxInstall('https://localhost/install/download.aspx');
+=======
+             return RobloxLaunch.CheckRobloxInstall('https://www.voidrev.us/install/download.aspx');
+>>>>>>> e785962b7354eaca9514f02e1a70eaa4f37a2bd3
     }
 
 </script>
@@ -521,17 +667,29 @@ Roblox.Endpoints.Urls = Roblox.Endpoints.Urls || {};
         <div class="ph-install-step ph-installinstructions-step1-of4">
             <h1>1</h1>
             <p class="larger-font-size">Click RobloxPlayerLauncher.exe to run the ROBLOX installer, which just downloaded via your web browser.</p>
+<<<<<<< HEAD
             <img width="230" height="180" src="https://localhost/img/8b0052e4ff81d8e14f19faff2a22fcf7.png">
+=======
+            <img width="230" height="180" src="https://www.voidrev.us/img/8b0052e4ff81d8e14f19faff2a22fcf7.png">
+>>>>>>> e785962b7354eaca9514f02e1a70eaa4f37a2bd3
         </div>
         <div class="ph-install-step ph-installinstructions-step2-of4">
             <h1>2</h1>
             <p class="larger-font-size">Click <strong>Run</strong> when prompted by your computer to begin the installation process.</p>
+<<<<<<< HEAD
             <img width="230" height="180" src="https://localhost/img/4a3f96d30df0f7879abde4ed837446c6.png">
+=======
+            <img width="230" height="180" src="https://www.voidrev.us/img/4a3f96d30df0f7879abde4ed837446c6.png">
+>>>>>>> e785962b7354eaca9514f02e1a70eaa4f37a2bd3
         </div>
         <div class="ph-install-step ph-installinstructions-step3-of4">
             <h1>3</h1>
             <p class="larger-font-size">Click <strong>Ok</strong> once you've successfully installed ROBLOX.</p>
+<<<<<<< HEAD
             <img width="230" height="180" src="https://localhost/img/6e23e4971ee146e719fb1abcb1d67d59.png">
+=======
+            <img width="230" height="180" src="https://www.voidrev.us/img/6e23e4971ee146e719fb1abcb1d67d59.png">
+>>>>>>> e785962b7354eaca9514f02e1a70eaa4f37a2bd3
         </div>
         <div class="ph-install-step ph-installinstructions-step4-of4">
             <h1>4</h1>
@@ -553,12 +711,20 @@ Roblox.Endpoints.Urls = Roblox.Endpoints.Urls || {};
 <div id="pluginObjDiv" style="height:1px;width:1px;visibility:hidden;position: absolute;top: 0;"></div>
 <iframe id="downloadInstallerIFrame" style="visibility:hidden;height:0;width:1px;position:absolute"></iframe>
 
+<<<<<<< HEAD
 <script type="text/javascript" src="https://localhost/js/c55982be90aee588f799ba26ede12190.js"></script>
+=======
+<script type="text/javascript" src="https://www.voidrev.us/js/c55982be90aee588f799ba26ede12190.js"></script>
+>>>>>>> e785962b7354eaca9514f02e1a70eaa4f37a2bd3
 
 <script type="text/javascript">
     Roblox.Client._skip = null;
     Roblox.Client._CLSID = '76D50904-6780-4c8b-8986-1A7EE0B1716D';
+<<<<<<< HEAD
     Roblox.Client._installHost = 'setup.roblox.com';
+=======
+    Roblox.Client._installHost = 'setup.voidrev.us';
+>>>>>>> e785962b7354eaca9514f02e1a70eaa4f37a2bd3
     Roblox.Client.ImplementsProxy = true;
     Roblox.Client._silentModeEnabled = true;
     Roblox.Client._bringAppToFrontEnabled = false;
@@ -647,7 +813,11 @@ Roblox.Endpoints.Urls = Roblox.Endpoints.Urls || {};
                     <a href="" id="decline-btn"><span></span></a>
                 </div>
                 <div class="loading modal-processing">
+<<<<<<< HEAD
                     <img class="loading-default" src="https://localhost/img/4bed93c91f909002b1f17f05c0ce13d1.gif" alt="Processing...">
+=======
+                    <img class="loading-default" src="https://www.voidrev.us/img/4bed93c91f909002b1f17f05c0ce13d1.gif" alt="Processing...">
+>>>>>>> e785962b7354eaca9514f02e1a70eaa4f37a2bd3
                 </div>
             </div>
             <div class="modal-footer text-footer">
@@ -700,6 +870,7 @@ Roblox.Endpoints.Urls = Roblox.Endpoints.Urls || {};
 
 
     
+<<<<<<< HEAD
     <script type="text/javascript" src="https://localhost/js/00e8ac00b55a14499945fa04cd58cc41.js"></script>
 
 
@@ -710,6 +881,18 @@ Roblox.Endpoints.Urls = Roblox.Endpoints.Urls || {};
 
     
     <script type="text/javascript">Roblox.config.externalResources = [];Roblox.config.paths['Pages.Catalog'] = 'https://localhost/js/c14a216bd7773e7b637b4e6c3c2e619d.js';Roblox.config.paths['Pages.CatalogShared'] = 'https://localhost/js/4acfdab2e6131feb84d783765b82a888.js';Roblox.config.paths['Widgets.AvatarImage'] = 'https://localhost/js/6bac93e9bb6716f32f09db749cec330b.js';Roblox.config.paths['Widgets.DropdownMenu'] = 'https://localhost/js/7b436bae917789c0b84f40fdebd25d97.js';Roblox.config.paths['Widgets.GroupImage'] = 'https://localhost/js/33d82b98045d49ec5a1f635d14cc7010.js';Roblox.config.paths['Widgets.HierarchicalDropdown'] = 'https://localhost/js/3368571372da9b2e1713bb54ca42a65a.js';Roblox.config.paths['Widgets.ItemImage'] = 'https://localhost/js/8db82e6d725b907e91441b849cc35e47.js';Roblox.config.paths['Widgets.PlaceImage'] = 'https://localhost/js/f2697119678d0851cfaa6c2270a727ed.js';Roblox.config.paths['Widgets.SurveyModal'] = 'https://localhost/js/d6e979598c460090eafb6d38231159f6.js';</script>
+=======
+    <script type="text/javascript" src="https://www.voidrev.us/js/00e8ac00b55a14499945fa04cd58cc41.js"></script>
+
+
+    
+<script type="text/javascript" src="https://www.voidrev.us/js/55204f6c51a6c3a803c608bf7bbd3285.js"></script>
+                    <script type="text/javascript" src="https://www.voidrev.us/js/822491cace41a2d39fd76db6cfd17800.js"></script>
+
+
+    
+    <script type="text/javascript">Roblox.config.externalResources = [];Roblox.config.paths['Pages.Catalog'] = 'https://www.voidrev.us/js/c14a216bd7773e7b637b4e6c3c2e619d.js';Roblox.config.paths['Pages.CatalogShared'] = 'https://www.voidrev.us/js/4acfdab2e6131feb84d783765b82a888.js';Roblox.config.paths['Widgets.AvatarImage'] = 'https://www.voidrev.us/js/6bac93e9bb6716f32f09db749cec330b.js';Roblox.config.paths['Widgets.DropdownMenu'] = 'https://www.voidrev.us/js/7b436bae917789c0b84f40fdebd25d97.js';Roblox.config.paths['Widgets.GroupImage'] = 'https://www.voidrev.us/js/33d82b98045d49ec5a1f635d14cc7010.js';Roblox.config.paths['Widgets.HierarchicalDropdown'] = 'https://www.voidrev.us/js/3368571372da9b2e1713bb54ca42a65a.js';Roblox.config.paths['Widgets.ItemImage'] = 'https://www.voidrev.us/js/8db82e6d725b907e91441b849cc35e47.js';Roblox.config.paths['Widgets.PlaceImage'] = 'https://www.voidrev.us/js/f2697119678d0851cfaa6c2270a727ed.js';Roblox.config.paths['Widgets.SurveyModal'] = 'https://www.voidrev.us/js/d6e979598c460090eafb6d38231159f6.js';</script>
+>>>>>>> e785962b7354eaca9514f02e1a70eaa4f37a2bd3
 
     
     <script>
@@ -816,7 +999,11 @@ Roblox.Endpoints.Urls = Roblox.Endpoints.Urls || {};
 </script>
 
     
+<<<<<<< HEAD
     <script type="text/javascript" src="https://localhost/js/3d5a331add22af38a21485ddcd4f596a.js"></script>
+=======
+    <script type="text/javascript" src="https://www.voidrev.us/js/3d5a331add22af38a21485ddcd4f596a.js"></script>
+>>>>>>> e785962b7354eaca9514f02e1a70eaa4f37a2bd3
 
     
 

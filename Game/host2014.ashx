@@ -78,7 +78,11 @@ local ns = game:GetService("NetworkServer")
 local badgeUrlFlagExists, badgeUrlFlagValue = pcall(function () return settings():GetFFlag("NewBadgeServiceUrlEnabled") end)
 local newBadgeUrlEnabled = badgeUrlFlagExists and badgeUrlFlagValue
 if url~=nil then
+<<<<<<< HEAD
   local url = "http://localhost/"
+=======
+  local url = "http://www.voidrev.us/"
+>>>>>>> e785962b7354eaca9514f02e1a70eaa4f37a2bd3
 
   pcall(function() game:GetService("Players"):SetAbuseReportUrl(url .. "/AbuseReport/InGameChatHandler.ashx") end)
   pcall(function() game:GetService("ScriptInformationProvider"):SetAssetUrl(url .. "/Asset/") end)

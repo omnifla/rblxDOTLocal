@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 <roblox xmlns:xmime="http://www.w3.org/2005/05/xmlmime" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://localhost/roblox.xsd" version="4">
+=======
+<roblox xmlns:xmime="http://www.w3.org/2005/05/xmlmime" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.voidrev.us/roblox.xsd" version="4">
+>>>>>>> e785962b7354eaca9514f02e1a70eaa4f37a2bd3
 	<Meta name="ExplicitAutoJoints">true</Meta>
 	<External>null</External>
 	<External>nil</External>

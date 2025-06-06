@@ -3,31 +3,51 @@
 <!--  created with sitemap generator https://octopus.do  -->
 
     <url>
+<<<<<<< HEAD
         <loc>https://localhost</loc>
+=======
+        <loc>https://www.voidrev.us</loc>
+>>>>>>> e785962b7354eaca9514f02e1a70eaa4f37a2bd3
         <lastmod>2023-01-21</lastmod>
         <changefreq>always</changefreq>
         <priority>0.5</priority>
     </url>
     <url>
+<<<<<<< HEAD
         <loc>https://localhost/login/forgotPasswordOrUsername</loc>
+=======
+        <loc>https://www.voidrev.us/login/forgotPasswordOrUsername</loc>
+>>>>>>> e785962b7354eaca9514f02e1a70eaa4f37a2bd3
         <lastmod>2023-01-21</lastmod>
         <changefreq>always</changefreq>
         <priority>0.5</priority>
     </url>
     <url>
+<<<<<<< HEAD
         <loc>https://localhost/catalog</loc>
+=======
+        <loc>https://www.voidrev.us/catalog</loc>
+>>>>>>> e785962b7354eaca9514f02e1a70eaa4f37a2bd3
         <lastmod>2023-01-21</lastmod>
         <changefreq>always</changefreq>
         <priority>0.5</priority>
     </url>
     <url>
+<<<<<<< HEAD
         <loc>https://localhost/games</loc>
+=======
+        <loc>https://www.voidrev.us/games</loc>
+>>>>>>> e785962b7354eaca9514f02e1a70eaa4f37a2bd3
         <lastmod>2023-01-21</lastmod>
         <changefreq>always</changefreq>
         <priority>0.5</priority>
     </url>
     <url>
+<<<<<<< HEAD
         <loc>https://localhost/newlogin</loc>
+=======
+        <loc>https://www.voidrev.us/newlogin</loc>
+>>>>>>> e785962b7354eaca9514f02e1a70eaa4f37a2bd3
         <lastmod>2023-01-21</lastmod>
         <changefreq>always</changefreq>
         <priority>0.5</priority>

@@ -10,13 +10,22 @@ http_response_code(500);
 <html>
 <!--<![endif]-->
 <head>
+<<<<<<< HEAD
 <link rel='stylesheet' href='https://localhost/css/leanbase.css' />
 <link rel='stylesheet' href='https://localhost/css/robloxerrorpage.css' />
+=======
+<link rel='stylesheet' href='https://www.voidrev.us/css/leanbase.css' />
+<link rel='stylesheet' href='https://www.voidrev.us/css/robloxerrorpage.css' />
+>>>>>>> e785962b7354eaca9514f02e1a70eaa4f37a2bd3
 <script type='text/javascript' src='//ajax.aspnetcdn.com/ajax/jQuery/jquery-1.11.1.min.js'></script>
 <script type='text/javascript'>window.jQuery || document.write("<script type='text/javascript' src='/js/jquery/jquery-1.11.1.js'><\/script>")</script>
 <script type='text/javascript' src='//ajax.aspnetcdn.com/ajax/jquery.migrate/jquery-migrate-1.2.1.min.js'></script>
 <script type='text/javascript'>window.jQuery || document.write("<script type='text/javascript' src='/js/jquery/jquery-migrate-1.2.1.js'><\/script>")</script>
+<<<<<<< HEAD
 <script type='text/javascript' src='https://localhost/js/86411e39f51e0ef39c7fa2f1f92fe7b3.js'></script>
+=======
+<script type='text/javascript' src='https://www.voidrev.us/js/86411e39f51e0ef39c7fa2f1f92fe7b3.js'></script>
+>>>>>>> e785962b7354eaca9514f02e1a70eaa4f37a2bd3
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
 <script type="text/javascript">
 $(function () {
@@ -72,10 +81,17 @@ top.location = self.location.href;
 <h3 class="error-title">Internal Server Error</h3>
 <h4 class="error-message">500 <span>|</span>An expected server error occurred</h4>
 </div>
+<<<<<<< HEAD
 <img src="https://localhost/img//52b5e003c896c50caec4ab1027168cc6.png" class="error-image" alt="Error Image"/>
 <div class="action-buttons">
 <a class="btn-primary-md btn-fixed-width" title="Go to Previous Page" onclick="history.back();return false;" href="#">Back</a>
 <a class="btn-control-md btn-fixed-width" title="Return Home" href="https://localhost/">Home</a>
+=======
+<img src="https://www.voidrev.us/img//52b5e003c896c50caec4ab1027168cc6.png" class="error-image" alt="Error Image"/>
+<div class="action-buttons">
+<a class="btn-primary-md btn-fixed-width" title="Go to Previous Page" onclick="history.back();return false;" href="#">Back</a>
+<a class="btn-control-md btn-fixed-width" title="Return Home" href="https://www.voidrev.us/">Home</a>
+>>>>>>> e785962b7354eaca9514f02e1a70eaa4f37a2bd3
 </div>
 </div>
 </div>
@@ -113,12 +129,20 @@ Help
 </a>
 </li>
 <li class="col-4 col-xs-1 footer-link">
+<<<<<<< HEAD
 <a href="https://localhost/Info/terms-of-service" class="text-footer-nav" target="_blank">
+=======
+<a href="https://www.voidrev.us/Info/terms-of-service" class="text-footer-nav" target="_blank">
+>>>>>>> e785962b7354eaca9514f02e1a70eaa4f37a2bd3
 Terms
 </a>
 </li>
 <li class="col-4 col-xs-1 footer-link">
+<<<<<<< HEAD
 <a href="https://localhost/Info/Privacy.aspx" class="text-footer-nav privacy" target="_blank">
+=======
+<a href="https://www.voidrev.us/Info/Privacy.aspx" class="text-footer-nav privacy" target="_blank">
+>>>>>>> e785962b7354eaca9514f02e1a70eaa4f37a2bd3
 Privacy
 </a>
 </li>
@@ -144,7 +168,11 @@ data-protocol-url-includes-launchtime="true"
 data-protocol-detection-enabled="true">
 <div class="modalPopup blueAndWhite PlaceLauncherModal" style="min-height: 160px">
 <div id="Spinner" class="Spinner" style="padding:20px 0;">
+<<<<<<< HEAD
 <img data-delaysrc="https://localhost/img//e998fb4c03e8c2e30792f2f3436e9416.gif" height="32" width="32" alt="Progress" />
+=======
+<img data-delaysrc="https://www.voidrev.us/img//e998fb4c03e8c2e30792f2f3436e9416.gif" height="32" width="32" alt="Progress" />
+>>>>>>> e785962b7354eaca9514f02e1a70eaa4f37a2bd3
 </div>
 <div id="status" style="min-height:40px;text-align:center;margin:5px 20px">
 <div id="Starting" class="PlaceLauncherStatus MadStatusStarting" style="display:block">
@@ -163,14 +191,22 @@ Starting Roblox...
 <div class="ph-modal-header">
 </div>
 <div class="ph-logo-row">
+<<<<<<< HEAD
 <img data-delaysrc="https://localhost/img//e060b59b57fdcc7874c820d13fdcee71.svg" width="90" height="90" alt="R" />
+=======
+<img data-delaysrc="https://www.voidrev.us/img//e060b59b57fdcc7874c820d13fdcee71.svg" width="90" height="90" alt="R" />
+>>>>>>> e785962b7354eaca9514f02e1a70eaa4f37a2bd3
 </div>
 <div class="ph-areyouinstalleddialog-content">
 <p class="larger-font-size">
 ROBLOX is now loading. Get ready to play!
 </p>
 <div class="ph-startingdialog-spinner-row">
+<<<<<<< HEAD
 <img data-delaysrc="https://localhost/img//4bed93c91f909002b1f17f05c0ce13d1.gif" width="82" height="24" />
+=======
+<img data-delaysrc="https://www.voidrev.us/img//4bed93c91f909002b1f17f05c0ce13d1.gif" width="82" height="24" />
+>>>>>>> e785962b7354eaca9514f02e1a70eaa4f37a2bd3
 </div>
 </div>
 </div>
@@ -181,7 +217,11 @@ ROBLOX is now loading. Get ready to play!
 <span class="icon-close simplemodal-close"></span>
 </div>
 <div class="ph-logo-row">
+<<<<<<< HEAD
 <img data-delaysrc="https://localhost/img//e060b59b57fdcc7874c820d13fdcee71.svg" width="90" height="90" alt="R" />
+=======
+<img data-delaysrc="https://www.voidrev.us/img//e060b59b57fdcc7874c820d13fdcee71.svg" width="90" height="90" alt="R" />
+>>>>>>> e785962b7354eaca9514f02e1a70eaa4f37a2bd3
 </div>
 <div class="ph-areyouinstalleddialog-content">
 <p class="larger-font-size">
@@ -202,7 +242,11 @@ Download and Install ROBLOX
 <p class="larger-font-size">
 <span class="icon-moreinfo"></span>
 Check <b>Remember my choice</b> and click
+<<<<<<< HEAD
 <img data-delaysrc="https://localhost/img//7c8d7a39b4335931221857cca2b5430b.png" alt="Launch Application" />
+=======
+<img data-delaysrc="https://www.voidrev.us/img//7c8d7a39b4335931221857cca2b5430b.png" alt="Launch Application" />
+>>>>>>> e785962b7354eaca9514f02e1a70eaa4f37a2bd3
 in the dialog box above to join games faster in the future!
 </p>
 </div>
@@ -225,7 +269,11 @@ Loading <span id="videoPrerollLoadingPercent">0%</span> - <span id="videoPreroll
 </div>
 <div id="videoPrerollJoinBC">
 <span>Get more with Builders Club!</span>
+<<<<<<< HEAD
 <a href="https://localhost/premium/membership?ctx=preroll" target="_blank" class="btn-medium btn-primary" id="videoPrerollJoinBCButton">Join Builders Club</a>
+=======
+<a href="https://www.voidrev.us/premium/membership?ctx=preroll" target="_blank" class="btn-medium btn-primary" id="videoPrerollJoinBCButton">Join Builders Club</a>
+>>>>>>> e785962b7354eaca9514f02e1a70eaa4f37a2bd3
 </div>
 </div>
 <div class="ConfirmationModal modalPopup unifiedModal smallModal" data-modal-handle="confirmation" style="display:none;">
@@ -279,7 +327,11 @@ Cancel: "Cancel"
 <a href id="decline-btn"><span></span></a>
 </div>
 <div class="loading modal-processing">
+<<<<<<< HEAD
 <img class="loading-default" src='https://localhost/img//4bed93c91f909002b1f17f05c0ce13d1.gif' alt="Processing..." />
+=======
+<img class="loading-default" src='https://www.voidrev.us/img//4bed93c91f909002b1f17f05c0ce13d1.gif' alt="Processing..." />
+>>>>>>> e785962b7354eaca9514f02e1a70eaa4f37a2bd3
 </div>
 </div>
 <div class="modal-footer text-footer">
@@ -303,8 +355,13 @@ Cancel: "Cancel"
 var Roblox = Roblox || {};
 Roblox.jsConsoleEnabled = false;
 </script>
+<<<<<<< HEAD
 <script type='text/javascript' src='https://localhost/js/6df9bc0534efbd8f409e764c1c275374.js'></script>
 <script type='text/javascript'>Roblox.config.externalResources = [];Roblox.config.paths['Pages.Catalog'] = 'https://localhost/js/943dbead6327ef7e601925fc45ffbeb0.js';Roblox.config.paths['Pages.CatalogShared'] = 'https://localhost/js/496e8f05b3aabfcd72a147ddb49aaf1e.js';Roblox.config.paths['Widgets.AvatarImage'] = 'https://localhost/js/6bac93e9bb6716f32f09db749cec330b.js';Roblox.config.paths['Widgets.DropdownMenu'] = 'https://localhost/js/7b436bae917789c0b84f40fdebd25d97.js';Roblox.config.paths['Widgets.GroupImage'] = 'https://localhost/js/33d82b98045d49ec5a1f635d14cc7010.js';Roblox.config.paths['Widgets.HierarchicalDropdown'] = 'https://localhost/js/3368571372da9b2e1713bb54ca42a65a.js';Roblox.config.paths['Widgets.ItemImage'] = 'https://localhost/js/e79fc9c586a76e2eabcddc240298e52c.js';Roblox.config.paths['Widgets.PlaceImage'] = 'https://localhost/js/31df1ed92170ebf3231defcd9b841008.js';Roblox.config.paths['Widgets.SurveyModal'] = 'https://localhost/js/d6e979598c460090eafb6d38231159f6.js';</script>
+=======
+<script type='text/javascript' src='https://www.voidrev.us/js/6df9bc0534efbd8f409e764c1c275374.js'></script>
+<script type='text/javascript'>Roblox.config.externalResources = [];Roblox.config.paths['Pages.Catalog'] = 'https://www.voidrev.us/js/943dbead6327ef7e601925fc45ffbeb0.js';Roblox.config.paths['Pages.CatalogShared'] = 'https://www.voidrev.us/js/496e8f05b3aabfcd72a147ddb49aaf1e.js';Roblox.config.paths['Widgets.AvatarImage'] = 'https://www.voidrev.us/js/6bac93e9bb6716f32f09db749cec330b.js';Roblox.config.paths['Widgets.DropdownMenu'] = 'https://www.voidrev.us/js/7b436bae917789c0b84f40fdebd25d97.js';Roblox.config.paths['Widgets.GroupImage'] = 'https://www.voidrev.us/js/33d82b98045d49ec5a1f635d14cc7010.js';Roblox.config.paths['Widgets.HierarchicalDropdown'] = 'https://www.voidrev.us/js/3368571372da9b2e1713bb54ca42a65a.js';Roblox.config.paths['Widgets.ItemImage'] = 'https://www.voidrev.us/js/e79fc9c586a76e2eabcddc240298e52c.js';Roblox.config.paths['Widgets.PlaceImage'] = 'https://www.voidrev.us/js/31df1ed92170ebf3231defcd9b841008.js';Roblox.config.paths['Widgets.SurveyModal'] = 'https://www.voidrev.us/js/d6e979598c460090eafb6d38231159f6.js';</script>
+>>>>>>> e785962b7354eaca9514f02e1a70eaa4f37a2bd3
 <script>
 $(function () {
 Roblox.DeveloperConsoleWarning.showWarning();
@@ -327,6 +384,10 @@ decline: "No, thanks"
 //</sl:translate>
 };
 </script>
+<<<<<<< HEAD
 <script type='text/javascript' src='https://localhost/js/1c0f28e0c99de276b80e6d82fa3d455a.js'></script>
+=======
+<script type='text/javascript' src='https://www.voidrev.us/js/1c0f28e0c99de276b80e6d82fa3d455a.js'></script>
+>>>>>>> e785962b7354eaca9514f02e1a70eaa4f37a2bd3
 </body>
 </html>

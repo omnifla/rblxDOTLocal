@@ -1097,8 +1097,12 @@
 "FFlagStudioUpdateProgressDontPumpEventLoop":true,
 "DFIntAnalyticsDeferredEventIngestReportingIntervalSeconds":30,
 "FFlagXboxRoduxScreenFocus":false,
+<<<<<<< HEAD
 "DFStringDataStoreThrottleMsg":"DataStore request was added to queue. If request queue fills, further requests will be
 dropped. Try sending fewer requests. Key =",
+=======
+"DFStringDataStoreThrottleMsg":"DataStore request was added to queue. If request queue fills, further requests will be dropped. Try sending fewer requests. Key =",
+>>>>>>> e785962b7354eaca9514f02e1a70eaa4f37a2bd3
 "FFlagPhysicsAnalyzerUsed":true,
 "FFlagEnableQuickGameLaunch":false,
 "FFlagEnableLuaGamesListSortsFix":false,
@@ -1227,9 +1231,13 @@ dropped. Try sending fewer requests. Key =",
 "DFIntActionStationDebounceTime":2,
 "DFIntHttpRbxApiRequestsPerMinuteServerLimit":300,
 "FFlagDebugAnalyticsForceLotteryWin":false,
+<<<<<<< HEAD
 "FStringStudioGameSettingsExperimentalModeToolTip":"When turned on, the game server is not authoritative of changes,
 meaning that LocalScripts on clients can take any arbitrary actions they like. It is highly recommended to turn off
 Experimental Mode before opening a game to the public.",
+=======
+"FStringStudioGameSettingsExperimentalModeToolTip":"When turned on, the game server is not authoritative of changes, meaning that LocalScripts on clients can take any arbitrary actions they like. It is highly recommended to turn off Experimental Mode before opening a game to the public.",
+>>>>>>> e785962b7354eaca9514f02e1a70eaa4f37a2bd3
 "DFIntDataStoreRefetchPerPlayerRequestLimit":5,
 "DFFlagFileSystemGetCacheDirectoryLikeAndroid":false,
 "FFlagEnableLocalizationForToolbox":false,

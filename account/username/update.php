@@ -1,6 +1,10 @@
 <?php
 header("Content-Type: application/json");
+<<<<<<< HEAD
 include($_SERVER['DOCUMENT_ROOT'] . '/config/includes.php');
+=======
+include ($_SERVER['DOCUMENT_ROOT'].'/config/includes.php');
+>>>>>>> e785962b7354eaca9514f02e1a70eaa4f37a2bd3
 
 $logged = false;
 $response = array();
@@ -72,4 +76,8 @@ try {
 
 echo json_encode($response);
 exit();
+<<<<<<< HEAD
 ?>
+=======
+?>
+>>>>>>> e785962b7354eaca9514f02e1a70eaa4f37a2bd3

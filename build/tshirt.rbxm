@@ -4,7 +4,11 @@
   <Item class="ShirtGraphic" referent="RBX0">
     <Properties>
       <Content name="Graphic">
+<<<<<<< HEAD
         <url>http://localhost/asset/?id=REPLACEME</url>
+=======
+        <url>http://www.voidrev.us/asset/?id=REPLACEME</url>
+>>>>>>> e785962b7354eaca9514f02e1a70eaa4f37a2bd3
       </Content>
       <string name="Name">Shirt Graphic</string>
       <bool name="archivable">true</bool>

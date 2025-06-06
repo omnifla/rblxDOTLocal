@@ -28,15 +28,24 @@ exit();
 <html><head>
 <?php if($ExperimentalTheme == "Dark"){
 ?>
+<<<<<<< HEAD
 <link rel="stylesheet" href="https://localhost/css/main.css"/>
 <?php
 }elseif($ExperimentalTheme == "Light"){
 ?>
 <link rel="stylesheet" href="https://localhost/css/main2.css"/>
+=======
+<link rel="stylesheet" href="https://www.voidrev.us/css/main.css"/>
+<?php
+}elseif($ExperimentalTheme == "Light"){
+?>
+<link rel="stylesheet" href="https://www.voidrev.us/css/main2.css"/>
+>>>>>>> e785962b7354eaca9514f02e1a70eaa4f37a2bd3
 <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600" rel="stylesheet" type="text/css">
 <?php
 }elseif($ExperimentalTheme == "2016E"){
 ?>
+<<<<<<< HEAD
 <link rel="stylesheet" href="https://localhost/css/2016e.css"/>
 <?
 }elseif($ExperimentalTheme == "AprilFools"){
@@ -50,13 +59,33 @@ exit();
 }else{
 ?>
 <link rel="stylesheet" href="https://localhost/css/main2.css"/>
+=======
+<link rel="stylesheet" href="https://www.voidrev.us/css/2016e.css"/>
+<?
+}elseif($ExperimentalTheme == "AprilFools"){
+?>
+<link rel="stylesheet" href="https://www.voidrev.us/css/aprilfools.css"/>
+<?
+}elseif($ExperimentalTheme == "newtheme"){
+?>
+<link rel="stylesheet" href="https://www.voidrev.us/css/newtheme.css"/>
+<?
+}else{
+?>
+<link rel="stylesheet" href="https://www.voidrev.us/css/main2.css"/>
+>>>>>>> e785962b7354eaca9514f02e1a70eaa4f37a2bd3
 <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600" rel="stylesheet" type="text/css">
 <?
 }
 ?>
 <meta name="viewport" content="width=device-width">
+<<<<<<< HEAD
 <link rel="stylesheet" href="https://localhost/css/toolbox.css">
 <script type="text/javascript" src="https://localhost/js/10187297c8cf0775450cf3effcb06699.js"></script>
+=======
+<link rel="stylesheet" href="https://www.voidrev.us/css/toolbox.css">
+<script type="text/javascript" src="https://www.voidrev.us/js/10187297c8cf0775450cf3effcb06699.js"></script>
+>>>>>>> e785962b7354eaca9514f02e1a70eaa4f37a2bd3
 <script type="text/javascript">
 var _gaq = _gaq || [];
 _gaq.push(['_setAccount', 'UA-43420590-3']);
@@ -99,7 +128,11 @@ Roblox.AssetType = {
 Roblox.ClientToolboxModel = {
 // type cast to boolean for javascript
 IsUserAuthenticated: true,
+<<<<<<< HEAD
 ContentUrl: "http://localhost/asset/",
+=======
+ContentUrl: "http://www.voidrev.us/asset/",
+>>>>>>> e785962b7354eaca9514f02e1a70eaa4f37a2bd3
 UserId: "<?=$uID;?>",
 ShowGroupCategories: false
 };
@@ -111,11 +144,19 @@ Roblox.EnableNewToolboxSearch = true;
 <div roblox-toolbox-header="" class="client-toolbox-header"></div>
 <div ng-controller="RobloxReferralLink" ng-show="showReferralLinks()" class="client-toolbox-referral-links">
 Try searching for:
+<<<<<<< HEAD
 <a href="https://localhost/ide/clienttoolbox" ng-click="refer(&#39;NPC&#39;)">NPC</a>
 <a href="https://localhost/ide/clienttoolbox" ng-click="refer(&#39;Vehicle&#39;)">Vehicle</a>
 <a href="https://localhost/ide/clienttoolbox" ng-click="refer(&#39;Weapon&#39;)">Weapon</a>
 <a href="https://localhost/ide/clienttoolbox" ng-click="refer(&#39;Building&#39;)">Building</a>
 <a href="https://localhost/ide/clienttoolbox" ng-click="refer(&#39;Light&#39;)">Light</a>
+=======
+<a href="https://www.voidrev.us/ide/clienttoolbox" ng-click="refer(&#39;NPC&#39;)">NPC</a>
+<a href="https://www.voidrev.us/ide/clienttoolbox" ng-click="refer(&#39;Vehicle&#39;)">Vehicle</a>
+<a href="https://www.voidrev.us/ide/clienttoolbox" ng-click="refer(&#39;Weapon&#39;)">Weapon</a>
+<a href="https://www.voidrev.us/ide/clienttoolbox" ng-click="refer(&#39;Building&#39;)">Building</a>
+<a href="https://www.voidrev.us/ide/clienttoolbox" ng-click="refer(&#39;Light&#39;)">Light</a>
+>>>>>>> e785962b7354eaca9514f02e1a70eaa4f37a2bd3
 </div>
 <div roblox-toolbox-subnav="" class="client-toolbox-subnav">
 </div>
